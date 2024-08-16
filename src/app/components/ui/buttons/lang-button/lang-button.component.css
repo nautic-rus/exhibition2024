@@ -1,0 +1,14 @@
+.lang_btn_default {
+  width: 120px;
+  height: 70px;
+  color: #FFFFFF;
+  background-color: #144B76;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lang_btn {
+  box-shadow: 3px 2px 6px rgba(185, 185, 185, 0.63);
+}

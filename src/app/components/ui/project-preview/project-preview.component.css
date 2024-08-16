@@ -1,0 +1,24 @@
+.project-item {
+  width: 451px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  max-width: 451px;
+  height: 465px;
+  object-fit: contain;
+}
+
+.more-button {
+  width: 175px;
+  height: 43px;
+  padding: 8px 8px 8px 8px;
+  background: #144B76;
+  color: #FFFFFF;
+  border-radius: 10px 10px 10px 10px;
+  font-family: "Georgia";
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}

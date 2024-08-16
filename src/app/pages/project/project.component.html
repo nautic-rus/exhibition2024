@@ -1,0 +1,23 @@
+<!--<div #projectRoot> </div>-->
+<!--<p>project works! {{id}}</p>-->
+<div #projectRoot>
+  <button  (click)="closeProject()">X</button>
+  <button (click)="toPrevProject()"><</button>
+  <button (click)="toNextProject()">></button>
+</div>
+<div class="content">
+  <img class="image" src="{{project.imgSrc}}" alt="picture of {{project.title}}">
+  <h2 class="name">{{project.title}}</h2>
+  <div class="info">
+    {{project.fullInfo}}
+  </div>
+  <div class="statistic">
+    <span>Length: {{project.length}}</span>
+    <span>Width: {{project.width}}</span>
+    <span>Draft: {{project.draft}}</span>
+    <span>Vessel speed: {{project.vesselSpeed}}</span>
+    <span>Number of crew: {{project.numberOfCrew}}</span>
+  </div>
+  <div class="images"></div>
+</div>
+

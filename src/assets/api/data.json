@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "imgSrc": "http://localhost:4200/assets/images/test.png",
+    "title": "trawler 87M 1",
+    "previewInfo": "Trawler 87m big freezing processing trawler with a possibility of fish catching with bottom and pelagic trawl, designed for maximum fishing efficiency.",
+    "fullInfo": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "length": "87.00m",
+    "width": "17.00m",
+    "draft": "6.85m",
+    "vesselSpeed": "15kn",
+    "numberOfCrew": "96ppl"
+  },
+  {
+    "id": 2,
+    "imgSrc": "http://localhost:4200/assets/images/test.png",
+    "title": "trawler 87M 2",
+    "previewInfo": "Trawler 87m big freezing processing trawler with a possibility of fish catching with bottom and pelagic trawl, designed for maximum fishing efficiency.",
+    "fullInfo": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "length": "87.00m",
+    "width": "17.00m",
+    "draft": "6.85m",
+    "vesselSpeed": "15kn",
+    "numberOfCrew": "96ppl"
+  },
+  {
+    "id": 3,
+    "imgSrc": "http://localhost:4200/assets/images/test.png",
+    "title": "trawler 87M 3",
+    "previewInfo": "Trawler 87m big freezing processing trawler with a possibility of fish catching with bottom and pelagic trawl, designed for maximum fishing efficiency.",
+    "fullInfo": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "length": "87.00m",
+    "width": "17.00m",
+    "draft": "6.85m",
+    "vesselSpeed": "15kn",
+    "numberOfCrew": "96ppl"
+  },
+  {
+    "id": 4,
+    "imgSrc": "http://localhost:4200/assets/images/test.png",
+    "title": "trawler 87M 4",
+    "previewInfo": "Trawler 87m big freezing processing trawler with a possibility of fish catching with bottom and pelagic trawl, designed for maximum fishing efficiency.",
+    "fullInfo": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "length": "87.00m",
+    "width": "17.00m",
+    "draft": "6.85m",
+    "vesselSpeed": "15kn",
+    "numberOfCrew": "96ppl"
+  }
+]
