@@ -9,7 +9,7 @@
     </style>
 </head>
 <body>
-<div id = "LoadingGif" style="position: fixed; top: 50%; left:50%;"> </div>
+<div id = "LoadingGif" style="position: fixed; top: 40%; left:40%; text-align: center; color: #FFFFFF; font-size: 18pt; width: 20% "> </div>
 <script type="importmap">
     {
       "imports": {
@@ -59,16 +59,16 @@
     const manager = new THREE.LoadingManager();
 
     manager.onStart = function ( item, loaded, total ) {
-        setLoadingGif('<img style="overflow-clip-margin: content-box" src = "/src/assets/3d/load.svg"> <H1> LOADING. PLEASE WAIT LITTLEBIT.</H1>')
+        setLoadingGif('<div style="text-align: center; "><img  src = "./load.svg"> <p> LOADING. PLEASE WAIT...</p></div>')
     };
 
     manager.onLoad = function ( item, loaded, total ) {
         delLoadingGif();
-        //setLoadingGif('<img style="overflow-clip-margin: content-box" src = "/src/assets/3d/load.svg"> <H1> LOADING. PLEASE WAIT LITTLEBIT.</H1>')
+
     };
     const loader = new GLTFLoader(manager);
 
-    loader.load('/src/assets/3d/models/nr002/nr002_longliner.glb', function (model)
+    loader.load('./models/nr002/nr002_longliner.glb', function (model)
     {   model.scene.traverse(function(node) {
         node.castShadow = true;
         node.receiveShadow = true; });
@@ -133,14 +133,15 @@
     // scene.add(rectLightB)
 
     function animate() {
+        //model.scene.rotation.x += 0.01;
         renderer.render( scene, camera );
 
     }
 
     const controls = new OrbitControls( camera, renderer.domElement );
-    controls.target.set(0, 10, -30)
+    controls.target.set(0, 10, -35)
     camera.position.set( 25, 25, -50 );
-    camera.lookAt(0, 10, -30);
+    camera.lookAt(0, 10, -35);
 
 </script>
 
