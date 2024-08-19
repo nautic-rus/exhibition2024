@@ -2,8 +2,16 @@
 <!--<button [ngClass]="{ 'active': active }">-->
 <!--  {{ title }}-->
 <!--</button>-->
-<div class="menu_btn_default">
-<!--<div class="menu_btn_default" [ngClass]="{'menu_btn_active': routerLinkActive}">-->
-  <span>{{ title }}</span>
-</div>
+
+<ng-container *transloco="let t">
+  <p>{{ t('menu_buttons.service') }}</p>
+</ng-container>
+
+<!--<div class="menu_btn_default">-->
+<!--  <span>{{ title | transloco:'menu_buttons.' }}</span>-->
+<!--</div>-->
+
+<!--<div class="menu_btn_default">-->
+<!--  <span>{{ title }}</span>-->
+<!--</div>-->
 

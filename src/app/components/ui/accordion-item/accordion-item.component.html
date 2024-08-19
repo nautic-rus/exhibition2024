@@ -1,0 +1,12 @@
+<div (click)="expanded = !expanded">
+  <img class="arrow" [ngClass]="{'expanded': expanded}" src="/assets/images/arrow_icon.png" alt="show more information about {{title}}">
+</div>
+<div>
+  {{title}}
+</div>
+@if (expanded) {
+  <div>
+    {{content}}
+  </div>
+}
+

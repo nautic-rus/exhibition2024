@@ -1,1 +1,11 @@
-{}
+{
+  "about": "страница о нас",
+  "menu_buttons": {
+    "about": "О нас",
+    "projects": "Проекты",
+    "design": "Дизайн",
+    "service": "Услуги",
+    "gallery": "Галерея"
+  }
+}
+

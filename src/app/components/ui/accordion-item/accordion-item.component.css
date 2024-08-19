@@ -1,0 +1,7 @@
+.expanded {
+  transform: rotate(90deg);
+}
+
+.arrow {
+  transition-duration: .5s
+}

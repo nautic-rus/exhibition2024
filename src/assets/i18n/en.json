@@ -1,1 +1,10 @@
-{}
+{
+  "about": "about page",
+  "menu_buttons": {
+    "about": "About",
+    "projects": "Projects",
+    "design": "Design",
+    "service": "Service",
+    "gallery": "Gallery"
+  }
+}
