@@ -20,7 +20,8 @@ export class AsideComponent implements OnInit{
     {url: '/projects', label: 'Projects'},
     {url: '/design', label: 'Design'},
     {url: '/service', label: 'Service'},
-    {url: '/gallery', label: 'Gallery'}
+    {url: '/gallery', label: 'Gallery'},
+    {url: '/contacts', label: 'Contacts'}
   ];
   constructor() {}
   private translocoService = inject(TranslocoService);

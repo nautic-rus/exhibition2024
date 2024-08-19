@@ -1,17 +1,63 @@
-<!--<div class="lang-btn">-->
-<!--<button [ngClass]="{ 'active': active }">-->
-<!--  {{ title }}-->
-<!--</button>-->
-
+<!--через transloco-->
 <ng-container *transloco="let t">
-  <p>{{ t('menu_buttons.service') }}</p>
+  <div class="">
+    <p>{{ t('menu_buttons.'+{title}) }}</p>
+  </div>
 </ng-container>
 
-<!--<div class="menu_btn_default">-->
-<!--  <span>{{ title | transloco:'menu_buttons.' }}</span>-->
-<!--</div>-->
+<!--просто вывожу title-->
+<p>{{ title }}</p>
 
-<!--<div class="menu_btn_default">-->
-<!--  <span>{{ title }}</span>-->
-<!--</div>-->
+
+<!--<ng-container *transloco="let t">-->
+<!--  @switch (title) {-->
+<!--    @case ('About') {-->
+<!--      <ng-container *transloco="let t">-->
+<!--        <div class="menu_btn_default">-->
+<!--          <p>{{ t('menu_buttons.about') }}</p>-->
+<!--        </div>-->
+<!--      </ng-container>-->
+<!--    }-->
+<!--    @case ('Gallery') {-->
+<!--      <ng-container *transloco="let t">-->
+<!--        <div class="menu_btn_default">-->
+<!--          <p>{{ t('menu_buttons.gallery') }}</p>-->
+<!--        </div>-->
+<!--      </ng-container>-->
+<!--    }-->
+<!--    @case ('Projects') {-->
+<!--      <ng-container *transloco="let t">-->
+<!--        <div class="menu_btn_default">-->
+<!--          <p>{{ t('menu_buttons.projects') }}</p>-->
+<!--        </div>-->
+<!--      </ng-container>-->
+<!--    }-->
+<!--    @case ('Design') {-->
+<!--      <ng-container *transloco="let t">-->
+<!--        <div class="menu_btn_default">-->
+<!--          <p>{{ t('menu_buttons.design') }}</p>-->
+<!--        </div>-->
+<!--      </ng-container>-->
+<!--    }-->
+<!--    @case ('Service') {-->
+<!--      <ng-container *transloco="let t">-->
+<!--        <div class="menu_btn_default">-->
+<!--          <p>{{ t('menu_buttons.service') }}</p>-->
+<!--        </div>-->
+<!--      </ng-container>-->
+<!--    }-->
+<!--    @case ('Contacts') {-->
+<!--      <ng-container *transloco="let t">-->
+<!--        <div class="menu_btn_default">-->
+<!--          <p>{{ t('menu_buttons.contacts') }}</p>-->
+<!--        </div>-->
+<!--      </ng-container>-->
+<!--    }-->
+
+<!--    @default {-->
+<!--      error-->
+<!--    }-->
+<!--  }-->
+
+
 
