@@ -1,9 +1,9 @@
-<!--<div class="lang-btn">-->
-<!--<button [ngClass]="{ 'active': active }">-->
-<!--  {{ title }}-->
-<!--</button>-->
-<div class="menu_btn_default">
-<!--<div class="menu_btn_default" [ngClass]="{'menu_btn_active': routerLinkActive}">-->
-  <span>{{ title }}</span>
-</div>
+<!--через transloco-->
+<ng-container *transloco="let t">
+  <div class="menu_btn_default"  [ngClass]="{'lang_btn_active': getActive()}">
+    <div>{{ t('menu_buttons.'+ title)}}</div>
+  </div>
+</ng-container>
+
+
 

@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: Helvetica;
+  src: url("./assets/fonts/helvetica_regular.otf");
+}
+.cy{
+  display: flex;
+  align-items: center;
+}
+.cx{
+  display: flex;
+  justify-content: center;
+}
+.cxy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-col{
+  flex-direction: column;
+}
+.df{
+  display: flex;
+}

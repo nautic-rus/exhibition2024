@@ -2,7 +2,7 @@
   height: 100vh;
   width: 100%;
   display: grid;
-  grid-template-columns: 18% 92%;
+  grid-template-columns: 18% 82%;
 }
 .navi{
   z-index: 10;

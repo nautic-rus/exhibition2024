@@ -1,0 +1,12 @@
+.expanded {
+  transform: rotate(90deg);
+}
+
+.arrow {
+  transition-duration: .5s;
+  margin-right: 3vh;
+}
+.subhead-text{
+  font-size: 30px;
+  font-weight: 600;
+}

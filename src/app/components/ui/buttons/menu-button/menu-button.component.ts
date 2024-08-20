@@ -1,15 +1,28 @@
-import {Component, Input} from '@angular/core';
-import {NgClass} from "@angular/common";
+import { Component, Input, OnInit } from '@angular/core';
+import { TranslocoService, TranslocoPipe, TranslocoDirective } from '@jsverse/transloco';
+import { Router } from '@angular/router';
+import { NgClass} from '@angular/common'
 
 @Component({
   selector: 'app-menu-button',
   standalone: true,
-  imports: [NgClass],
+  imports: [TranslocoPipe, TranslocoDirective, NgClass],
   templateUrl: './menu-button.component.html',
-  styleUrl: './menu-button.component.css'
+  styleUrls: ['./menu-button.component.css']
 })
-export class MenuButtonComponent {
+export class MenuButtonComponent implements OnInit {
   @Input() title: string | undefined;
-  @Input() routerLinkActive!: string | undefined;
+  @Input() isActive: boolean | undefined;
 
+  constructor(private translocoService: TranslocoService, private route: Router) {
+    console.log(this.isActive);
+  }
+
+  ngOnInit() {
+    console.log(this.route)
+  }
+
+  getActive() {
+    return false;
+  }
 }

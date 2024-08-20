@@ -1,0 +1,29 @@
+<!--<div class="image-modal" (click)="console.log('modal')">-->
+<!--  <button  (click)="closeImageModal()">X</button>-->
+<!--</div>-->
+
+
+<!--<button>X</button>-->
+<!--<div class="image-modal">-->
+<!--  <img class="img" [src]="imageUrl" alt="Preview">-->
+<!--  <button (click)="onClose()">X</button>-->
+<!--</div>-->
+
+
+
+<div class="close" (click)="closeImageModal()">
+  X
+</div>
+<div style="display: flex">
+  <div style="margin: auto">
+    <button class="leftArrow" (click)="previous()" >❰</button>
+  </div>
+
+  <div class="image-modal">
+    <img class="img" [src]="imageUrl" alt="Preview">
+  </div>
+  <div style="margin: auto">
+    <button class="rightArrow" (click)="next()" >❱</button>
+  </div>
+
+</div>
