@@ -11,10 +11,12 @@
 <!--}-->
 
 <ng-container *transloco="let t">
-  <div (click)="expanded = !expanded">
-    <img class="arrow" [ngClass]="{'expanded': expanded}" src="/assets/images/arrow_icon.png" alt="show more information about {{title}}">
+  <div class="df">
+    <div (click)="expanded = !expanded">
+      <img class="arrow" [ngClass]="{'expanded': expanded}" src="/assets/images/arrow_icon.png" height="35" alt="show more information about {{title}}">
+    </div>
+    <div class="subhead-text">{{ t('service.title.'+title)}}</div>
   </div>
-    <p>{{ t('service.title.'+title)}}</p>
   @if (expanded) {
     <div>
       {{ t('service.content.'+title)}}
