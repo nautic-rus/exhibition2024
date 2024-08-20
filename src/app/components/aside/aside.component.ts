@@ -3,6 +3,7 @@ import {RouterLink, RouterLinkActive, RouterOutlet} from "@angular/router";
 import {MenuButtonComponent} from "../ui/buttons/menu-button/menu-button.component";
 import {LangButtonComponent} from "../ui/buttons/lang-button/lang-button.component";
 import { TranslocoService, provideTransloco, TranslocoDirective } from '@jsverse/transloco';
+import { Router, ActivatedRoute } from '@angular/router';
 
 
 interface ILink {url: string, label: string}
@@ -16,21 +17,28 @@ interface ILink {url: string, label: string}
 })
 export class AsideComponent implements OnInit{
   links: ILink[] = [
-    {url: '/', label: 'About'},
-    {url: '/projects', label: 'Projects'},
-    {url: '/design', label: 'Design'},
-    {url: '/service', label: 'Service'},
-    {url: '/gallery', label: 'Gallery'},
-    {url: '/contacts', label: 'Contacts'}
+    {url: '/', label: 'about'},
+    {url: '/projects', label: 'projects'},
+    {url: '/design', label: 'design'},
+    {url: '/service', label: 'service'},
+    {url: '/gallery', label: 'gallery'},
+    {url: '/contacts', label: 'contacts'}
   ];
-  constructor() {}
+  currentRoute: string | undefined;
+
+  constructor(private router: Router, private route: ActivatedRoute) {
+    this.route.url.subscribe(segments => {
+      this.currentRoute = segments.join('/');
+      console.log(this.currentRoute);
+    });
+  }
   private translocoService = inject(TranslocoService);
 
   ngOnInit() {}
   onLangChange(lang: string) {
     console.log("Changing language to: " + lang);
     this.translocoService.setActiveLang(lang);
-    console.log(this.translocoService.getTranslation('ru'));
+    console.log(this.translocoService.getTranslation(lang));
     // this.translocoService.selectTranslate('about').subscribe((res) => {console.log(res)})
   }
 

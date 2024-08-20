@@ -1,63 +1,9 @@
 <!--через transloco-->
 <ng-container *transloco="let t">
-  <div class="">
-    <p>{{ t('menu_buttons.'+{title}) }}</p>
+  <div class="menu_btn_default"  [ngClass]="{'lang_btn_active': getActive()}">
+    <p>{{ t('menu_buttons.'+ title)}}</p>
   </div>
 </ng-container>
-
-<!--просто вывожу title-->
-<p>{{ title }}</p>
-
-
-<!--<ng-container *transloco="let t">-->
-<!--  @switch (title) {-->
-<!--    @case ('About') {-->
-<!--      <ng-container *transloco="let t">-->
-<!--        <div class="menu_btn_default">-->
-<!--          <p>{{ t('menu_buttons.about') }}</p>-->
-<!--        </div>-->
-<!--      </ng-container>-->
-<!--    }-->
-<!--    @case ('Gallery') {-->
-<!--      <ng-container *transloco="let t">-->
-<!--        <div class="menu_btn_default">-->
-<!--          <p>{{ t('menu_buttons.gallery') }}</p>-->
-<!--        </div>-->
-<!--      </ng-container>-->
-<!--    }-->
-<!--    @case ('Projects') {-->
-<!--      <ng-container *transloco="let t">-->
-<!--        <div class="menu_btn_default">-->
-<!--          <p>{{ t('menu_buttons.projects') }}</p>-->
-<!--        </div>-->
-<!--      </ng-container>-->
-<!--    }-->
-<!--    @case ('Design') {-->
-<!--      <ng-container *transloco="let t">-->
-<!--        <div class="menu_btn_default">-->
-<!--          <p>{{ t('menu_buttons.design') }}</p>-->
-<!--        </div>-->
-<!--      </ng-container>-->
-<!--    }-->
-<!--    @case ('Service') {-->
-<!--      <ng-container *transloco="let t">-->
-<!--        <div class="menu_btn_default">-->
-<!--          <p>{{ t('menu_buttons.service') }}</p>-->
-<!--        </div>-->
-<!--      </ng-container>-->
-<!--    }-->
-<!--    @case ('Contacts') {-->
-<!--      <ng-container *transloco="let t">-->
-<!--        <div class="menu_btn_default">-->
-<!--          <p>{{ t('menu_buttons.contacts') }}</p>-->
-<!--        </div>-->
-<!--      </ng-container>-->
-<!--    }-->
-
-<!--    @default {-->
-<!--      error-->
-<!--    }-->
-<!--  }-->
 
 
 

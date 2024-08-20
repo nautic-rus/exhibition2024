@@ -7,5 +7,29 @@
     "service": "Service",
     "gallery": "Gallery",
     "contacts": "Contacts"
+  },
+  "service": {
+    "title": {
+      "concept_design": "Concept design",
+      "class_drawings": "Class drawings",
+      "workshop_design_documentation": "Workshop design documentation",
+      "3d_modelling": "3D-Modelling",
+      "nesting_documentation": "Nesting documentation",
+      "operational_and_tests_trials_documentation": "Operational and tests/trials documentation",
+      "designer_supervision": "Designer supervision",
+      "ship_reclassification": "Ship reclassification",
+      "ship_upgrading_reequipment": "Ship upgrading and reequipment"
+    },
+    "content" :{
+      "concept_design": "After receiving a technical requirements from a customer, a designer develops a concept design. The concept design includes a preliminary hull lines development, a general arrangement, a building specification, main equipment suggestions, a preliminary makers list, the estimated weight of the Vessel as well as other supporting documents.",
+      "class_drawings": "The class drawings for the vessel are developed after the customer approves the concept design. The class drawings include a set of documents, calculations, drawings, explanations to be sent to the RMRS for approval according to the classification and sea vessels rules.",
+      "workshop_design_documentation": "The development of workshop drawings, intended for the shipyard as a detailed – how to build manual, are developed by the Design Bureau as the individual class drawings are approved by the owner and the class society. Having the opportunity to have this done within the same office as the class drawings is a clear benefit for all parties. The likelihood of misinterpretation of the class drawing are reduced, if not eliminated and the likelihood of the ship being constructed as the Designer intended it to be are secured. The workshop drawings and documentation span the entirety of the Vessel from the Hull, Systems, Electrical Installations and Outfitting.",
+      "3d_modelling": "Modern Naval Designs are not carried out in two dimensional design programs alone anymore, let alone on paper. The initial design and the General Arrangement of a vessel are certainly developed in such design space. However, in Nautic RUS, the vessel´s design is virtually constructed in a 3D platform in parallel. This allows the design team to make very constructive design decisions and adjustments prior to handing the final workshop or class drawings over for approval. This allows the designer and the owner to make optimal use of space available in the vessel. Once the 3D model, constructed in Foran, is complete – the system spits out the detail drawings on two dimensional space. Foran is one of the leading platforms for Naval Design, both in terms of functionality and the completeness of the scope it can manage.\nNautic-Rus has all the necessary competencies in Naval design. Our engineers attend training and seminars, to stay up to date on the latest capabilities of ‘FORAN’s possibilities.\nThe continuous professional development of our employees and tight collaborations between department´s in one integrated system enables us to create high-quality, in-detailed model of the vessel, which in turn helps to reduce possible mistakes during the design process, as well as ensuring high-quality workshop documentation.\nAnother important fact is the 3D model adjustment and duly changes update as they inevitably occur when building a ship. In the future, this leads to mistakes and ship systems malfunction. Our company carries out the technical support and guidance along the whole shipbuilding process, which provides the customer with an opportunity to have all the necessary information concerning making amendments. The update and correct usage of the 3D model enables us to reduce terms and cut costs when building the ship, which is a significant cutting edge of our company.",
+      "nesting_documentation": "Nesting documentation is developed based on the 3D ship model. It includes parts cutting, profile sketches, cutting with marking, profile and plate details bending sketches. Fitting drawings are also provided as needed.",
+      "operational_and_tests_trials_documentation": "Workshop design documentation is intended for the ship structure study and its’ operational rules.\nTests/trials documentation is the documentation including permittance documentation granting a right for construction and assembly works on the one hand, and as-built documentation, confirming the actual performance of the construction and assembly works in a scope set in the class drawing, on the other.",
+      "designer_supervision": "Designer supervision is a planned control system of a design bureau. Designer supervision is an integral part of the design work.\nWhen building and repairing any ship, questions on the initial project amendments often arise. They can be related to some other equipment and materials appliance, construction improvements, and cost reduction. According to the customer’s wish, we can as well provide technical support of our engineers with a documentation update and its approval in the state bodies.",
+      "ship_reclassification": "Ship reclassification or ship class change is a procedure of technical expertise and inspection aimed to change or issue old registry certificates for the new ones.",
+      "ship_upgrading_reequipment": "Upgrading is a measure aimed at ship construction or element changing. This measure is taken to improve technical characteristics, work and life conditions, and International conventions requirements fulfillment."
+    }
   }
 }

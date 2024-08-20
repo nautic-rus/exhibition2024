@@ -1,12 +1,29 @@
-<div (click)="expanded = !expanded">
-  <img class="arrow" [ngClass]="{'expanded': expanded}" src="/assets/images/arrow_icon.png" alt="show more information about {{title}}">
-</div>
-<div>
-  {{title}}
-</div>
-@if (expanded) {
-  <div>
-    {{content}}
+<!--<div (click)="expanded = !expanded">-->
+<!--  <img class="arrow" [ngClass]="{'expanded': expanded}" src="/assets/images/arrow_icon.png" alt="show more information about {{title}}">-->
+<!--</div>-->
+<!--<div>-->
+<!--  {{title}}-->
+<!--</div>-->
+<!--@if (expanded) {-->
+<!--  <div>-->
+<!--    {{content}}-->
+<!--  </div>-->
+<!--}-->
+
+<ng-container *transloco="let t">
+  <div (click)="expanded = !expanded">
+    <img class="arrow" [ngClass]="{'expanded': expanded}" src="/assets/images/arrow_icon.png" alt="show more information about {{title}}">
   </div>
-}
+    <p>{{ t('service.title.'+title)}}</p>
+  @if (expanded) {
+    <div>
+      {{ t('service.content.'+title)}}
+    </div>
+  }
+
+
+<!--  <div class="menu_btn_default">-->
+<!--    <p>{{ t('menu_buttons.'+ title)}}</p>-->
+<!--  </div>-->
+</ng-container>
 
