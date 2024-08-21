@@ -11,16 +11,14 @@
 <!--}-->
 
 <ng-container *transloco="let t">
-  <div class="df">
+  <div class="df pb-2vh">
     <div class="df align-end" (click)="expanded = !expanded">
       <img class="arrow" [ngClass]="{'expanded': expanded}" src="/assets/images/arrow_icon.png" height="35" alt="show more information about {{title}}">
     </div>
     <div class="subhead-text">{{ t('service.title.'+title)}}</div>
   </div>
   @if (expanded) {
-    <div>
-      {{ t('service.content.'+title)}}
-    </div>
+    <div class="pb-2vh m-text">{{ t('service.content.'+title)}}</div>
   }
 
 
