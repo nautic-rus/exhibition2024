@@ -1,11 +1,4 @@
-.all-page{
-  max-height: 100vh;
-  overflow-y: auto;
-  width: 90%;
-  margin: 0 auto;
-}
 .head-text{
-  padding-top: 3vh;
   font-size: 60px;
 }
 .images {

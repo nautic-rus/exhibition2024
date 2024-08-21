@@ -3,6 +3,12 @@
   font-family: Helvetica;
   src: url("./assets/fonts/helvetica_regular.otf");
 }
+.all-page{
+  max-height: 100vh;
+  overflow-y: auto;
+  padding: 3vh;
+  margin: 0 auto;
+}
 .cy{
   display: flex;
   align-items: center;
