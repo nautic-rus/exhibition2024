@@ -22,3 +22,6 @@
 .df{
   display: flex;
 }
+.align-end{
+  align-items: end;
+}
