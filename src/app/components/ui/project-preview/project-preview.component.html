@@ -1,6 +1,7 @@
 <div class="project-item">
   <img class="image" src="{{imgSrc}}" alt="picture of {{title}} in a preview card">
-  <h2>{{title}}</h2>
-  <span>{{previewInfo}}</span>
+  <h2>{{t(title)}}</h2>
+  <span>{{t(previewInfo)}}</span>
   <button class="more-button" (click)="showFullInfo(data.id)">READ MORE</button>
+  <button class="more-button" (click)="t('TRAWLER 87M')">Trans</button>
 </div>

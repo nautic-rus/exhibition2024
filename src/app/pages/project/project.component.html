@@ -6,17 +6,21 @@
   <button (click)="toNextProject()">></button>
 </div>
 <div class="content">
-  <img class="image" src="{{project.imgSrc}}" alt="picture of {{project.title}}">
-  <h2 class="name">{{project.title}}</h2>
+<!--  <div ng-include src="updateCompany.html"></div>-->
+  <img class="image" src="{{t(project.imgSrc)}}" alt="picture of {{project.title}}">
+  <h2 class="name">{{t(project.title)}}</h2>
   <div class="info">
-    {{project.fullInfo}}
+    {{t(project.fullInfo)}}
   </div>
+<!--  <div>-->
+<!--    <p>{{ t('Total processing capacity on the ship') }}: {{project.}}</p>-->
+<!--  </div>-->
   <div class="statistic">
-    <span>Length: {{project.length}}</span>
-    <span>Width: {{project.width}}</span>
-    <span>Draft: {{project.draft}}</span>
-    <span>Vessel speed: {{project.vesselSpeed}}</span>
-    <span>Number of crew: {{project.numberOfCrew}}</span>
+    <span>{{ t('Length') }}: {{project.length}}</span>
+    <span>{{ t('Width') }}: {{project.width}}</span>
+    <span>{{ t('Draft') }}: {{project.draft}}</span>
+    <span>{{ t('Vessel speed') }}: {{project.vesselSpeed}}</span>
+    <span>{{ t('Number of crew') }}: {{project.numberOfCrew}}</span>
   </div>
   <div class="images"></div>
 </div>

@@ -1,5 +1,6 @@
 import {Component, Input, OnInit, Output, EventEmitter} from '@angular/core';
 import {Router} from "@angular/router";
+import {LanguageService} from "../../../services/language.service";
 
 @Component({
   selector: 'app-project-preview',
@@ -16,7 +17,7 @@ export class ProjectPreviewComponent implements OnInit {
   previewInfo: string = '';
 
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private languageService : LanguageService) { }
 
   ngOnInit(): void {
     this.previewInfo = this.data.previewInfo;
@@ -31,4 +32,7 @@ export class ProjectPreviewComponent implements OnInit {
     // this.router.navigate(['/project', this.data.id]);
   }
 
+  t(str : string) {
+    return this.languageService.t(str);
+  }
 }

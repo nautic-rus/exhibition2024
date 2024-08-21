@@ -2,9 +2,11 @@
   {
     "id": 1,
     "imgSrc": "http://localhost:4200/assets/images/test.png",
-    "title": "trawler 87M 1",
+    "title": "TRAWLER 87M",
     "previewInfo": "Trawler 87m big freezing processing trawler with a possibility of fish catching with bottom and pelagic trawl, designed for maximum fishing efficiency.",
-    "fullInfo": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "fullInfo": "TRAWLER big freezing processing trawler with a possibility of fish catching with bottom and pelagic trawl, designed for maximum fishing efficiency. The design based on the well-established and proven Enduro™ Bow concept for the best seaworthiness in rough seas. This bow shape also allows full use of size of the vessel for the benefit of the crew and the maximum capacity of the fish hold and the vessel as a whole.",
+    "fishSpecies": "cod, pollock, red fish, halibut, herring, mackerel, sardines, squid and other types of fish",
+    "methods": "frozen blocks of fillets, mince, roe, milt, offal, fish meal and fish oil.",
     "length": "87.00m",
     "width": "17.00m",
     "draft": "6.85m",

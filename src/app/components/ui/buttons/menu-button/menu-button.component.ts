@@ -15,11 +15,9 @@ export class MenuButtonComponent implements OnInit {
   @Input() isActive: boolean | undefined;
 
   constructor(private translocoService: TranslocoService, private route: Router) {
-    console.log(this.isActive);
   }
 
   ngOnInit() {
-    console.log(this.route)
   }
 
   getActive() {

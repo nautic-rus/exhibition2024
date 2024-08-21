@@ -1,6 +1,7 @@
 import { Component, ElementRef, ViewChild, AfterViewInit  } from '@angular/core';
 import {Router, ActivatedRoute} from "@angular/router";
 import jsonData from '../../../assets/api/data.json'
+import {LanguageService} from "../../services/language.service";
 
 @Component({
   selector: 'app-project',
@@ -16,7 +17,7 @@ export class ProjectComponent implements AfterViewInit {
   id: number | undefined;
   project: any;
 
-  constructor(private router: Router, private activateRoute: ActivatedRoute) {
+  constructor(private router: Router, private activateRoute: ActivatedRoute, private languageService : LanguageService) {
     this.id = +activateRoute.snapshot.params['id']; // Convert to number
     this.project = jsonData.filter(x => x.id === this.id)[0];
   }
@@ -52,6 +53,10 @@ export class ProjectComponent implements AfterViewInit {
       this.id = nextProjectId;
       this.project = jsonData.filter(x => x.id === nextProjectId)[0];
     }
+  }
+
+  t(str : string) {
+    return this.languageService.t(str);
   }
 
   closeProject() {
