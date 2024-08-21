@@ -68,13 +68,14 @@
 
     };
     const loader = new GLTFLoader(manager);
-
+    let lmodel;
     loader.load('./models/nr002/nr002_longliner.glb', function (model)
-    {   model.scene.traverse(function(node) {
+    { lmodel = model.scene;
+      lmodel.traverse(function(node) {
         node.castShadow = true;
         node.receiveShadow = true; });
         console.log(model)
-        scene.add(model.scene);
+        scene.add(lmodel);
 
     }, undefined, function ( error ) {
 
@@ -134,8 +135,8 @@
     // scene.add(rectLightB)
 
     function animate() {
-        //model.scene.rotation.x += 0.01;
-        renderer.render( scene, camera );
+        // lmodel.rotationX = 0.01
+        renderer.render( scene, camera )
 
     }
 
