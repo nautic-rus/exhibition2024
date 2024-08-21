@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Output, EventEmitter, Input } from '@angular/core';
 import { DialogService, DynamicDialogConfig, DynamicDialogRef } from 'primeng/dynamicdialog';
-import images from '../../../assets/images/gallery/galleryImages.json'
+// import images from '../../../assets/images/gallery/galleryImages.json'
 
 @Component({
   selector: 'app-image-modal',
@@ -14,12 +14,15 @@ export class ImageModalComponent {
   // @Input() imageUrl!: string;
   imageUrl!: string;
   currentIndex : number;
-  imgs: {title: string, src: string}[] = images;
+  // imgs: {title: string, src: string}[] = images;
+  imgs: {title: string, src: string}[] = []
   prevUrl: string = '';
   nextUrl: string = '';
 
   constructor(public conf: DynamicDialogConfig, public ref: DynamicDialogRef) {
+    this.imgs = this.conf.data.images;
     console.log("dialog");
+    console.log(this.imgs)
     this.imageUrl = this.conf.data.url;
     this.currentIndex = this.conf.data.index;
     console.log(this.currentIndex);
