@@ -7,20 +7,45 @@
 </div>
 <div class="content">
 <!--  <div ng-include src="updateCompany.html"></div>-->
-  <img class="image" src="{{t(project.imgSrc)}}" alt="picture of {{project.title}}">
+<!--  <img class="image" src="{{t(project.imgSrc)}}" alt="picture of {{project.title}}">-->
+  <div style="height: 150px; background-color: #357ebd; width: 100%"></div>  <!-- пока просто вместо картинки/модели -->
   <h2 class="name">{{t(project.title)}}</h2>
   <div class="info">
     {{t(project.fullInfo)}}
   </div>
-<!--  <div>-->
-<!--    <p>{{ t('Total processing capacity on the ship') }}: {{project.}}</p>-->
-<!--  </div>-->
+  <div style="display: flex; flex-direction: column">
+    @if (project.crabProcessingArea != '-') {
+      <div>{{t('Full Crab processing area')}} : {{ project.crabProcessingArea }} {{t('m²')}}</div>
+    }
+    @if (project.fishProcessingArea != '-') {
+      <div>{{t('Fish processing area with an area of')}} {{ project.fishProcessingArea }} {{t('m²')}} {{t('for the primary processing of the catch')}} </div>
+    }
+    @if (project.processingCapacity != '-') {
+      <div>{{t('Total processing capacity on the ship')}}: {{ project.processingCapacity }} {{t('t/day')}}</div>
+    }
+    @if (project.freezingCapacity  != '-') {
+      <div>{{t('Freezing capacity')}}: {{ project.freezingCapacity  }} {{t('t/day')}}</div>
+    }
+    <div>{{t('Total capacity of holds')}}: {{ project.holdsCapacity  }} {{t('m³')}}</div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; margin-top: 15px">
+    <div>{{t('Fish species')}}: {{ t(project.fishSpecies) }}</div>
+    <div>{{t('Methods and types of processing')}}: {{ t(project.methods) }}</div>
+  </div>
+
   <div class="statistic">
-    <span>{{ t('Length') }}: {{project.length}}</span>
-    <span>{{ t('Width') }}: {{project.width}}</span>
-    <span>{{ t('Draft') }}: {{project.draft}}</span>
-    <span>{{ t('Vessel speed') }}: {{project.vesselSpeed}}</span>
-    <span>{{ t('Number of crew') }}: {{project.numberOfCrew}}</span>
+    <span>Length : {{project.length}} m</span>
+    <span>Width : {{project.width}} m</span>
+    <span>Draft : {{project.draft}} m</span>
+    <span>Vessel speed : {{project.vesselSpeed}} kn</span>
+    <span>Number of crew : {{project.numberOfCrew}} ppl</span>
+<!--    добавить переводы в словари-->
+<!--    <span>{{ t('Length') }}: {{project.length}} {{t('m')}}</span>-->
+<!--    <span>{{ t('Width') }}: {{project.width}} {{t('m')}}</span>-->
+<!--    <span>{{ t('Draft') }}: {{project.draft}} {{t('m')}}</span>-->
+<!--    <span>{{ t('Vessel speed') }}: {{project.vesselSpeed}} {{t('kn')}}</span>-->
+<!--    <span>{{ t('Number of crew') }}: {{project.numberOfCrew}} {{t('ppl')}}</span>-->
   </div>
   <div class="images"></div>
 </div>
