@@ -1,6 +1,8 @@
-<h1>{{t('Projects')}}</h1>
-<div class="content">
+<div class="all-page ml-2vh">
+  <div class="head-text pb-2vh">{{t('Projects')}}</div>
+  <div class="content">
     @for (project of data; track project) {
       <app-project-preview [data]="project"></app-project-preview>
     }
+  </div>
 </div>

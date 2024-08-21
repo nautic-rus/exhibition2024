@@ -9,6 +9,9 @@
   padding: 3vh;
   margin: 0 auto;
 }
+.head-text{
+  font-size: 60px;
+}
 .cy{
   display: flex;
   align-items: center;

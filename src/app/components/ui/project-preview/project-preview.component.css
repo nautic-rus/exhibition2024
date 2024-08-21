@@ -2,11 +2,12 @@
   width: 451px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 3vh;
 }
 
 .image {
   max-width: 451px;
-  height: 465px;
+  height: 270px;
   object-fit: contain;
 }
 
