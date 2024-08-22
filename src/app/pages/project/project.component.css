@@ -5,9 +5,30 @@
 .statistic {
   display: flex;
   flex-direction: column;
-  margin-top: 15px;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
 }
-
 .name {
   font-family: Helvetica, serif;
+  font-size: 60px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.mr-6vh{
+  margin-right: 6vh;
+}
+.thumb-img{
+  box-shadow: -1px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.description{
+  font-size: 30px;
+}
+.params{
+  text-transform: uppercase;
+  font-size: 30px;
+  width: 20vw;
+}
+.size{
+  font-size: 30px;
+  font-weight: 500;
 }
