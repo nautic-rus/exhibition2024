@@ -48,6 +48,12 @@
       <!--    <span>{{ t('Vessel speed') }}: {{project.vesselSpeed}} {{t('kn')}}</span>-->
       <!--    <span>{{ t('Number of crew') }}: {{project.numberOfCrew}} {{t('ppl')}}</span>-->
     </div>
+
+    <div>
+      @for (img of project.images; track img) {
+        <img src="{{img.src}}" (click)="openImg(img.src, $index)">
+      }
+    </div>
     <div class="images"></div>
   </div>
 </div>

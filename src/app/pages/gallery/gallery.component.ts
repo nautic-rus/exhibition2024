@@ -39,7 +39,8 @@ export class GalleryComponent {
     this.dialogService.open(ImageModalComponent, {
       data: {
         url: imgSrc,
-        index: index
+        index: index,
+        images: images,
       },
       modal: true,
       showHeader: false,

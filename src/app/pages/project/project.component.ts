@@ -2,10 +2,15 @@ import { Component, ElementRef, ViewChild, AfterViewInit  } from '@angular/core'
 import {Router, ActivatedRoute} from "@angular/router";
 import jsonData from '../../../assets/api/data.json'
 import {LanguageService} from "../../services/language.service";
+import {ImageModalComponent} from "../../components/image-modal/image-modal.component";
+import {DialogService} from 'primeng/dynamicdialog';
 
 @Component({
   selector: 'app-project',
   standalone: true,
+  providers: [
+    DialogService,
+  ],
   templateUrl: './project.component.html',
   styleUrl: './project.component.css'
 })
@@ -17,9 +22,10 @@ export class ProjectComponent implements AfterViewInit {
   id: number | undefined;
   project: any;
 
-  constructor(private router: Router, private activateRoute: ActivatedRoute, private languageService : LanguageService) {
+  constructor(private router: Router, private activateRoute: ActivatedRoute, private languageService : LanguageService, public dialogService: DialogService) {
     this.id = +activateRoute.snapshot.params['id']; // Convert to number
     this.project = jsonData.filter(x => x.id === this.id)[0];
+    console.log(this.project)
   }
 
   ngAfterViewInit() {
@@ -53,6 +59,23 @@ export class ProjectComponent implements AfterViewInit {
       this.id = nextProjectId;
       this.project = jsonData.filter(x => x.id === nextProjectId)[0];
     }
+  }
+
+  openImg(imgSrc : any, index : number) {
+    console.log("index");
+    console.log(index);
+    console.log(imgSrc)
+    this.dialogService.open(ImageModalComponent, {
+      data: {
+        url: imgSrc,
+        index: index,
+        images: this.project.images
+      },
+      modal: true,
+      showHeader: false,
+    });
+
+    // this.showModal = true;
   }
 
   t(str : string) {

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "previewImage" : "http://localhost:4200/assets/images/projects/CRAB HARVESTER 60M/image_thumb.jpg",
+    "previewImage" : "/assets/images/projects/CRAB HARVESTER 60M/image_thumb.jpg",
     "title": "CRAB HARVESTER 60M",
     "previewInfo": "Crab Harvester 60m is a fishing vessel intended for harvesting all species of crab with the use of multiple conical traps fitted on a line.",
     "fullInfo": "The vessel Crab Harvester is a closed concept vessel, arranged for retrieving crab pots conventionally from side of the vessel through a large hydraulic operated side opening on SB side of the vessel. The hull is designed with the Enduro™ Bow, bulbous bow shape providing various behavioural benefits from the design, including increased comfort for a crew. The processing deck is a completely open space with no support pillars",
@@ -16,11 +16,17 @@
     "width": "14.00",
     "draft": "6.50",
     "vesselSpeed": "14",
-    "numberOfCrew": "32"
+    "numberOfCrew": "32",
+    "images": [
+      {"src" : "/assets/images/projects/CRAB HARVESTER 60M/image-1-thumb.jpg"},
+      {"src" : "/assets/images/projects/CRAB HARVESTER 60M/image-2-thumb.jpg"},
+      {"src" : "/assets/images/projects/CRAB HARVESTER 60M/image-3-thumb.jpg"},
+      {"src" : "/assets/images/projects/CRAB HARVESTER 60M/image-4-thumb.jpg"}
+    ]
   },
   {
     "id": 2,
-    "previewImage" : "http://localhost:4200/assets/images/projects/LONGLINER 20M/image_thumb.jpg",
+    "previewImage" : "/assets/images/projects/LONGLINER 20M/image_thumb.jpg",
     "title": "Longliner 20m",
     "previewInfo": "Series Longliner 20m is a highly versatile multipurpose fishing vessel, designed for coastal fishing at various depths and fishing methods.",
     "fullInfo": "Series Longliner 20m is a highly versatile multipurpose fishing vessel, designed for coastal fishing at various depths and fishing methods. With a variation feature to the Enduro™ Bowconcept to ensure the longest possible waterline, along with excessive width of the hull, increased volume is obtained in the vessel and corresponding buoyancy of the hull. These features secure good performance of the vessel and improved working environment for the crew.",
@@ -35,11 +41,17 @@
     "width": "8.00",
     "draft": "3.65",
     "vesselSpeed": "10",
-    "numberOfCrew": "10"
+    "numberOfCrew": "10",
+    "images": [
+      {"src" : "/assets/images/projects/LONGLINER 20M/image-1-thumb.jpg"},
+      {"src" : "/assets/images/projects/LONGLINER 20M/image-2-thumb.jpg"},
+      {"src" : "/assets/images/projects/LONGLINER 20M/image-3-thumb.jpg"},
+      {"src" : "/assets/images/projects/LONGLINER 20M/image-4-thumb.jpg"}
+    ]
   },
   {
     "id": 3,
-    "previewImage" : "http://localhost:4200/assets/images/projects/LONGLINER 63M/image_thumb.jpg",
+    "previewImage" : "/assets/images/projects/LONGLINER 63M/image_thumb.jpg",
     "title": "Longliner 63m",
     "previewInfo": "Longliner 63m is a series of vessels of various sizes, designed for maximum fishing efficiency.",
     "fullInfo": "LONGLINER is a series of vessels of various sizes, designed for maximum fishing efficiency. The design based on the well-established and proven Enduro™ Bow concept for the best seaworthiness in rough seas. This bow shape also allows full use of the vessel for the benefit of the crew and the maximum capacity of the fish hold and the vessel as a whole.",
@@ -54,12 +66,18 @@
     "width": "14.00",
     "draft": "5.962",
     "vesselSpeed": "14",
-    "numberOfCrew": "39"
+    "numberOfCrew": "39",
+    "images": [
+      {"src" : "/assets/images/projects/LONGLINER 63M/image-1-thumb.jpg"},
+      {"src" : "/assets/images/projects/LONGLINER 63M/image-2-thumb.jpg"},
+      {"src" : "/assets/images/projects/LONGLINER 63M/image-3-thumb.jpg"},
+      {"src" : "/assets/images/projects/LONGLINER 63M/image-4-thumb.jpg"}
+    ]
   },
   {
     "id": 4,
     "title": "RAPTOR 24M",
-    "previewImage" : "http://localhost:4200/assets/images/projects/RAPTOR 24M/image_thumb.jpg",
+    "previewImage" : "/assets/images/projects/RAPTOR 24M/image_thumb.jpg",
     "previewInfo": "Raptor 24m series is a highly versatile multipurpose fishing vessel, designed for coastal fishing at various depths and fishing methods.",
     "fullInfo": "RAPTOR series is a highly versatile multipurpose fishing vessel, designed for coastal fishing at various depths and fishing methods. With a variation feature to the Enduro™ Bowconcept to ensure the longest possible waterline, along with excessive width of the hull, increased volume is obtained in the vessel and corresponding buoyancy of the hull. These features secure good performance of the vessel and improved working environment for the crew.",
     "crabProcessingArea" : "-",
@@ -73,12 +91,18 @@
     "width": "9.00",
     "draft": "3.50",
     "vesselSpeed": "10",
-    "numberOfCrew": "9"
+    "numberOfCrew": "9",
+    "images": [
+      {"src" : "/assets/images/projects/RAPTOR 24M/image-1-thumb.jpg"},
+      {"src" : "/assets/images/projects/RAPTOR 24M/image-2-thumb.jpg"},
+      {"src" : "/assets/images/projects/RAPTOR 24M/image-3-thumb.jpg"},
+      {"src" : "/assets/images/projects/RAPTOR 24M/image-4-thumb.jpg"}
+    ]
   },
   {
     "id": 5,
     "title": "TRAWLER 30M",
-    "previewImage" : "http://localhost:4200/assets/images/projects/TRAWLER 30M/image_thumb.jpg",
+    "previewImage" : "/assets/images/projects/TRAWLER 30M/image_thumb.jpg",
     "previewInfo": "Trawler 30m vessel is equipped as a fresh fish trawler capable of fishing with one bottom trawl, hence equipped with 2 trawl winches.",
     "fullInfo": "TRAWLER vessel is equipped as a fresh fish trawler capable of fishing with one bottom trawl, hence equipped with 2 trawl winches. The hull is designed with the Enduro™ Bow bulbous bow shape providing various behavioural benefits from the design, including increased comfort for a crew upto 14 persons. The processing deck is a completely open space with no support pillars.",
     "crabProcessingArea" : "-",
@@ -92,11 +116,17 @@
     "width": "12.00",
     "draft": "4.45",
     "vesselSpeed": "10",
-    "numberOfCrew": "14"
+    "numberOfCrew": "14",
+    "images": [
+      {"src" : "/assets/images/projects/TRAWLER 30M/image-1-thumb.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 30M/image-2-thumb.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 30M/image-3-thumb.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 30M/image-4-thumb.jpg"}
+    ]
   },
   {
     "id": 6,
-    "previewImage" : "http://localhost:4200/assets/images/projects/TRAWLER 48M/image_thumb.jpg",
+    "previewImage" : "/assets/images/projects/TRAWLER 48M/image_thumb.jpg",
     "title": "TRAWLER 48M",
     "previewInfo": "Trawler 48m vessel equipped as a fresh fish trawler with a registration length under 45m capable of fishing with three bottom trawls simultaneously, equipped with 4 trawl winches.",
     "fullInfo": "TRAWLER vessel equipped as a fresh fish trawler with a registration length under 45m capable of fishing with three bottom trawls simultaneously, equipped with 4 trawl winches. The hull is designed with the Enduro™ Bow bulbous bow shape providing various behavioural benefits from the design, including increased comfort for a crew upto 16 persons. The processing deck is a completely open space with no support pillars.",
@@ -111,11 +141,17 @@
     "width": "14.00",
     "draft": "5.75",
     "vesselSpeed": "13",
-    "numberOfCrew": "16"
+    "numberOfCrew": "16",
+    "images": [
+      {"src" : "/assets/images/projects/TRAWLER 48M/image-1-thumb.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 48M/image-2-thumb.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 48M/image-3-thumb.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 48M/image-4-thumb.jpg"}
+    ]
   },
   {
     "id": 7,
-    "previewImage" : "http://localhost:4200/assets/images/projects/TRAWLER 82M/image_thumb.jpg",
+    "previewImage" : "/assets/images/projects/TRAWLER 82M/image_thumb.jpg",
     "title": "TRAWLER 82M",
     "previewInfo": "Trawler 82m big freezing processing trawler, designed for maximum fishing efficiency.",
     "fullInfo": "TRAWLER big freezing processing trawler, designed for maximum fishing efficiency. The design based on the well-established and proven Enduro™ Bow concept for the best seaworthiness in rough seas. This bow shape also allows full use of the limited size of the vessel for the benefit of the crew and the maximum capacity of the fish hold and the vessel as a whole.",
@@ -130,12 +166,18 @@
     "width": "16.00",
     "draft": "6.30",
     "vesselSpeed": "15",
-    "numberOfCrew": "80"
+    "numberOfCrew": "80",
+    "images": [
+      {"src" : "/assets/images/projects/TRAWLER 82M/image-1-thumb.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 82M/image-2-thumb.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 82M/image-3-thumb.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 82M/image-4-thumb.jpg"}
+    ]
   },
   {
     "id": 8,
     "title": "TRAWLER 87M",
-    "previewImage" : "http://localhost:4200/assets/images/projects/TRAWLER 87M/image_thumb.jpg",
+    "previewImage" : "/assets/images/projects/TRAWLER 87M/image_thumb.jpg",
     "previewInfo": "Trawler 87m big freezing processing trawler with a possibility of fish catching with bottom and pelagic trawl, designed for maximum fishing efficiency.",
     "fullInfo": "TRAWLER big freezing processing trawler with a possibility of fish catching with bottom and pelagic trawl, designed for maximum fishing efficiency. The design based on the well-established and proven Enduro™ Bow concept for the best seaworthiness in rough seas. This bow shape also allows full use of size of the vessel for the benefit of the crew and the maximum capacity of the fish hold and the vessel as a whole",
     "crabProcessingArea" : "-",
@@ -149,12 +191,18 @@
     "width": "17.00",
     "draft": "6.85",
     "vesselSpeed": "15",
-    "numberOfCrew": "96"
+    "numberOfCrew": "96",
+    "images": [
+      {"src" : "/assets/images/projects/TRAWLER 87M/image-1-thumb.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 87M/image-2-thumb.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 87M/image-3-thumb.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 87M/image-4-thumb.jpg"}
+    ]
   },
   {
     "id": 9,
     "title": "TRAWLER 115M",
-    "previewImage" : "http://localhost:4200/assets/images/projects/TRAWLER 115M/image_thumb.jpg",
+    "previewImage" : "/assets/images/projects/TRAWLER 115M/image_thumb.jpg",
     "previewInfo": "Trawler 115m big freezing processing trawler with a possibility of fish catching with bottom and pelagic trawl, designed for maximum fishing efficiency.",
     "fullInfo": "TRAWLER big freezing processing trawler with a possibility of fish catching with bottom and pelagic trawl, designed for maximum fishing efficiency. The design based on the well-established and proven Enduro™ Bow concept for the best seaworthiness in rough seas. This bow shape also allows full use of size of the vessel for the benefit of the crew and the maximum capacity of the fish hold and the vessel as a whole.",
     "crabProcessingArea" : "-",
@@ -168,6 +216,12 @@
     "width": "22.00",
     "draft": "8.00",
     "vesselSpeed": "14",
-    "numberOfCrew": "99"
+    "numberOfCrew": "99",
+    "images": [
+      {"src" : "/assets/images/projects/TRAWLER 115M/image-1-thumb.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 115M/image-2-thumb.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 115M/image-3-thumb.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 115M/image-4-thumb.jpg"}
+    ]
   }
 ]
