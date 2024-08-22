@@ -18,10 +18,10 @@
     "vesselSpeed": "14",
     "numberOfCrew": "99",
     "images": [
-      {"src" : "/assets/images/projects/TRAWLER 115M/image-1-thumb.jpg"},
-      {"src" : "/assets/images/projects/TRAWLER 115M/image-2-thumb.jpg"},
-      {"src" : "/assets/images/projects/TRAWLER 115M/image-3-thumb.jpg"},
-      {"src" : "/assets/images/projects/TRAWLER 115M/image-4-thumb.jpg"}
+      {"src" : "/assets/images/projects/TRAWLER 115M/image-1.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 115M/image-2.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 115M/image-3.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 115M/image-4.jpg"}
     ]
   },
   {
@@ -43,10 +43,10 @@
     "vesselSpeed": "15",
     "numberOfCrew": "96",
     "images": [
-      {"src" : "/assets/images/projects/TRAWLER 87M/image-1-thumb.jpg"},
-      {"src" : "/assets/images/projects/TRAWLER 87M/image-2-thumb.jpg"},
-      {"src" : "/assets/images/projects/TRAWLER 87M/image-3-thumb.jpg"},
-      {"src" : "/assets/images/projects/TRAWLER 87M/image-4-thumb.jpg"}
+      {"src" : "/assets/images/projects/TRAWLER 87M/image-1.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 87M/image-2.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 87M/image-3.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 87M/image-4.jpg"}
     ]
   },
   {
@@ -68,10 +68,10 @@
     "vesselSpeed": "15",
     "numberOfCrew": "80",
     "images": [
-      {"src" : "/assets/images/projects/TRAWLER 82M/image-1-thumb.jpg"},
-      {"src" : "/assets/images/projects/TRAWLER 82M/image-2-thumb.jpg"},
-      {"src" : "/assets/images/projects/TRAWLER 82M/image-3-thumb.jpg"},
-      {"src" : "/assets/images/projects/TRAWLER 82M/image-4-thumb.jpg"}
+      {"src" : "/assets/images/projects/TRAWLER 82M/image-1.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 82M/image-2.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 82M/image-3.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 82M/image-4.jpg"}
     ]
   },
   {
@@ -93,10 +93,10 @@
     "vesselSpeed": "14",
     "numberOfCrew": "39",
     "images": [
-      {"src" : "/assets/images/projects/LONGLINER 63M/image-1-thumb.jpg"},
-      {"src" : "/assets/images/projects/LONGLINER 63M/image-2-thumb.jpg"},
-      {"src" : "/assets/images/projects/LONGLINER 63M/image-3-thumb.jpg"},
-      {"src" : "/assets/images/projects/LONGLINER 63M/image-4-thumb.jpg"}
+      {"src" : "/assets/images/projects/LONGLINER 63M/image-1.jpg"},
+      {"src" : "/assets/images/projects/LONGLINER 63M/image-2.jpg"},
+      {"src" : "/assets/images/projects/LONGLINER 63M/image-3.jpg"},
+      {"src" : "/assets/images/projects/LONGLINER 63M/image-4.jpg"}
     ]
   },
   {
@@ -118,10 +118,10 @@
     "vesselSpeed": "14",
     "numberOfCrew": "32",
     "images": [
-      {"src" : "/assets/images/projects/CRAB HARVESTER 60M/image-1-thumb.jpg"},
-      {"src" : "/assets/images/projects/CRAB HARVESTER 60M/image-2-thumb.jpg"},
-      {"src" : "/assets/images/projects/CRAB HARVESTER 60M/image-3-thumb.jpg"},
-      {"src" : "/assets/images/projects/CRAB HARVESTER 60M/image-4-thumb.jpg"}
+      {"src" : "/assets/images/projects/CRAB HARVESTER 60M/image-1.jpg"},
+      {"src" : "/assets/images/projects/CRAB HARVESTER 60M/image-2.jpg"},
+      {"src" : "/assets/images/projects/CRAB HARVESTER 60M/image-3.jpg"},
+      {"src" : "/assets/images/projects/CRAB HARVESTER 60M/image-4.jpg"}
     ]
   },
   {
@@ -143,10 +143,10 @@
     "vesselSpeed": "13",
     "numberOfCrew": "16",
     "images": [
-      {"src" : "/assets/images/projects/TRAWLER 48M/image-1-thumb.jpg"},
-      {"src" : "/assets/images/projects/TRAWLER 48M/image-2-thumb.jpg"},
-      {"src" : "/assets/images/projects/TRAWLER 48M/image-3-thumb.jpg"},
-      {"src" : "/assets/images/projects/TRAWLER 48M/image-4-thumb.jpg"}
+      {"src" : "/assets/images/projects/TRAWLER 48M/image-1.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 48M/image-2.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 48M/image-3.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 48M/image-4.jpg"}
     ]
   },
   {
@@ -168,10 +168,10 @@
     "vesselSpeed": "10",
     "numberOfCrew": "14",
     "images": [
-      {"src" : "/assets/images/projects/TRAWLER 30M/image-1-thumb.jpg"},
-      {"src" : "/assets/images/projects/TRAWLER 30M/image-2-thumb.jpg"},
-      {"src" : "/assets/images/projects/TRAWLER 30M/image-3-thumb.jpg"},
-      {"src" : "/assets/images/projects/TRAWLER 30M/image-4-thumb.jpg"}
+      {"src" : "/assets/images/projects/TRAWLER 30M/image-1.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 30M/image-2.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 30M/image-3.jpg"},
+      {"src" : "/assets/images/projects/TRAWLER 30M/image-4.jpg"}
     ]
   },
   {
@@ -193,10 +193,10 @@
     "vesselSpeed": "10",
     "numberOfCrew": "9",
     "images": [
-      {"src" : "/assets/images/projects/RAPTOR 24M/image-1-thumb.jpg"},
-      {"src" : "/assets/images/projects/RAPTOR 24M/image-2-thumb.jpg"},
-      {"src" : "/assets/images/projects/RAPTOR 24M/image-3-thumb.jpg"},
-      {"src" : "/assets/images/projects/RAPTOR 24M/image-4-thumb.jpg"}
+      {"src" : "/assets/images/projects/RAPTOR 24M/image-1.jpg"},
+      {"src" : "/assets/images/projects/RAPTOR 24M/image-2.jpg"},
+      {"src" : "/assets/images/projects/RAPTOR 24M/image-3.jpg"},
+      {"src" : "/assets/images/projects/RAPTOR 24M/image-4.jpg"}
     ]
   },
   {
@@ -218,10 +218,10 @@
     "vesselSpeed": "10",
     "numberOfCrew": "10",
     "images": [
-      {"src" : "/assets/images/projects/LONGLINER 20M/image-1-thumb.jpg"},
-      {"src" : "/assets/images/projects/LONGLINER 20M/image-2-thumb.jpg"},
-      {"src" : "/assets/images/projects/LONGLINER 20M/image-3-thumb.jpg"},
-      {"src" : "/assets/images/projects/LONGLINER 20M/image-4-thumb.jpg"}
+      {"src" : "/assets/images/projects/LONGLINER 20M/image-1.jpg"},
+      {"src" : "/assets/images/projects/LONGLINER 20M/image-2.jpg"},
+      {"src" : "/assets/images/projects/LONGLINER 20M/image-3.jpg"},
+      {"src" : "/assets/images/projects/LONGLINER 20M/image-4.jpg"}
     ]
   }
 ]
