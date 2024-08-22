@@ -1,16 +1,15 @@
-<div class="close" (click)="closeImageModal()">
-  X
-</div>
-<div style="display: flex">
-  <div style="margin: auto">
-    <button class="leftArrow" (click)="previous()" >❰</button>
+<div>
+  <div class="left-arrow" (click)="previous()">
+    <img src="assets/icons/arrow-l.svg" height="35">
   </div>
-
   <div class="image-modal">
     <img class="img" [src]="imageUrl" alt="Preview">
   </div>
-  <div style="margin: auto">
-    <button class="rightArrow" (click)="next()" >❱</button>
+  <div class="right-arrow" (click)="next()">
+    <img src="assets/icons/arrow-r.svg" height="35">
+  </div>
+  <div class="close" (click)="closeImageModal()">
+    <img src="assets/icons/close.svg" height="35">
   </div>
 
 </div>
