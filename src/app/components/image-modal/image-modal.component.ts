@@ -32,6 +32,10 @@ export class ImageModalComponent {
       this.currentIndex++;
       this.imageUrl = this.imgs[this.currentIndex].src;
       this.updateNavigation();
+    } else {
+      this.currentIndex = 0;
+      this.imageUrl = this.imgs[this.currentIndex].src;
+      this.updateNavigation();
     }
   }
 
@@ -39,6 +43,10 @@ export class ImageModalComponent {
   previous(): void {
     if (this.currentIndex > 0) {
       this.currentIndex--;
+      this.imageUrl = this.imgs[this.currentIndex].src;
+      this.updateNavigation();
+    } else {
+      this.currentIndex = this.imgs.length - 1;
       this.imageUrl = this.imgs[this.currentIndex].src;
       this.updateNavigation();
     }
