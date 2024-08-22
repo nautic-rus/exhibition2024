@@ -1,15 +1,21 @@
 <!--<div #projectRoot> </div>-->
 <!--<p>project works! {{id}}</p>-->
 <div class="all-page">
-  <div #projectRoot>
-    <button  (click)="closeProject()">X</button>
-    <button (click)="toPrevProject()"><</button>
-    <button (click)="toNextProject()">></button>
+  <div class="pb-2vh df" #projectRoot>
+    <div (click)="closeProject()">
+      <img src="assets/icons/close.svg" height="35">
+    </div>
+    <div class="p-ml-auto">
+      <button (click)="toPrevProject()"><</button>
+      <button (click)="toNextProject()">></button>
+    </div>
   </div>
   <div class="content">
     <!--  <div ng-include src="updateCompany.html"></div>-->
     <!--  <img class="image" src="{{t(project.imgSrc)}}" alt="picture of {{project.title}}">-->
-    <div style="height: 150px; background-color: #357ebd; width: 100%"></div>  <!-- пока просто вместо картинки/модели -->
+    <div>
+      <img src="assets/3d.png" height="829" width="100%">
+    </div>  <!-- пока просто вместо картинки/модели -->
     <h2 class="name">{{t(project.title)}}</h2>
     <div class="info">
       {{t(project.fullInfo)}}
@@ -51,7 +57,7 @@
 
     <div>
       @for (img of project.images; track img) {
-        <img src="{{img.src}}" (click)="openImg(img.src, $index)">
+        <img height="193" src="{{img.src}}" (click)="openImg(img.src, $index)">
       }
     </div>
     <div class="images"></div>

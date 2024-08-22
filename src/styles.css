@@ -40,3 +40,6 @@
 .pt-2vh{
   padding-top: 2vh;
 }
+.p-ml-auto{
+  margin-left: auto!important;
+}
