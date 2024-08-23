@@ -94,8 +94,8 @@
     lightP.shadow.camera.right = 30;
     lightP.shadow.camera.top = 30;
     lightP.shadow.camera.bottom = -30;
-    lightP.position.set(50, 50, -50);
-    lightP.target.position.set(0,10,-30)
+    lightP.position.set(-35, 20, -25);
+    lightP.target.position.set(-25,13,0)
     console.log(lightP)
     scene.add(lightP);
     scene.add(lightP.target)
@@ -140,9 +140,9 @@
     }
 
     const controls = new OrbitControls( camera, renderer.domElement );
-    controls.target.set(0, 10, -35)
-    camera.position.set( 25, 25, -50 );
-    camera.lookAt(0, 10, -35);
+    controls.target.set(-25,13,0)
+    camera.position.set( -35, 20, -25 );
+    camera.lookAt(-25,13,0);
 
 </script>
 
