@@ -1,10 +1,15 @@
-<ng-container *transloco="let t">
-  <p>{{ t('about1paragr') }}</p>
-  <p>{{ t('about2paragr') }}</p>
-  <p>{{ t('about3paragr') }}</p>
-</ng-container>
-<div class="video">
-  <video class="interview" controls >
-    <source src="assets/images/about/interview.mp4" type="video/mp4">
-  </video>
+<div class="all-page">
+  <div class="h-40">
+    <div class="head-text">About</div>
+    <ng-container *transloco="let t">
+      <div class="m-text pb-2vh">{{ t('about1paragr') }}</div>
+      <div class="m-text pb-2vh">{{ t('about2paragr') }}</div>
+      <div class="m-text pb-2vh">{{ t('about3paragr') }}</div>
+    </ng-container>
+  </div>
+  <div class="cxy h-60">
+    <video class="interview" controls >
+      <source src="assets/images/about/interview.mp4" type="video/mp4">
+    </video>
+  </div>
 </div>
