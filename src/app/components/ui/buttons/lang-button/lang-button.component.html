@@ -1,3 +1,3 @@
-<div class="lang_btn_default" [ngClass]="{'lang_btn_active': getActive()}">
+<div class="lang_btn_default" [ngClass]="{'lang_btn_active': getActive()}" [class.left-side]="side == 'left'" [class.right-side]="side == 'right'">
   <span>{{ title }}</span>
 </div>

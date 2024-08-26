@@ -11,6 +11,7 @@ import { TranslocoService } from '@jsverse/transloco';
 })
 export class LangButtonComponent {
   @Input() title: string | undefined;
+  @Input() side: string  = '';
 
   constructor(private translcoService : TranslocoService) {
   }

@@ -1,8 +1,8 @@
 <!--<p style="color: aquamarine; width: 300px">aside works!</p>-->
 <aside class="aside">
   <div class="cx">
-    <app-lang-button title="RUS" (click)="onLangChange('ru')"></app-lang-button>
-    <app-lang-button title="ENG" (click)="onLangChange('en')"></app-lang-button>
+    <app-lang-button title="RUS" side="left" (click)="onLangChange('ru')"></app-lang-button>
+    <app-lang-button title="ENG" side="right" (click)="onLangChange('en')"></app-lang-button>
   </div>
   <div class="menu">
     @for (link of links; track link.url) {
@@ -10,7 +10,7 @@
         style="text-decoration: none"
         [routerLink] = "link.url"
       >
-        <app-menu-button [title]="link.label" ></app-menu-button>
+        <app-menu-button [title]="link.label"></app-menu-button>
       </a>
     }
   </div>
