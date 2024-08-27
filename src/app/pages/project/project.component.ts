@@ -16,33 +16,31 @@ import {DomSanitizer} from "@angular/platform-browser"
   imports: [],
   styleUrl: './project.component.css'
 })
-export class ProjectComponent implements AfterViewInit {
+export class ProjectComponent {
 
   @ViewChild('projectRoot') projectRoot!: ElementRef;
 
   // @Input() id: number | undefined;
   id: number | undefined;
   project: any;
+  hasVideo: boolean = false;
 
   constructor(private router: Router, private activateRoute: ActivatedRoute, private languageService : LanguageService, public dialogService: DialogService, private sanitizer: DomSanitizer) {
     this.id = +activateRoute.snapshot.params['id']; // Convert to number
     this.project = jsonData.filter(x => x.id === this.id)[0];
-    console.log(this.project.mainImage)
+    this.checkVideo()
   }
 
   transform(url: any) {
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
 
-  ngAfterViewInit() {
-    if (typeof window !== 'undefined') {
-      window.scrollTo({
-        top: 0,
-        // behavior: 'smooth'
-      });
+  checkVideo() {
+    if (this.project.mainImage.includes('video')) {
+      this.hasVideo = true;
+      console.log("this.hasVideo = true");
     }
-    // 2nd option
-    // this.projectRoot.nativeElement.scrollIntoView()
+    console.log(this.project.mainImage);
   }
 
   toPrevProject() {
@@ -53,6 +51,7 @@ export class ProjectComponent implements AfterViewInit {
       this.router.navigate(['/project', prevProjectId]);
       this.id = prevProjectId;
       this.project = jsonData.filter(x => x.id === prevProjectId)[0];
+      this.checkVideo();
     }
   }
 
@@ -64,6 +63,7 @@ export class ProjectComponent implements AfterViewInit {
       this.router.navigate(['/project', nextProjectId]);
       this.id = nextProjectId;
       this.project = jsonData.filter(x => x.id === nextProjectId)[0];
+      this.checkVideo();
     }
   }
 
