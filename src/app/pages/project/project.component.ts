@@ -5,6 +5,7 @@ import {LanguageService} from "../../services/language.service";
 import {ImageModalComponent} from "../../components/image-modal/image-modal.component";
 import {DialogService} from 'primeng/dynamicdialog';
 import {DomSanitizer} from "@angular/platform-browser"
+import {ModelModalComponent} from "../../components/model-modal/model-modal.component";
 
 @Component({
   selector: 'app-project',
@@ -66,8 +67,17 @@ export class ProjectComponent {
       modal: true,
       showHeader: false,
     });
-
     // this.showModal = true;
+  }
+
+  openModel(modelSrc : any) {
+    this.dialogService.open(ModelModalComponent, {
+      data: {
+        url: modelSrc,
+      },
+      modal: true,
+      showHeader: false,
+    });
   }
 
   t(str : string) {

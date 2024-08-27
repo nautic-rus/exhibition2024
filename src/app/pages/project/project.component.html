@@ -38,7 +38,7 @@
           </div>
         </div>
         @if (project.model) {
-          <div class="model-button">
+          <div (click)="openModel(project.model)" class="model-button">
             Show 3D model
           </div>
         }
