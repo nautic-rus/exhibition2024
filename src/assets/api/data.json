@@ -17,7 +17,7 @@
     "draft": "8.00",
     "vesselSpeed": "14",
     "numberOfCrew": "99",
-    "mainImage": "",
+    "mainImage": "/assets/projects_video/video_full_115.mp4",
     "images": [
       {"src" : "/assets/images/projects/TRAWLER 115M/image-1.jpg"},
       {"src" : "/assets/images/projects/TRAWLER 115M/image-2.jpg"},
@@ -43,7 +43,7 @@
     "draft": "6.85",
     "vesselSpeed": "15",
     "numberOfCrew": "96",
-    "mainImage": "",
+    "mainImage": "/assets/projects_video/video_full_87.mp4",
     "images": [
       {"src" : "/assets/images/projects/TRAWLER 87M/image-1.jpg"},
       {"src" : "/assets/images/projects/TRAWLER 87M/image-2.jpg"},
@@ -69,7 +69,7 @@
     "draft": "6.30",
     "vesselSpeed": "15",
     "numberOfCrew": "80",
-    "mainImage": "",
+    "mainImage": "/assets/projects_video/video_full_82.mp4",
     "images": [
       {"src" : "/assets/images/projects/TRAWLER 82M/image-1.jpg"},
       {"src" : "/assets/images/projects/TRAWLER 82M/image-2.jpg"},
@@ -121,7 +121,7 @@
     "draft": "6.50",
     "vesselSpeed": "14",
     "numberOfCrew": "32",
-    "mainImage": "",
+    "mainImage": "/assets/projects_video/video_full_60.mp4",
     "images": [
       {"src" : "/assets/images/projects/CRAB HARVESTER 60M/image-1.jpg"},
       {"src" : "/assets/images/projects/CRAB HARVESTER 60M/image-2.jpg"},
@@ -173,7 +173,7 @@
     "draft": "4.45",
     "vesselSpeed": "10",
     "numberOfCrew": "14",
-    "mainImage": "",
+    "mainImage": "/assets/projects_video/video_full_30.mp4",
     "images": [
       {"src" : "/assets/images/projects/TRAWLER 30M/image-1.jpg"},
       {"src" : "/assets/images/projects/TRAWLER 30M/image-2.jpg"},
@@ -199,7 +199,7 @@
     "draft": "3.50",
     "vesselSpeed": "10",
     "numberOfCrew": "9",
-    "mainImage": "",
+    "mainImage": "/assets/projects_video/video_full_24.mp4",
     "images": [
       {"src" : "/assets/images/projects/RAPTOR 24M/image-1.jpg"},
       {"src" : "/assets/images/projects/RAPTOR 24M/image-2.jpg"},
@@ -225,7 +225,7 @@
     "draft": "3.65",
     "vesselSpeed": "10",
     "numberOfCrew": "10",
-    "mainImage": "",
+    "mainImage": "/assets/projects_video/video_full_20.mp4",
     "images": [
       {"src" : "/assets/images/projects/LONGLINER 20M/image-1.jpg"},
       {"src" : "/assets/images/projects/LONGLINER 20M/image-2.jpg"},
