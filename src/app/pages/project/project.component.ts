@@ -28,19 +28,10 @@ export class ProjectComponent {
   constructor(private router: Router, private activateRoute: ActivatedRoute, private languageService : LanguageService, public dialogService: DialogService, private sanitizer: DomSanitizer) {
     this.id = +activateRoute.snapshot.params['id']; // Convert to number
     this.project = jsonData.filter(x => x.id === this.id)[0];
-    this.checkVideo()
   }
 
   transform(url: any) {
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
-  }
-
-  checkVideo() {
-    if (this.project.mainImage.includes('video')) {
-      this.hasVideo = true;
-      console.log("this.hasVideo = true");
-    }
-    console.log(this.project.mainImage);
   }
 
   toPrevProject() {
@@ -51,7 +42,6 @@ export class ProjectComponent {
       this.router.navigate(['/project', prevProjectId]);
       this.id = prevProjectId;
       this.project = jsonData.filter(x => x.id === prevProjectId)[0];
-      this.checkVideo();
     }
   }
 
@@ -63,7 +53,6 @@ export class ProjectComponent {
       this.router.navigate(['/project', nextProjectId]);
       this.id = nextProjectId;
       this.project = jsonData.filter(x => x.id === nextProjectId)[0];
-      this.checkVideo();
     }
   }
 
