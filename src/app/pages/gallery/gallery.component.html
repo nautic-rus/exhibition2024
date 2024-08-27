@@ -1,7 +1,15 @@
-<div class="grid">
-  @for (img of images; track img) {
-    <img (click)="showFullImage(img.src, $index)" class="image image_{{$index}}" src="{{img.src}}">
-  }
+<div class="all-page ml-2vh">
+  <div class="head-text pb-2vh">Gallery</div>
+  <div class="grid">
+    @for (img of images; track img) {
+      <div (click)="showFullImage(img.src, $index)" class="pr">
+        <img class="image image_{{$index}}" src="{{img.src}}">
+        <div class="expand">
+          <img src="assets/icons/expand.svg" height="30">
+        </div>
+      </div>
+    }
+  </div>
 </div>
 
 <!--почти рабочий вариант (не работает клик закрытия)-->

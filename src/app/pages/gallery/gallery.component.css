@@ -7,6 +7,7 @@
 .image {
   width: 327px;
   height: 245px;
+  position: relative;
 }
 
 /*.gallery {*/
@@ -134,4 +135,9 @@ h1{
 }
 .modal-header h2 {
   font-size: 20px;
+}
+.expand{
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
 }
