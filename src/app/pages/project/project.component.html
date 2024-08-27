@@ -15,11 +15,16 @@
     </div>
   </div>
   <div class="content">
-    <!--  <div ng-include src="updateCompany.html"></div>-->
-    <!--  <img class="image" src="{{t(project.imgSrc)}}" alt="picture of {{project.title}}">-->
     <div>
-      <img src="assets/3d.png" height="829" width="100%">
-    </div>  <!-- пока просто вместо картинки/модели -->
+<!--      <iframe src="http://192.168.1.38:1012/" width="650" height="600" scrolling="auto"> </iframe>-->
+      <iframe [src]="transform(project.mainImage)" width="650" height="600" scrolling="auto"> </iframe>
+    </div>
+
+<!--    <div>-->
+<!--      <img src="assets/3d.png" height="829" width="100%">-->
+<!--    </div>  &lt;!&ndash; пока просто вместо картинки/модели &ndash;&gt;-->
+
+    <link rel="import" href="assets/3d/3d_nr002.html">
     <div class="name">{{t(project.title)}}</div>
     <div class="info description">
       {{t(project.fullInfo)}}

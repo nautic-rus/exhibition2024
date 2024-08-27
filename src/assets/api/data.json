@@ -17,6 +17,7 @@
     "draft": "8.00",
     "vesselSpeed": "14",
     "numberOfCrew": "99",
+    "mainImage": "",
     "images": [
       {"src" : "/assets/images/projects/TRAWLER 115M/image-1.jpg"},
       {"src" : "/assets/images/projects/TRAWLER 115M/image-2.jpg"},
@@ -42,6 +43,7 @@
     "draft": "6.85",
     "vesselSpeed": "15",
     "numberOfCrew": "96",
+    "mainImage": "",
     "images": [
       {"src" : "/assets/images/projects/TRAWLER 87M/image-1.jpg"},
       {"src" : "/assets/images/projects/TRAWLER 87M/image-2.jpg"},
@@ -67,6 +69,7 @@
     "draft": "6.30",
     "vesselSpeed": "15",
     "numberOfCrew": "80",
+    "mainImage": "",
     "images": [
       {"src" : "/assets/images/projects/TRAWLER 82M/image-1.jpg"},
       {"src" : "/assets/images/projects/TRAWLER 82M/image-2.jpg"},
@@ -92,6 +95,7 @@
     "draft": "5.962",
     "vesselSpeed": "14",
     "numberOfCrew": "39",
+    "mainImage": "http://192.168.1.38:1012",
     "images": [
       {"src" : "/assets/images/projects/LONGLINER 63M/image-1.jpg"},
       {"src" : "/assets/images/projects/LONGLINER 63M/image-2.jpg"},
@@ -117,6 +121,7 @@
     "draft": "6.50",
     "vesselSpeed": "14",
     "numberOfCrew": "32",
+    "mainImage": "",
     "images": [
       {"src" : "/assets/images/projects/CRAB HARVESTER 60M/image-1.jpg"},
       {"src" : "/assets/images/projects/CRAB HARVESTER 60M/image-2.jpg"},
@@ -142,6 +147,7 @@
     "draft": "5.75",
     "vesselSpeed": "13",
     "numberOfCrew": "16",
+    "mainImage": "http://192.168.1.38:1014",
     "images": [
       {"src" : "/assets/images/projects/TRAWLER 48M/image-1.jpg"},
       {"src" : "/assets/images/projects/TRAWLER 48M/image-2.jpg"},
@@ -167,6 +173,7 @@
     "draft": "4.45",
     "vesselSpeed": "10",
     "numberOfCrew": "14",
+    "mainImage": "",
     "images": [
       {"src" : "/assets/images/projects/TRAWLER 30M/image-1.jpg"},
       {"src" : "/assets/images/projects/TRAWLER 30M/image-2.jpg"},
@@ -192,6 +199,7 @@
     "draft": "3.50",
     "vesselSpeed": "10",
     "numberOfCrew": "9",
+    "mainImage": "",
     "images": [
       {"src" : "/assets/images/projects/RAPTOR 24M/image-1.jpg"},
       {"src" : "/assets/images/projects/RAPTOR 24M/image-2.jpg"},
@@ -217,6 +225,7 @@
     "draft": "3.65",
     "vesselSpeed": "10",
     "numberOfCrew": "10",
+    "mainImage": "",
     "images": [
       {"src" : "/assets/images/projects/LONGLINER 20M/image-1.jpg"},
       {"src" : "/assets/images/projects/LONGLINER 20M/image-2.jpg"},

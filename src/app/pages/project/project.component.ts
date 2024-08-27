@@ -4,6 +4,7 @@ import jsonData from '../../../assets/api/data.json'
 import {LanguageService} from "../../services/language.service";
 import {ImageModalComponent} from "../../components/image-modal/image-modal.component";
 import {DialogService} from 'primeng/dynamicdialog';
+import {DomSanitizer} from "@angular/platform-browser"
 
 @Component({
   selector: 'app-project',
@@ -12,6 +13,7 @@ import {DialogService} from 'primeng/dynamicdialog';
     DialogService,
   ],
   templateUrl: './project.component.html',
+  imports: [],
   styleUrl: './project.component.css'
 })
 export class ProjectComponent implements AfterViewInit {
@@ -22,10 +24,14 @@ export class ProjectComponent implements AfterViewInit {
   id: number | undefined;
   project: any;
 
-  constructor(private router: Router, private activateRoute: ActivatedRoute, private languageService : LanguageService, public dialogService: DialogService) {
+  constructor(private router: Router, private activateRoute: ActivatedRoute, private languageService : LanguageService, public dialogService: DialogService, private sanitizer: DomSanitizer) {
     this.id = +activateRoute.snapshot.params['id']; // Convert to number
     this.project = jsonData.filter(x => x.id === this.id)[0];
-    console.log(this.project)
+    console.log(this.project.mainImage)
+  }
+
+  transform(url: any) {
+    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
 
   ngAfterViewInit() {
