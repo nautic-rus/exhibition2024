@@ -4,7 +4,7 @@
     <img class="image_full" src="{{imageFullSrc}}">
     <div class="grid">
       @for (imgSrc of imagesSrc; track imgSrc) {
-        <img (click)="changeFullImage(imgSrc)" class="image image_{{$index}}" src="{{imgSrc}}">
+        <img style="width: 125px" (click)="changeFullImage(imgSrc)" class="image image_{{$index}}" src="{{imgSrc}}">
       }
     </div>
   </div>

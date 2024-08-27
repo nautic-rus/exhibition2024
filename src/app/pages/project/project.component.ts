@@ -68,9 +68,6 @@ export class ProjectComponent {
   }
 
   openImg(imgSrc : any, index : number) {
-    console.log("index");
-    console.log(index);
-    console.log(imgSrc)
     this.dialogService.open(ImageModalComponent, {
       data: {
         url: imgSrc,

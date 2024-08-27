@@ -19,8 +19,8 @@
   height: 542px;
   margin-left: 20px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
 }
 .m-text{
   font-size: 30px;

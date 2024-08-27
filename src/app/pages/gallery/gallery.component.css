@@ -1,12 +1,12 @@
 .grid {
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 30px;
 }
 
 .image {
-  width: 327px;
-  height: 245px;
+  width: 250px;
   position: relative;
 }
 

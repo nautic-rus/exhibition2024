@@ -18,7 +18,7 @@
     <div>
       @if (hasVideo) {
         <video class="interview" controls>
-          <source [src]="transform(project.mainImage)" type="video/mp4">
+          <source src="{{project.mainImage}}" type="video/mp4">
         </video>
       } @else {
         <iframe [src]="transform(project.mainImage)" width="1463px" height="829px" scrolling="auto"> </iframe>
