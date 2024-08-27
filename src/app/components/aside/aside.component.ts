@@ -22,7 +22,7 @@ export class AsideComponent implements OnInit{
     {url: '/design', label: 'design'},
     {url: '/service', label: 'service'},
     {url: '/gallery', label: 'gallery'},
-    {url: '/contacts', label: 'contacts'}
+    // {url: '/contacts', label: 'contacts'}
   ];
   currentRoute: string | undefined;
 

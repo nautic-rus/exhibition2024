@@ -1,17 +1,44 @@
 [
   {
-    "title": "assets/images/gallery/design_1.png", "src" : "assets/images/gallery/design_1.png"
+    "title": "assets/images/gallery/gallery_1.jpg", "src" : "assets/images/gallery/gallery_1.jpg"
   },
   {
-    "title": "assets/images/gallery/design_2.png", "src" : "assets/images/gallery/design_2.png"
+    "title": "assets/images/gallery/gallery_2.jpg", "src" : "assets/images/gallery/gallery_2.jpg"
   },
   {
-    "title": "assets/images/gallery/design_3.png", "src" : "assets/images/gallery/design_3.png"
+    "title": "assets/images/gallery/gallery_3.jpg", "src" : "assets/images/gallery/gallery_3.jpg"
   },
   {
-    "title": "assets/images/gallery/design_4.png", "src" : "assets/images/gallery/design_4.png"
+    "title": "assets/images/gallery/gallery_4.jpg", "src" : "assets/images/gallery/gallery_4.jpg"
   },
   {
-    "title": "assets/images/gallery/design_5.png", "src" : "assets/images/gallery/design_5.png"
+    "title": "assets/images/gallery/gallery_5.jpg", "src" : "assets/images/gallery/gallery_5.jpg"
+  },
+  {
+    "title": "assets/images/gallery/gallery_5.jpg", "src" : "assets/images/gallery/gallery_6.jpg"
+  },
+  {
+    "title": "assets/images/gallery/gallery_5.jpg", "src" : "assets/images/gallery/gallery_7.jpg"
+  },
+  {
+    "title": "assets/images/gallery/gallery_5.jpg", "src" : "assets/images/gallery/gallery_8.jpg"
+  },
+  {
+    "title": "assets/images/gallery/gallery_5.jpg", "src" : "assets/images/gallery/gallery_9.jpg"
+  },
+  {
+    "title": "assets/images/gallery/gallery_5.jpg", "src" : "assets/images/gallery/gallery_10.jpg"
+  },
+  {
+    "title": "assets/images/gallery/gallery_5.jpg", "src" : "assets/images/gallery/gallery_11.jpg"
+  },
+  {
+    "title": "assets/images/gallery/gallery_5.jpg", "src" : "assets/images/gallery/gallery_12.jpg"
+  },
+  {
+    "title": "assets/images/gallery/gallery_5.jpg", "src" : "assets/images/gallery/gallery_13.jpg"
+  },
+  {
+    "title": "assets/images/gallery/gallery_5.jpg", "src" : "assets/images/gallery/gallery_14.jpg"
   }
 ]
