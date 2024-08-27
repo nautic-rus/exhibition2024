@@ -1,10 +1,7 @@
-<!--<div #projectRoot> </div>-->
-<!--<p>project works! {{id}}</p>-->
-<div class="all-page">
-  <div class="project">
-    <div class="left">
-
-      <video class="video" controls>
+<div class="all-page pr ml-2vh">
+  <div class="project pt-2vh">
+    <div class="left mr-2vh">
+      <video class="video mb-2vh" controls>
         <source src="{{project.video}}" type="video/mp4">
       </video>
       <div class="space-between df">
@@ -16,23 +13,23 @@
       </div>
       <div class="df space-between">
         <div class="statistic">
-          <div class="df pb-2vh">
+          <div class="df pb-1vh">
             <span class="params">{{t('Length')}}</span>
             <span class="size">{{project.length}}{{t('m')}}</span>
           </div>
-          <div class="df pb-2vh">
+          <div class="df pb-1vh">
             <span class="params">{{t('Width')}}</span>
             <span class="size">{{project.width}}{{t('m')}}</span>
           </div>
-          <div class="df pb-2vh">
+          <div class="df pb-1vh">
             <span class="params">{{t('Draft')}}</span>
             <span class="size">{{project.draft}}{{t('m')}}</span>
           </div>
-          <div class="df pb-2vh">
+          <div class="df pb-1vh">
             <span class="params">{{t('Vessel speed')}}</span>
             <span class="size">{{project.vesselSpeed}}{{t('kn')}}</span>
           </div>
-          <div class="df pb-2vh">
+          <div class="df pb-1vh">
             <span class="params">{{t('Number of crew')}}</span>
             <span class="size">{{project.numberOfCrew}}{{t('ppl')}}</span>
           </div>
@@ -48,7 +45,7 @@
 
     </div>
 
-    <div class="right">
+    <div class="right ml-2vh">
       <div class="name">{{t(project.title)}}</div>
       <div class="info description">
         {{t(project.fullInfo)}}
@@ -75,22 +72,24 @@
       </div>
     </div>
   </div>
-  <div class="navigation-buttons">
-    <div class="navigation-button" (click)="closeProject()">
-      <img src="assets/icons/close.svg" height="35">
-      Close
-    </div>
-    <div class="p-ml-auto df">
-      <div class="mr-6vh navigation-button" (click)="toPrevProject()">
-        <img src="assets/icons/arrow-l.svg" height="35">
-        Previous project
+
+    <div class="navigation-buttons">
+      <div class="navigation-button" (click)="closeProject()">
+        <img src="assets/icons/close.svg" height="35">
+        Close
       </div>
-      <div class="navigation-button" (click)="toNextProject()">
-        Next project
-        <img src="assets/icons/arrow-r.svg" height="35">
+      <div class="p-ml-auto df">
+        <div class="mr-6vh navigation-button" (click)="toPrevProject()">
+          <img src="assets/icons/arrow-l.svg" height="35">
+          Previous project
+        </div>
+        <div class="navigation-button" (click)="toNextProject()">
+          Next project
+          <img src="assets/icons/arrow-r.svg" height="35">
+        </div>
       </div>
     </div>
-  </div>
+
 </div>
 
 

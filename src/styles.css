@@ -38,8 +38,17 @@
 .mt-2vh{
   margin-top: 2vh;
 }
+.mb-2vh{
+  margin-bottom: 2vh;
+}
 .ml-2vh{
   margin-left: 2vh;
+}
+.mr-2vh{
+  margin-right: 2vh;
+}
+.pb-1vh{
+  padding-bottom: 1vh;
 }
 .pb-2vh{
   padding-bottom: 2vh;
