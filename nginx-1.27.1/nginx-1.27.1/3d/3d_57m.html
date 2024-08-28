@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My first three.js app</title>
+    <style>
+        body { margin: 0; }
+
+    </style>
+</head>
+<body>
+<div id = "LoadingGif" style="position: fixed; top: 40%; left:40%; text-align: center; color: #FFFFFF; font-size: 18pt; width: 20% "> </div>
+<div style="position: fixed; bottom:2%; left: 2%;   "> <img style="width: 100px;" src = "/src/assets/3d/3d-model.png"> </div>
+<script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@v0.167.1/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.167.1/examples/jsm/",
+        "RectAreaLightHelper": "https://cdn.jsdelivr.net/npm/three@v0.167.1/examples/jsm/helpers/RectAreaLightHelper.js"
+      }
+    }
+</script>
+<script type="module">
+    import * as THREE from 'three';
+    import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+    import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
+
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 10000 );
+    scene.add( camera );
+    console.log(camera)
+
+    const renderer = new THREE.WebGLRenderer({antialias: true});
+    renderer.setSize( window.innerWidth, window.innerHeight );
+    renderer.setAnimationLoop( animate );
+    renderer.setClearColor(0x000000, 0.1);
+    renderer.shadowMap.enabled = true;
+    renderer.shadowMap.type = THREE.VSMShadowMap;
+
+    document.body.appendChild( renderer.domElement );
+
+    const environmentTexture = new THREE.CubeTextureLoader().setPath('https://sbcode.net/img/').load(['px.png', 'nx.png', 'py.png', 'ny.png', 'pz.png', 'nz.png'])
+    scene.environment = environmentTexture
+    scene.environment.castShadow = true;
+    scene.background = environmentTexture
+    console.log(environmentTexture)
+
+
+    function setLoadingGif( html ) {
+        loadingGif.innerHTML= html
+    }
+
+    function delLoadingGif() {
+        loadingGif.remove()
+    }
+
+    const loadingGif = document.getElementById( 'LoadingGif' );
+
+    const manager = new THREE.LoadingManager();
+
+    manager.onStart = function ( item, loaded, total ) {
+        setLoadingGif('<div style="text-align: center; "><img  src = "./load.svg"> <p> LOADING. PLEASE WAIT...</p></div>')
+    };
+
+    manager.onLoad = function ( item, loaded, total ) {
+        delLoadingGif();
+
+    };
+    const loader = new GLTFLoader(manager);
+
+    loader.load('./models/57m/230501_57m_crab_vessel.glb', function (model)
+    {   model.scene.traverse(function(node) {
+        node.castShadow = true;
+        node.receiveShadow = true; });
+        console.log(model)
+        scene.add(model.scene);
+
+    }, undefined, function ( error ) {
+
+        console.error( error );
+    } );
+
+    const color = 0xFFFFFF;
+    const intensity = 2;
+    const lightP = new THREE.DirectionalLight(color, intensity);
+    lightP.castShadow = true;// IMPORTANT FOR SHADOWS !!!
+    lightP.shadow.bias = -0.001
+    lightP.shadow.normalBias = 0
+    lightP.shadow.intensity = 1
+    lightP.shadow.mapSize.x = 4096;
+    lightP.shadow.mapSize.y = 4096;
+    lightP.shadow.camera.left = -30;
+    lightP.shadow.camera.right = 30;
+    lightP.shadow.camera.top = 30;
+    lightP.shadow.camera.bottom = -30;
+    lightP.position.set(-40, 20, -30);
+    lightP.target.position.set(-30, 10, 0)
+    console.log(lightP)
+    scene.add(lightP);
+    scene.add(lightP.target)
+
+    // const widthR = 60;
+    // const heightR = 5;
+    // const intensityR = 0;
+    // const rectLightR = new THREE.RectAreaLight( 0xffffff, intensityR,  widthR, heightR);
+    // rectLightR.position.set( 15, 0, -25 );
+    // rectLightR.lookAt(0 , 2, -25 );
+    // console.log(rectLightR)
+    // scene.add( rectLightR )
+    //
+    // const rectLightHelperR = new RectAreaLightHelper( rectLightR );
+    // scene.add( rectLightHelperR );
+    //
+    // const widthL = 60;
+    // const heightL = 5;
+    // const intensityL = 0;
+    // const rectLightL = new THREE.RectAreaLight( 0xffffff, intensityL,  widthL, heightL );
+    // rectLightL.position.set( -15, 0, -25 );
+    // rectLightL.lookAt(0 , 2, -25 );
+    // console.log(rectLightL)
+    // scene.add(rectLightL)
+    //
+    // const rectLightHelperL= new RectAreaLightHelper( rectLightL );
+    // scene.add( rectLightHelperL );
+    //
+    // const widthB = 10;
+    // const heightB = 5;
+    // const intensityB = 0;
+    // const rectLightB = new THREE.RectAreaLight( 0xffffff, intensityB,  widthB, heightB );
+    // rectLightB.position.set( 0, 0, 10 );
+    // rectLightB.lookAt(0 , 2, 0 );
+    // console.log(rectLightB)
+    // scene.add(rectLightB)
+
+    function animate() {
+        //model.scene.rotation.x += 0.01;
+        renderer.render( scene, camera );
+
+    }
+
+    const controls = new OrbitControls( camera, renderer.domElement );
+    controls.target.set(-30, 10, 0)
+    camera.position.set( -40, 20, -30 );
+    camera.lookAt(-30, 10, 0);
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+127.0.0.1 - - [28/Aug/2024:09:07:21 +0300] "GET / HTTP/1.1" 200 867 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+127.0.0.1 - - [28/Aug/2024:09:11:27 +0300] "GET / HTTP/1.1" 200 968 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+127.0.0.1 - - [28/Aug/2024:09:11:38 +0300] "GET /models HTTP/1.1" 301 169 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+127.0.0.1 - - [28/Aug/2024:09:11:38 +0300] "GET /models/ HTTP/1.1" 200 551 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
