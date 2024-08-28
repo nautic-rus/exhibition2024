@@ -12,14 +12,13 @@ import { NgClass} from '@angular/common'
 })
 export class MenuButtonComponent {
   @Input() title: string | undefined;
-  @Input() url: string | undefined;
+  @Input() url!: string;
 
   constructor(private translocoService: TranslocoService, private router: Router) {
   }
 
 
   getActive(): boolean {
-    // @ts-ignore
     return this.router.isActive(this.url, true); // true для точного соответствия
   }
 }
