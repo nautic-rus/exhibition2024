@@ -1,1 +1,8 @@
 2024/08/28 09:11:24 [notice] 4424#11848: signal process started
+2024/08/28 09:30:10 [emerg] 24904#13164: CreateDirectory() "C:\Users\dulanova\IdeaProjects\exibition2021v2\nginx-1.27.1\nginx-1.27.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2024/08/28 09:30:37 [emerg] 7676#10416: CreateDirectory() "C:\Users\dulanova\IdeaProjects\exibition2021v2\nginx-1.27.1\nginx-1.27.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2024/08/28 09:31:06 [emerg] 11296#6828: CreateDirectory() "C:\Users\dulanova\IdeaProjects\exibition2021v2\nginx-1.27.1\nginx-1.27.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2024/08/28 09:31:23 [emerg] 16764#5116: CreateDirectory() "C:\Users\dulanova\IdeaProjects\exibition2021v2\nginx-1.27.1\nginx-1.27.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2024/08/28 09:32:21 [emerg] 25048#14088: CreateDirectory() "C:\Users\dulanova\IdeaProjects\exibition2021v2\nginx-1.27.1\nginx-1.27.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2024/08/28 09:32:24 [emerg] 20140#21016: CreateDirectory() "C:\Users\dulanova\IdeaProjects\exibition2021v2\nginx-1.27.1\nginx-1.27.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2024/08/28 09:32:36 [emerg] 2756#18156: CreateDirectory() "C:\Users\dulanova\IdeaProjects\exibition2021v2\nginx-1.27.1\nginx-1.27.1/temp/client_body_temp" failed (3: The system cannot find the path specified)

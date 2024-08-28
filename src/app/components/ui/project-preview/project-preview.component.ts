@@ -20,7 +20,6 @@ export class ProjectPreviewComponent implements OnInit {
   constructor(private router: Router, private languageService : LanguageService) { }
 
   ngOnInit(): void {
-    console.log(this.data)
     this.previewInfo = this.data.previewInfo;
     this.title = this.data.title;
     this.imgSrc = this.data.previewImage;

@@ -17,43 +17,58 @@ import {ModelModalComponent} from "../../components/model-modal/model-modal.comp
   imports: [],
   styleUrl: './project.component.css'
 })
-export class ProjectComponent {
+export class ProjectComponent implements AfterViewInit{
 
   @ViewChild('projectRoot') projectRoot!: ElementRef;
 
   // @Input() id: number | undefined;
   id: number | undefined;
   project: any;
-  hasVideo: boolean = false;
 
-  constructor(private router: Router, private activateRoute: ActivatedRoute, private languageService : LanguageService, public dialogService: DialogService, private sanitizer: DomSanitizer) {
-    this.id = +activateRoute.snapshot.params['id']; // Convert to number
+  constructor(private router: Router, private activateRoute: ActivatedRoute, private languageService : LanguageService, public dialogService: DialogService) {
+    this.id = +activateRoute.snapshot.params['id'];
     this.project = jsonData.filter(x => x.id === this.id)[0];
   }
 
-  transform(url: any) {
-    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
+  ngAfterViewInit(): void {
+    this.addVideo();
   }
+
+  addVideo() {
+    var dv= document.getElementById('video-block')!;
+    let v = document.createElement("video");
+    v.id = "video";
+    v.className = "mb-2vh video1"
+    v.controls = true;
+    let s = document.createElement("source");
+    s.src = this.project.video;
+    s.id = 'source';
+    v.append(s);
+    dv.append(v);
+  }
+
 
   toPrevProject() {
     if (this.project != jsonData[0]) {
-      console.log("prev project");
       let prevProjectId = this.id! - 1;
-      console.log(prevProjectId);
       this.router.navigate(['/project', prevProjectId]);
       this.id = prevProjectId;
       this.project = jsonData.filter(x => x.id === prevProjectId)[0];
+      let v = document.getElementById('video')!;
+      v.remove();
+      this.addVideo();
     }
   }
 
   toNextProject() {
     if (this.id != jsonData.length) {
-      console.log("next project");
       let nextProjectId = this.id! + 1;
-      console.log(nextProjectId);
       this.router.navigate(['/project', nextProjectId]);
       this.id = nextProjectId;
       this.project = jsonData.filter(x => x.id === nextProjectId)[0];
+      let v = document.getElementById('video')!;
+      v.remove();
+      this.addVideo();
     }
   }
 
@@ -67,7 +82,6 @@ export class ProjectComponent {
       modal: true,
       showHeader: false,
     });
-    // this.showModal = true;
   }
 
   openModel(modelSrc : any) {

@@ -10,17 +10,15 @@ import { NgClass} from '@angular/common'
   templateUrl: './menu-button.component.html',
   styleUrls: ['./menu-button.component.css']
 })
-export class MenuButtonComponent implements OnInit {
+export class MenuButtonComponent {
   @Input() title: string | undefined;
-  @Input() isActive: boolean | undefined;
+  @Input() url!: string;
 
-  constructor(private translocoService: TranslocoService, private route: Router) {
+  constructor(private translocoService: TranslocoService, private router: Router) {
   }
 
-  ngOnInit() {
-  }
 
-  getActive() {
-    return false;
+  getActive(): boolean {
+    return this.router.isActive(this.url, true); // true для точного соответствия
   }
 }
