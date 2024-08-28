@@ -1,0 +1,21 @@
+.close-3d{
+  position: absolute;
+  right: 40px;
+  top: 35px;
+  z-index: 10;
+}
+.image-modal-3d {
+  z-index: 1;
+}
+.button-click{
+  z-index: 10;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  background-color: #ffffffab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f1f0f5;
+  cursor: none;
+}
