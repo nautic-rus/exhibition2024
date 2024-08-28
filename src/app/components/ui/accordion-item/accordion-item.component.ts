@@ -9,17 +9,12 @@ import { TranslocoService, TranslocoPipe, TranslocoDirective } from '@jsverse/tr
   templateUrl: './accordion-item.component.html',
   styleUrl: './accordion-item.component.css'
 })
-export class AccordionItemComponent implements OnInit{
+export class AccordionItemComponent implements OnInit {
   @Input() title: string | undefined;
-  // @Input() content: string | undefined;
-  // @Input() expanded: boolean | undefined;
 
   expanded: boolean = false;
-  // showContent() {
-  //   this.expanded = true;
-  // }
+
 
   ngOnInit() {
-    console.log(this.title);
   }
 }

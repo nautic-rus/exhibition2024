@@ -1,9 +1,12 @@
 <div class="all-page pr ml-2vh">
   <div class="project pt-2vh">
     <div class="left mr-2vh">
-      <video class="video mb-2vh" controls>
-        <source src="{{project.video}}" type="video/mp4">
-      </video>
+      <div class="video-block" id="video-block">
+<!--        <video class="video mb-2vh" controls id="video">-->
+<!--          &lt;!&ndash;          <source [src]="project.video" type="video/mp4" id="source">&ndash;&gt;-->
+<!--        </video>-->
+      </div>
+
       <div class="space-between df">
         @for (img of project.images; track img) {
           <div class="thumb-img">
@@ -39,10 +42,7 @@
             Show 3D model
           </div>
         }
-
       </div>
-
-
     </div>
 
     <div class="right ml-2vh">
@@ -89,101 +89,4 @@
         </div>
       </div>
     </div>
-
 </div>
-
-
-
-
-<!--&lt;!&ndash;<div #projectRoot> </div>&ndash;&gt;-->
-<!--&lt;!&ndash;<p>project works! {{id}}</p>&ndash;&gt;-->
-<!--<div class="all-page">-->
-<!--  <div class="pb-2vh df" #projectRoot>-->
-<!--    <div (click)="closeProject()">-->
-<!--      <img src="assets/icons/close.svg" height="35">-->
-<!--    </div>-->
-<!--    <div class="p-ml-auto df">-->
-<!--      <div class="mr-6vh" (click)="toPrevProject()">-->
-<!--        <img src="assets/icons/arrow-l.svg" height="35">-->
-<!--      </div>-->
-<!--      <div (click)="toNextProject()">-->
-<!--        <img src="assets/icons/arrow-r.svg" height="35">-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--  <div class="content">-->
-<!--    <div>-->
-<!--      @if (hasVideo) {-->
-<!--        <video class="interview" controls>-->
-<!--          <source src="{{project.video}}" type="video/mp4">-->
-<!--        </video>-->
-<!--      } @else {-->
-<!--        <iframe [src]="transform(project.video)" width="1463px" height="829px" scrolling="auto"> </iframe>-->
-<!--      }-->
-<!--&lt;!&ndash;      <iframe src="http://192.168.1.38:1012/" width="650" height="600" scrolling="auto"> </iframe>&ndash;&gt;-->
-
-<!--    </div>-->
-
-<!--&lt;!&ndash;    <div>&ndash;&gt;-->
-<!--&lt;!&ndash;      <img src="assets/3d.png" height="829" width="100%">&ndash;&gt;-->
-<!--&lt;!&ndash;    </div>  &lt;!&ndash; пока просто вместо картинки/модели &ndash;&gt;&ndash;&gt;-->
-
-<!--    <link rel="import" href="assets/3d/3d_nr002.html">-->
-<!--    <div class="name">{{t(project.title)}}</div>-->
-<!--    <div class="info description">-->
-<!--      {{t(project.fullInfo)}}-->
-<!--    </div>-->
-<!--    <div class="df flex-col description">-->
-<!--      @if (project.crabProcessingArea != '-') {-->
-<!--        <div>{{t('Full Crab processing area')}} : {{ project.crabProcessingArea }} {{t('m²')}}</div>-->
-<!--      }-->
-<!--      @if (project.fishProcessingArea != '-') {-->
-<!--        <div>{{t('Fish processing area with an area of')}} {{ project.fishProcessingArea }} {{t('m²')}} {{t('for the primary processing of the catch')}} </div>-->
-<!--      }-->
-<!--      @if (project.processingCapacity != '-') {-->
-<!--        <div>{{t('Total processing capacity on the ship')}}: {{ project.processingCapacity }} {{t('t/day')}}</div>-->
-<!--      }-->
-<!--      @if (project.freezingCapacity  != '-') {-->
-<!--        <div>{{t('Freezing capacity')}}: {{ project.freezingCapacity  }} {{t('t/day')}}</div>-->
-<!--      }-->
-<!--      <div>{{t('Total capacity of holds')}}: {{ project.holdsCapacity  }} {{t('m³')}}</div>-->
-<!--    </div>-->
-
-<!--    <div class="df flex-col description">-->
-<!--      <div>{{t('Fish species')}}: {{ t(project.fishSpecies) }}</div>-->
-<!--      <div>{{t('Methods and types of processing')}}: {{ t(project.methods) }}</div>-->
-<!--    </div>-->
-
-<!--    <div class="statistic">-->
-<!--      <div class="df pb-2vh">-->
-<!--        <span class="params">{{t('Length')}}</span>-->
-<!--        <span class="size">{{project.length}}{{t('m')}}</span>-->
-<!--      </div>-->
-<!--      <div class="df pb-2vh">-->
-<!--        <span class="params">{{t('Width')}}</span>-->
-<!--        <span class="size">{{project.width}}{{t('m')}}</span>-->
-<!--      </div>-->
-<!--      <div class="df pb-2vh">-->
-<!--        <span class="params">{{t('Draft')}}</span>-->
-<!--        <span class="size">{{project.draft}}{{t('m')}}</span>-->
-<!--      </div>-->
-<!--      <div class="df pb-2vh">-->
-<!--        <span class="params">{{t('Vessel speed')}}</span>-->
-<!--        <span class="size">{{project.vesselSpeed}}{{t('kn')}}</span>-->
-<!--      </div>-->
-<!--      <div class="df pb-2vh">-->
-<!--        <span class="params">{{t('Number of crew')}}</span>-->
-<!--        <span class="size">{{project.numberOfCrew}}{{t('ppl')}}</span>-->
-<!--      </div>-->
-<!--    </div>-->
-
-<!--    <div class="space-between df">-->
-<!--      @for (img of project.images; track img) {-->
-<!--        <div class="thumb-img">-->
-<!--          <img height="193" src="{{img.src}}" (click)="openImg(img.src, $index)">-->
-<!--        </div>-->
-<!--      }-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</div>-->
-

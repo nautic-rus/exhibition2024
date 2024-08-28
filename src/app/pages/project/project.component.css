@@ -17,7 +17,11 @@
   font-size: 30px;
   font-weight: 500;
 }
-.video{
+.video-block{
+  width: 100%;
+  height: 445px;
+}
+.video1{
   width: 100%;
   height: 445px;
 }

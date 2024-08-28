@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {LanguageService} from "../../services/language.service";
 
 @Component({
   selector: 'app-design',
@@ -8,6 +9,8 @@ import { Component } from '@angular/core';
   styleUrl: './design.component.css'
 })
 export class DesignComponent {
+  constructor(private languageService: LanguageService) {
+  }
   imagesSrc = [
     'assets/images/design/design_1.jpg',
     'assets/images/design/design_2.jpg',
@@ -38,6 +41,10 @@ export class DesignComponent {
 
   changeFullImage(imgSrc: string) {
     this.imageFullSrc = imgSrc;
+  }
+
+  t(str : string) {
+    return this.languageService.t(str);
   }
 
 

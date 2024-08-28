@@ -27,12 +27,14 @@ export class AsideComponent implements OnInit{
   currentRoute: string | undefined;
 
   constructor(private router: Router, private route: ActivatedRoute) {
-    this.route.url.subscribe(segments => {
-      this.currentRoute = segments.join('/');
-      console.log(this.currentRoute);
-    });
+    // console.log(this.route.url)
+    // this.route.url.subscribe(segments => {
+    //   this.currentRoute = segments.join('/');
+    //   console.log(this.currentRoute);
+    // });
   }
   private translocoService = inject(TranslocoService);
+
 
   ngOnInit() {}
   onLangChange(lang: string) {
