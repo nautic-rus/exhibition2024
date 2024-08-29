@@ -1,5 +1,5 @@
 <div class="all-page ml-2vh">
-  <div class="head-text pb-2vh">Gallery</div>
+  <div class="head-text pb-2vh">{{t('Gallery')}}</div>
   <div class="grid">
     @for (img of images; track img) {
       <div (click)="showFullImage(img.src, $index)" class="pr">
@@ -11,19 +11,3 @@
     }
   </div>
 </div>
-
-<!--почти рабочий вариант (не работает клик закрытия)-->
-<!-- Modal -->
-<!--<div class="modale" [ngClass]="{'opened':showModal}" aria-hidden="true">-->
-<!--  <div class="modal-dialog">-->
-<!--    <app-image-modal></app-image-modal>-->
-<!--&lt;!&ndash;    <app-image-modal (newItemEvent)="closeFullImage($event)"></app-image-modal>&ndash;&gt;-->
-<!--  </div>-->
-<!--</div>-->
-<!--&lt;!&ndash; /Modal &ndash;&gt;-->
-
-<!--<div class="grid">-->
-<!--  @for (img of images; track img) {-->
-<!--    <img (click)="showFullImage(img, $index)" class="image image_{{$index}}" src="{{img.src}}">-->
-<!--  }-->
-<!--</div>-->

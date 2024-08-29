@@ -3,6 +3,7 @@ import {NgClass} from "@angular/common";
 import images from '../../../assets/images/gallery/galleryImages.json'
 import {ImageModalComponent} from "../../components/image-modal/image-modal.component";
 import {DialogService} from 'primeng/dynamicdialog';
+import {LanguageService} from "../../services/language.service";
 
 @Component({
   selector: 'app-gallery',
@@ -21,7 +22,11 @@ export class GalleryComponent {
   images = images;
   showModal = false;
 
-  constructor(public dialogService: DialogService) {
+  constructor(public dialogService: DialogService, private languageService : LanguageService) {
+  }
+
+  t(str : string) {
+    return this.languageService.t(str);
   }
 
   // imagesSrc = [

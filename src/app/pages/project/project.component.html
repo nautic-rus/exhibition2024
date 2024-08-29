@@ -60,15 +60,19 @@
         @if (project.processingCapacity != '-') {
           <div>{{t('Total processing capacity on the ship')}}: {{ project.processingCapacity }} {{t('t/day')}}</div>
         }
-        @if (project.freezingCapacity  != '-') {
+        @if (project.freezingCapacity != '-') {
           <div>{{t('Freezing capacity')}}: {{ project.freezingCapacity  }} {{t('t/day')}}</div>
         }
         <div>{{t('Total capacity of holds')}}: {{ project.holdsCapacity  }} {{t('m³')}}</div>
       </div>
 
       <div class="df flex-col description">
-        <div>{{t('Fish species')}}: {{ t(project.fishSpecies) }}</div>
-        <div>{{t('Methods and types of processing')}}: {{ t(project.methods) }}</div>
+        @if (project.fishSpecies != '-') {
+          <div>{{t('Fish species')}}: {{ t(project.fishSpecies) }}</div>
+        }
+        @if (project.methods != '-') {
+          <div>{{t('Methods and types of processing')}}: {{ t(project.methods) }}</div>
+        }
       </div>
     </div>
   </div>

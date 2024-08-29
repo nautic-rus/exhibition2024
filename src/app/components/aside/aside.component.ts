@@ -17,11 +17,11 @@ interface ILink {url: string, label: string}
 })
 export class AsideComponent implements OnInit{
   links: ILink[] = [
-    {url: '/', label: 'about'},
     {url: '/projects', label: 'projects'},
     {url: '/design', label: 'design'},
     {url: '/service', label: 'service'},
     {url: '/gallery', label: 'gallery'},
+    {url: '/', label: 'about'},
     // {url: '/contacts', label: 'contacts'}
   ];
   currentRoute: string | undefined;

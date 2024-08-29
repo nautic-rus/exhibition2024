@@ -1,5 +1,5 @@
 <div class="project-item">
-  <img class="image" src="{{imgSrc}}" alt="picture of {{title}} in a preview card">
+  <img class="image"  src="{{imgSrc}}" alt="picture of {{title}} in a preview card" (click)="showFullInfo(data.id)">
   <div class="project-name">{{t(title)}}</div>
   <div class="s-text pt-2vh pb-2vh height-110">{{t(previewInfo)}}</div>
   <div class="more-button" (click)="showFullInfo(data.id)">{{t('read more')}}</div>
