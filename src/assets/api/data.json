@@ -96,7 +96,7 @@
     "vesselSpeed": "14",
     "numberOfCrew": "39",
     "video": "/assets/projects_video/video_full_63.mp4",
-    "model": "http://localhost:8001/3d_nr002.html",
+    "model": "http://localhost:8001/3d_nr002.html?rev=1",
     "images": [
       {"src" : "/assets/images/projects/LONGLINER 63M/image-1.jpg"},
       {"src" : "/assets/images/projects/LONGLINER 63M/image-2.jpg"},

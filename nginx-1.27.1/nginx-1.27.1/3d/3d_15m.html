@@ -34,16 +34,16 @@
     const renderer = new THREE.WebGLRenderer({antialias: true});
     renderer.setSize( window.innerWidth, window.innerHeight );
     renderer.setAnimationLoop( animate );
-    renderer.setClearColor(0x000000, 0.1);
+    renderer.setClearColor(0x0E364A, 1);
     renderer.shadowMap.enabled = true;
     renderer.shadowMap.type = THREE.VSMShadowMap;
 
     document.body.appendChild( renderer.domElement );
 
-    const environmentTexture = new THREE.CubeTextureLoader().setPath('https://sbcode.net/img/').load(['px.png', 'nx.png', 'py.png', 'ny.png', 'pz.png', 'nz.png'])
+    const environmentTexture = new THREE.CubeTextureLoader().setPath('./env/').load(['px.png', 'nx.png', 'py.png', 'ny.png', 'pz.png', 'nz.png'])
     scene.environment = environmentTexture
     scene.environment.castShadow = true;
-    scene.background = environmentTexture
+    //scene.background = environmentTexture
     console.log(environmentTexture)
 
 
