@@ -96,7 +96,7 @@
     "vesselSpeed": "14",
     "numberOfCrew": "39",
     "video": "/assets/projects_video/video_full_63.mp4",
-    "model": "http://localhost:8001",
+    "model": "http://localhost:8001/3d_nr002.html",
     "images": [
       {"src" : "/assets/images/projects/LONGLINER 63M/image-1.jpg"},
       {"src" : "/assets/images/projects/LONGLINER 63M/image-2.jpg"},
@@ -132,6 +132,33 @@
   },
   {
     "id": 6,
+    "previewImage" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png",
+    "title": "CRAB HARVESTER 57M",
+    "previewInfo": "Crab Harvester 57m is a fishing vessel intended for harvesting all species of crab with the use of multiple conical traps fitted on a line.",
+    "fullInfo": "The vessel Crab Harvester is a closed concept vessel, arranged for retrieving crab pots conventionally from side of the vessel through a large hydraulic operated side opening on SB side of the vessel. The hull is designed with the Enduro™ Bow, bulbous bow shape providing various behavioural benefits from the design, including increased comfort for a crew. The processing deck is a completely open space with no support pillars",
+    "crabProcessingArea" : "360",
+    "fishProcessingArea": "-",
+    "processingCapacity": "-",
+    "freezingCapacity": "-",
+    "holdsCapacity": "650",
+    "fishSpecies": "different species of crab",
+    "methods": "processing of harvested crab by air freezing into cooked-frozen and raw-frozen products of various types",
+    "length": "57",
+    "width": "14.00",
+    "draft": "6.50",
+    "vesselSpeed": "14",
+    "numberOfCrew": "32",
+    "video": "",
+    "model": "http://localhost:8001/3d_57m.html",
+    "images": [
+      {"src" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png"},
+      {"src" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png"},
+      {"src" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png"},
+      {"src" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png"}
+    ]
+  },
+  {
+    "id": 7,
     "previewImage" : "/assets/images/projects/TRAWLER 48M/image_thumb.jpg",
     "title": "TRAWLER 48M",
     "previewInfo": "Trawler 48m vessel equipped as a fresh fish trawler with a registration length under 45m capable of fishing with three bottom trawls simultaneously, equipped with 4 trawl winches.",
@@ -149,7 +176,7 @@
     "vesselSpeed": "13",
     "numberOfCrew": "16",
     "video": "/assets/projects_video/video_full_48.mp4",
-    "model": "http://192.168.1.38:1014",
+    "model": "http://localhost:8001/3d_47m.html",
     "images": [
       {"src" : "/assets/images/projects/TRAWLER 48M/image-1.jpg"},
       {"src" : "/assets/images/projects/TRAWLER 48M/image-2.jpg"},
@@ -158,7 +185,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "TRAWLER 30M",
     "previewImage" : "/assets/images/projects/TRAWLER 30M/image_thumb.jpg",
     "previewInfo": "Trawler 30m vessel is equipped as a fresh fish trawler capable of fishing with one bottom trawl, hence equipped with 2 trawl winches.",
@@ -184,7 +211,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "RAPTOR 24M",
     "previewImage" : "/assets/images/projects/RAPTOR 24M/image_thumb.jpg",
     "previewInfo": "Raptor 24m series is a highly versatile multipurpose fishing vessel, designed for coastal fishing at various depths and fishing methods.",
@@ -210,7 +237,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "previewImage" : "/assets/images/projects/LONGLINER 20M/image_thumb.jpg",
     "title": "Longliner 20m",
     "previewInfo": "Series Longliner 20m is a highly versatile multipurpose fishing vessel, designed for coastal fishing at various depths and fishing methods.",
@@ -233,6 +260,33 @@
       {"src" : "/assets/images/projects/LONGLINER 20M/image-2.jpg"},
       {"src" : "/assets/images/projects/LONGLINER 20M/image-3.jpg"},
       {"src" : "/assets/images/projects/LONGLINER 20M/image-4.jpg"}
+    ]
+  },
+  {
+    "id": 11,
+    "previewImage" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png",
+    "title": "Longliner 15m",
+    "previewInfo": "Series Longliner 15m series is a versatile multipurpose fishing vessel, designed for coastal fishing at various depths and different fishing methods.",
+    "fullInfo": "Series Longliner 15m series is a versatile multipurpose fishing vessel, designed for coastal fishing at various depths and different fishing methods. Thanks to a variation of the EnduroBow concept, which provides the maximum possible length of the waterline, as well as an increased hull width, an increased volume and corresponding buoyancy of the hull are achieved on the vessel. These functions ensure good ship behavior and an improved working environment for the crew.",
+    "crabProcessingArea" : "-",
+    "fishProcessingArea": "-",
+    "processingCapacity": "-",
+    "freezingCapacity": "-",
+    "holdsCapacity": "-",
+    "fishSpecies": "-",
+    "methods": "-",
+    "length": "15.00",
+    "width": "6.00",
+    "draft": "3.25",
+    "vesselSpeed": "10",
+    "numberOfCrew": "8",
+    "video": "",
+    "model": "http://localhost:8001/3d_15m.html",
+    "images": [
+      {"src" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png"},
+      {"src" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png"},
+      {"src" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png"},
+      {"src" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png"}
     ]
   }
 ]
