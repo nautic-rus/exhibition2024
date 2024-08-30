@@ -172,6 +172,9 @@
 
     const controls = new OrbitControls( camera, renderer.domElement );
     controls.target.set(0, 10, -30)
+    controls.minDistance = 15;
+    controls.maxDistance = 60;
+
     camera.position.set( 25, 25, -45 );
     camera.lookAt(0, 10, -30);
 

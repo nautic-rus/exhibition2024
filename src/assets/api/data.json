@@ -80,7 +80,7 @@
   {
     "id": 4,
     "previewImage" : "/assets/images/projects/LONGLINER 63M/image_thumb.jpg",
-    "title": "Longliner 63m",
+    "title": "LONGLINER 63M",
     "previewInfo": "Longliner 63m is a series of vessels of various sizes, designed for maximum fishing efficiency.",
     "fullInfo": "LONGLINER is a series of vessels of various sizes, designed for maximum fishing efficiency. The design based on the well-established and proven Enduro™ Bow concept for the best seaworthiness in rough seas. This bow shape also allows full use of the vessel for the benefit of the crew and the maximum capacity of the fish hold and the vessel as a whole.",
     "crabProcessingArea" : "-",
@@ -90,7 +90,7 @@
     "holdsCapacity": "1150",
     "fishSpecies": "cod, pollock, grenadier, Kamchatka flounder, Greenland halibut, Arrowtooth halibut, Pacific halibut, coal fish, red fish and other bottom types of fish",
     "methods": "frozen blocks of fillets, canned liver, fish frozen whole in shock freezer, offal",
-    "length": "60.00",
+    "length": "63.00",
     "width": "14.00",
     "draft": "5.962",
     "vesselSpeed": "14",
@@ -107,7 +107,7 @@
   {
     "id": 5,
     "previewImage" : "/assets/images/projects/CRAB HARVESTER 60M/image_thumb.jpg",
-    "title": "CRAB HARVESTER 60M",
+    "title": "CRAB VESSEL 60M",
     "previewInfo": "Crab Harvester 60m is a fishing vessel intended for harvesting all species of crab with the use of multiple conical traps fitted on a line.",
     "fullInfo": "The vessel Crab Harvester is a closed concept vessel, arranged for retrieving crab pots conventionally from side of the vessel through a large hydraulic operated side opening on SB side of the vessel. The hull is designed with the Enduro™ Bow, bulbous bow shape providing various behavioural benefits from the design, including increased comfort for a crew. The processing deck is a completely open space with no support pillars",
     "crabProcessingArea" : "360",
@@ -133,7 +133,7 @@
   {
     "id": 6,
     "previewImage" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png",
-    "title": "CRAB HARVESTER 57M",
+    "title": "CRAB VESSEL 57M",
     "previewInfo": "Crab Harvester 57m is a fishing vessel intended for harvesting all species of crab with the use of multiple conical traps fitted on a line.",
     "fullInfo": "The vessel Crab Harvester is a closed concept vessel, arranged for retrieving crab pots conventionally from side of the vessel through a large hydraulic operated side opening on SB side of the vessel. The hull is designed with the Enduro™ Bow, bulbous bow shape providing various behavioural benefits from the design, including increased comfort for a crew. The processing deck is a completely open space with no support pillars",
     "crabProcessingArea" : "360",
@@ -239,7 +239,7 @@
   {
     "id": 10,
     "previewImage" : "/assets/images/projects/LONGLINER 20M/image_thumb.jpg",
-    "title": "Longliner 20m",
+    "title": "LONGLINER 20M",
     "previewInfo": "Series Longliner 20m is a highly versatile multipurpose fishing vessel, designed for coastal fishing at various depths and fishing methods.",
     "fullInfo": "Series Longliner 20m is a highly versatile multipurpose fishing vessel, designed for coastal fishing at various depths and fishing methods. With a variation feature to the Enduro™ Bowconcept to ensure the longest possible waterline, along with excessive width of the hull, increased volume is obtained in the vessel and corresponding buoyancy of the hull. These features secure good performance of the vessel and improved working environment for the crew.",
     "crabProcessingArea" : "-",
@@ -265,7 +265,7 @@
   {
     "id": 11,
     "previewImage" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png",
-    "title": "Longliner 15m",
+    "title": "LONGLINER 15M",
     "previewInfo": "Series Longliner 15m series is a versatile multipurpose fishing vessel, designed for coastal fishing at various depths and different fishing methods.",
     "fullInfo": "Series Longliner 15m series is a versatile multipurpose fishing vessel, designed for coastal fishing at various depths and different fishing methods. Thanks to a variation of the EnduroBow concept, which provides the maximum possible length of the waterline, as well as an increased hull width, an increased volume and corresponding buoyancy of the hull are achieved on the vessel. These functions ensure good ship behavior and an improved working environment for the crew.",
     "crabProcessingArea" : "-",
