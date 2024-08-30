@@ -40,11 +40,27 @@ export class ProjectComponent implements AfterViewInit{
     v.id = "video";
     v.className = "mb-2vh video1"
     v.controls = true;
+
     let s = document.createElement("source");
     s.src = this.project.video;
     s.id = 'source';
     v.append(s);
     dv.append(v);
+  }
+
+  playVideo() {
+    // @ts-ignore
+    let v: HTMLVideoElement = document.getElementById("video")!;
+    let pp = document.getElementById("pp-button")!;
+    if(v.paused){
+      v.play();
+      pp.classList.add("none")
+    }
+    else{
+      v.pause();
+    }
+    // @ts-ignore
+    // v.play();
   }
 
 
