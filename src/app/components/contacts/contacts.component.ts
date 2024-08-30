@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {LanguageService} from "../../services/language.service";
 
 @Component({
   selector: 'app-contacts',
@@ -8,7 +9,11 @@ import { Component } from '@angular/core';
   styleUrl: './contacts.component.css'
 })
 export class ContactsComponent {
-  constructor() {
+  constructor(private languageService : LanguageService) {
+  }
+
+  t(str : string) {
+    return this.languageService.t(str);
   }
 
 }

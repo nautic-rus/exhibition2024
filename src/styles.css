@@ -66,6 +66,9 @@
 .pt-2vh{
   padding-top: 2vh;
 }
+.pl-2vh{
+  padding-left: 2vh;
+}
 .p-ml-auto{
   margin-left: auto!important;
 }
