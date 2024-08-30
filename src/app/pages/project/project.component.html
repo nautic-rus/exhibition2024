@@ -7,7 +7,7 @@
 <!--        </video>-->
       </div>
 
-      <div class="space-between df">
+      <div class="space-between df pt-4vh">
         @for (img of project.images; track img) {
           <div class="thumb-img">
             <img height="96px" src="{{img.src}}" (click)="openImg(img.src, $index)">
@@ -47,31 +47,49 @@
 
     <div class="right ml-2vh">
       <div class="name">{{t(project.title)}}</div>
-      <div class="info description">
+      <div class="info description pb-1vh">
         {{t(project.fullInfo)}}
       </div>
       <div class="df flex-col description">
         @if (project.crabProcessingArea != '-') {
-          <div>{{t('Full Crab processing area')}} : {{ project.crabProcessingArea }} {{t('m²')}}</div>
+          <div class="df">
+            <div>{{t('Full Crab processing area')}} ~</div>
+            <div class="text-bold pl-10">{{ project.crabProcessingArea }} {{t('m²')}}</div>
+          </div>
         }
         @if (project.fishProcessingArea != '-') {
-          <div>{{t('Fish processing area with an area of')}} {{ project.fishProcessingArea }} {{t('m²')}} {{t('for the primary processing of the catch')}} </div>
+
+          <div class="df">
+            <div>{{t('Fish processing area with an area of')}}</div>
+            <div class="text-bold pl-10">{{ project.fishProcessingArea }} {{t('m²')}}</div>
+          </div>
+          <div>{{t('for the primary processing of the catch')}} </div>
+
         }
         @if (project.processingCapacity != '-') {
-          <div>{{t('Total processing capacity on the ship')}}: {{ project.processingCapacity }} {{t('t/day')}}</div>
+          <div class="df">
+            <div>{{t('Total processing capacity on the ship')}} ~</div>
+            <div class="text-bold pl-10">{{ project.processingCapacity }} {{t('t/day')}}</div>
+          </div>
         }
         @if (project.freezingCapacity != '-') {
-          <div>{{t('Freezing capacity')}}: {{ project.freezingCapacity  }} {{t('t/day')}}</div>
+          <div class="df">
+            <div>{{t('Freezing capacity')}} ~</div>
+            <div class="text-bold pl-10">{{project.freezingCapacity  }} {{t('t/day')}}</div>
+          </div>
         }
-        <div>{{t('Total capacity of holds')}}: {{ project.holdsCapacity  }} {{t('m³')}}</div>
+        <div class="df">
+          <div>{{t('Total capacity of holds')}} ~</div>
+          <div class="text-bold pl-10">{{ project.holdsCapacity  }} {{t('m³')}}</div>
+        </div>
       </div>
 
       <div class="df flex-col description">
         @if (project.fishSpecies != '-') {
-          <div>{{t('Fish species')}}: {{ t(project.fishSpecies) }}</div>
+          <div class="pt-1vh">{{t('Fish species')}} ~ {{ t(project.fishSpecies) }}</div>
         }
         @if (project.methods != '-') {
-          <div>{{t('Methods and types of processing')}}: {{ t(project.methods) }}</div>
+          <div>{{t('Methods and types of processing')}} ~ {{ t(project.methods) }}</div>
         }
       </div>
     </div>
