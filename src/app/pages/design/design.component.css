@@ -14,6 +14,7 @@
 .image {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 .grid {
   height: 542px;
@@ -27,4 +28,13 @@
 }
 .ml-2vh{
   margin-left: 2vh;
+}
+.expand{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+.text{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }

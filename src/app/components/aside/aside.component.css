@@ -1,6 +1,6 @@
 .aside {
   position: relative;
-  background-color: #0D3C61;
+  background-color: #0E364A;
   height: 100vh;
   padding: 2vh;
 }
@@ -9,7 +9,7 @@
   width: 272px;
   height: 77px;
   padding: 8px 8px 8px 8px;
-  background: #144B76;
+  background: #2C4855;
   color: #FFFFFF;
   border-radius: 20px 20px 20px 20px;
   font-family: "Georgia";

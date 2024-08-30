@@ -31,11 +31,11 @@
 }
 .model-button{
   width: 212px;
-  height: 51px;
+  height: 60px;
   padding: 0px 10px 0px 10px;
   background: #68C761;
   color: #FFFFFF;
-  border-radius: 3px 3px 3px 3px;
+  border-radius: 10px;
   font-family: "Helvetica";
   font-weight: 400;
   font-size: 24px;
@@ -46,9 +46,10 @@
   height: 64px;
   padding: 14px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
-  background: #FFFFFF;
-  border-radius: 5px 5px 5px 5px;
+  background: #2C4855;
+  border-radius: 10px;
   font-size: 24px;
+  color: white;
 }
 .bottom-btn{
   position: absolute;
@@ -72,11 +73,14 @@
   height: 64px;
   padding: 14px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
-  background: #FFFFFF;
-  border-radius: 5px 5px 5px 5px;
+  background: #2C4855;
+  border-radius: 10px;
   font-size: 24px;
+  color: white;
 }
-
+.mt-minis5{
+  margin-top: -5px;
+}
 
 /*.image {*/
 /*  width: 1463px;*/
