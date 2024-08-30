@@ -5,3 +5,8 @@
 .m-text{
   font-size: 30px;
 }
+
+.qr {
+  width: 224px;
+  height: 221px;
+}
