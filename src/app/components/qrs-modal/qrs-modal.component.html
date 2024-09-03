@@ -1,0 +1,18 @@
+<div class="pr qrs">
+  <div class="close-3d button-click" (click)="closeModal()">
+    <img src="assets/icons/close.svg" height="22">
+  </div>
+  <div>
+    <span>Scan QR to get digital booklet</span>
+    <div class="df">
+      <div class="df flex-col">
+        <qrcode class="qr" qrdata="{{qrRus}}" [width]="247"></qrcode>
+        <span>RUS</span>
+      </div>
+      <div class="df flex-col">
+        <qrcode class="qr" qrdata="{{qrEng}}" [width]="247"></qrcode>
+        <span>ENG</span>
+      </div>
+    </div>
+  </div>
+</div>

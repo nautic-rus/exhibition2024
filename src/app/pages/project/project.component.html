@@ -1,15 +1,13 @@
 <div class="all-page pr ml-2vh">
   <div class="project pt-2vh">
-    <div class="left mr-2vh">
+    <!--    1-->
+    <div>
       <div class="video-block" id="video-block">
-<!--        <video class="video mb-2vh" controls id="video">-->
-<!--          &lt;!&ndash;          <source [src]="project.video" type="video/mp4" id="source">&ndash;&gt;-->
-<!--        </video>-->
-        <button id="pp-button" class="pp-button" (click)="playVideo()">
-        </button>
+        <!--        <video class="video mb-2vh" controls id="video">-->
+        <!--          &lt;!&ndash;          <source [src]="project.video" type="video/mp4" id="source">&ndash;&gt;-->
+        <!--        </video>-->
+        <button id="pp-button" class="pp-button" (click)="playVideo()"></button>
       </div>
-
-
       <div class="space-between df pt-4vh">
         @for (img of project.images; track img) {
           <div class="thumb-img">
@@ -17,101 +15,204 @@
           </div>
         }
       </div>
-      <div class="df space-between">
-        <div class="statistic">
-          <div class="df pb-1vh">
-            <span class="params">{{t('Length')}}</span>
-            <span class="size">{{project.length}}{{t('m')}}</span>
-          </div>
-          <div class="df pb-1vh">
-            <span class="params">{{t('Width')}}</span>
-            <span class="size">{{project.width}}{{t('m')}}</span>
-          </div>
-          <div class="df pb-1vh">
-            <span class="params">{{t('Draft')}}</span>
-            <span class="size">{{project.draft}}{{t('m')}}</span>
-          </div>
-          <div class="df pb-1vh">
-            <span class="params">{{t('Vessel speed')}}</span>
-            <span class="size">{{project.vesselSpeed}}{{t('kn')}}</span>
-          </div>
-          <div class="df pb-1vh">
-            <span class="params">{{t('Number of crew')}}</span>
-            <span class="size">{{project.numberOfCrew}}{{t('ppl')}}</span>
-          </div>
-        </div>
-        @if (project.model) {
-          <div (click)="openModel(project.model)" class="mt-3vh model-button cxy">
-            Show 3D model
-          </div>
-        }
-      </div>
     </div>
-
-    <div class="right ml-2vh">
+    <!--    2-->
+    <div>
       <div class="name">{{t(project.title)}}</div>
       <div class="info description pb-1vh">
         {{t(project.fullInfo)}}
       </div>
-      <div class="df flex-col description">
-        @if (project.crabProcessingArea != '-') {
-          <div class="df">
-            <div>{{t('Full Crab processing area')}} ~</div>
-            <div class="text-bold pl-10">{{ project.crabProcessingArea }} {{t('m²')}}</div>
-          </div>
-        }
-        @if (project.fishProcessingArea != '-') {
+      @if (project.model) {
+        <div (click)="openModel(project.model)" class="mt-3vh model-button cxy">
+          Show 3D model
+        </div>
+      }
+      @if (project.qrs) {
+        <div (click)="openQrs(project.qrs)" class="mt-3vh model-button cxy">
+          Get a digital booklet
+        </div>
+      }
+<!--      <div  class="mt-3vh model-button cxy">-->
+<!--        Get a digital booklet-->
+<!--      </div>-->
 
-          <div class="df">
-            <div>{{t('Fish processing area with an area of')}}</div>
-            <div class="text-bold pl-10">{{ project.fishProcessingArea }} {{t('m²')}}</div>
-          </div>
-          <div>{{t('for the primary processing of the catch')}} </div>
-
-        }
-        @if (project.processingCapacity != '-') {
-          <div class="df">
-            <div>{{t('Total processing capacity on the ship')}} ~</div>
-            <div class="text-bold pl-10">{{ project.processingCapacity }} {{t('t/day')}}</div>
-          </div>
-        }
-        @if (project.freezingCapacity != '-') {
-          <div class="df">
-            <div>{{t('Freezing capacity')}} ~</div>
-            <div class="text-bold pl-10">{{project.freezingCapacity  }} {{t('t/day')}}</div>
-          </div>
-        }
-        <div class="df">
-          <div>{{t('Total capacity of holds')}} ~</div>
-          <div class="text-bold pl-10">{{ project.holdsCapacity  }} {{t('m³')}}</div>
+<!--      <div>-->
+<!--        <qrcode qrdata="{{project.qrURL}}"></qrcode>-->
+<!--      </div>-->
+    </div>
+    <!--    3-->
+    <div class="df">
+      <div class="statistic">
+        <div class="df pb-1vh">
+          <span class="params">{{t('Length')}}</span>
+          <span class="size">{{project.length}}{{t('m')}}</span>
+        </div>
+        <div class="df pb-1vh">
+          <span class="params">{{t('Width')}}</span>
+          <span class="size">{{project.width}}{{t('m')}}</span>
+        </div>
+        <div class="df pb-1vh">
+          <span class="params">{{t('Draft')}}</span>
+          <span class="size">{{project.draft}}{{t('m')}}</span>
+        </div>
+        <div class="df pb-1vh">
+          <span class="params">{{t('Vessel speed')}}</span>
+          <span class="size">{{project.vesselSpeed}}{{t('kn')}}</span>
+        </div>
+        <div class="df pb-1vh">
+          <span class="params">{{t('Number of crew')}}</span>
+          <span class="size">{{project.numberOfCrew}}{{t('ppl')}}</span>
         </div>
       </div>
-
-      <div class="df flex-col description">
-        @if (project.fishSpecies != '-') {
-          <div class="pt-1vh">{{t('Fish species')}} ~ {{ t(project.fishSpecies) }}</div>
-        }
-        @if (project.methods != '-') {
-          <div>{{t('Methods and types of processing')}} ~ {{ t(project.methods) }}</div>
-        }
+      <div class="df flex-col">
+        <span>Fish species:</span>
+        <span>{{project.fishSpecies}}</span>
+        <span>Methods of fishing:</span>
+        <span>{{project.methodsOfFishing}}</span>
+      </div>
+    </div>
+    <!--    4-->
+    <div class="df flex-col">
+      <span>Methods and types of processing:</span>
+      <span>{{project.fishSpecies}}</span>
+      <span>Hold capacity:</span>
+      <span>{{project.fishSpecies}}</span>
+    </div>
+  </div>
+  <div class="navigation-buttons">
+    <div class="close-button cxy space-around" (click)="closeProject()">
+      <img src="assets/icons/close_red.svg" height="24">
+      <span class="mt-minis5">{{t('Close')}}</span>
+    </div>
+    <div class="p-ml-auto df">
+      <div class="mr-3vh navigation-button cxy space-around" (click)="toPrevProject()">
+        <img src="assets/icons/arrow-l-green.svg" height="35">
+        <span class="mt-minis5">{{t('Previous project')}}</span>
+      </div>
+      <div class="navigation-button cxy space-around" (click)="toNextProject()">
+        <span class="mt-minis5">{{t('Next project')}}</span>
+        <img src="assets/icons/arrow-r-green.svg" height="35">
       </div>
     </div>
   </div>
-
-    <div class="navigation-buttons">
-      <div class="close-button cxy space-around" (click)="closeProject()">
-        <img src="assets/icons/close_red.svg" height="24">
-        <span class="mt-minis5">{{t('Close')}}</span>
-      </div>
-      <div class="p-ml-auto df">
-        <div class="mr-3vh navigation-button cxy space-around" (click)="toPrevProject()">
-          <img src="assets/icons/arrow-l-green.svg" height="35">
-          <span class="mt-minis5">{{t('Previous project')}}</span>
-        </div>
-        <div class="navigation-button cxy space-around" (click)="toNextProject()">
-          <span class="mt-minis5">{{t('Next project')}}</span>
-          <img src="assets/icons/arrow-r-green.svg" height="35">
-        </div>
-      </div>
-    </div>
 </div>
+
+
+
+<!--<div class="all-page pr ml-2vh">-->
+<!--  <div class="project pt-2vh">-->
+<!--    <div class="left mr-2vh">-->
+<!--      <div class="video-block" id="video-block">-->
+<!--&lt;!&ndash;        <video class="video mb-2vh" controls id="video">&ndash;&gt;-->
+<!--&lt;!&ndash;          &lt;!&ndash;          <source [src]="project.video" type="video/mp4" id="source">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        </video>&ndash;&gt;-->
+<!--        <button id="pp-button" class="pp-button" (click)="playVideo()">-->
+<!--        </button>-->
+<!--      </div>-->
+
+
+<!--      <div class="space-between df pt-4vh">-->
+<!--        @for (img of project.images; track img) {-->
+<!--          <div class="thumb-img">-->
+<!--            <img height="96px" src="{{img.src}}" (click)="openImg(img.src, $index)">-->
+<!--          </div>-->
+<!--        }-->
+<!--      </div>-->
+<!--      <div class="df space-between">-->
+<!--        <div class="statistic">-->
+<!--          <div class="df pb-1vh">-->
+<!--            <span class="params">{{t('Length')}}</span>-->
+<!--            <span class="size">{{project.length}}{{t('m')}}</span>-->
+<!--          </div>-->
+<!--          <div class="df pb-1vh">-->
+<!--            <span class="params">{{t('Width')}}</span>-->
+<!--            <span class="size">{{project.width}}{{t('m')}}</span>-->
+<!--          </div>-->
+<!--          <div class="df pb-1vh">-->
+<!--            <span class="params">{{t('Draft')}}</span>-->
+<!--            <span class="size">{{project.draft}}{{t('m')}}</span>-->
+<!--          </div>-->
+<!--          <div class="df pb-1vh">-->
+<!--            <span class="params">{{t('Vessel speed')}}</span>-->
+<!--            <span class="size">{{project.vesselSpeed}}{{t('kn')}}</span>-->
+<!--          </div>-->
+<!--          <div class="df pb-1vh">-->
+<!--            <span class="params">{{t('Number of crew')}}</span>-->
+<!--            <span class="size">{{project.numberOfCrew}}{{t('ppl')}}</span>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        @if (project.model) {-->
+<!--          <div (click)="openModel(project.model)" class="mt-3vh model-button cxy">-->
+<!--            Show 3D model-->
+<!--          </div>-->
+<!--        }-->
+<!--      </div>-->
+<!--    </div>-->
+
+<!--    <div class="right ml-2vh">-->
+<!--      <div class="name">{{t(project.title)}}</div>-->
+<!--      <div class="info description pb-1vh">-->
+<!--        {{t(project.fullInfo)}}-->
+<!--      </div>-->
+<!--      <div class="df flex-col description">-->
+<!--        @if (project.crabProcessingArea != '-') {-->
+<!--          <div class="df">-->
+<!--            <div>{{t('Full Crab processing area')}} ~</div>-->
+<!--            <div class="text-bold pl-10">{{ project.crabProcessingArea }} {{t('m²')}}</div>-->
+<!--          </div>-->
+<!--        }-->
+<!--        @if (project.fishProcessingArea != '-') {-->
+
+<!--          <div class="df">-->
+<!--            <div>{{t('Fish processing area with an area of')}}</div>-->
+<!--            <div class="text-bold pl-10">{{ project.fishProcessingArea }} {{t('m²')}}</div>-->
+<!--          </div>-->
+<!--          <div>{{t('for the primary processing of the catch')}} </div>-->
+
+<!--        }-->
+<!--        @if (project.processingCapacity != '-') {-->
+<!--          <div class="df">-->
+<!--            <div>{{t('Total processing capacity on the ship')}} ~</div>-->
+<!--            <div class="text-bold pl-10">{{ project.processingCapacity }} {{t('t/day')}}</div>-->
+<!--          </div>-->
+<!--        }-->
+<!--        @if (project.freezingCapacity != '-') {-->
+<!--          <div class="df">-->
+<!--            <div>{{t('Freezing capacity')}} ~</div>-->
+<!--            <div class="text-bold pl-10">{{project.freezingCapacity  }} {{t('t/day')}}</div>-->
+<!--          </div>-->
+<!--        }-->
+<!--        <div class="df">-->
+<!--          <div>{{t('Total capacity of holds')}} ~</div>-->
+<!--          <div class="text-bold pl-10">{{ project.holdsCapacity  }} {{t('m³')}}</div>-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      <div class="df flex-col description">-->
+<!--        @if (project.fishSpecies != '-') {-->
+<!--          <div class="pt-1vh">{{t('Fish species')}} ~ {{ t(project.fishSpecies) }}</div>-->
+<!--        }-->
+<!--        @if (project.methods != '-') {-->
+<!--          <div>{{t('Methods and types of processing')}} ~ {{ t(project.methods) }}</div>-->
+<!--        }-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--    <div class="navigation-buttons">-->
+<!--      <div class="close-button cxy space-around" (click)="closeProject()">-->
+<!--        <img src="assets/icons/close_red.svg" height="24">-->
+<!--        <span class="mt-minis5">{{t('Close')}}</span>-->
+<!--      </div>-->
+<!--      <div class="p-ml-auto df">-->
+<!--        <div class="mr-3vh navigation-button cxy space-around" (click)="toPrevProject()">-->
+<!--          <img src="assets/icons/arrow-l-green.svg" height="35">-->
+<!--          <span class="mt-minis5">{{t('Previous project')}}</span>-->
+<!--        </div>-->
+<!--        <div class="navigation-button cxy space-around" (click)="toNextProject()">-->
+<!--          <span class="mt-minis5">{{t('Next project')}}</span>-->
+<!--          <img src="assets/icons/arrow-r-green.svg" height="35">-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--</div>-->

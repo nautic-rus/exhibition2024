@@ -4,8 +4,9 @@ import jsonData from '../../../assets/api/data.json'
 import {LanguageService} from "../../services/language.service";
 import {ImageModalComponent} from "../../components/image-modal/image-modal.component";
 import {DialogService} from 'primeng/dynamicdialog';
-import {DomSanitizer} from "@angular/platform-browser"
+import { QRCodeModule } from 'angularx-qrcode';
 import {ModelModalComponent} from "../../components/model-modal/model-modal.component";
+import {QrsModalComponent} from "../../components/qrs-modal/qrs-modal.component";
 
 @Component({
   selector: 'app-project',
@@ -14,7 +15,9 @@ import {ModelModalComponent} from "../../components/model-modal/model-modal.comp
     DialogService,
   ],
   templateUrl: './project.component.html',
-  imports: [],
+  imports: [
+    QRCodeModule
+  ],
   styleUrl: './project.component.css'
 })
 export class ProjectComponent implements AfterViewInit{
@@ -35,56 +38,63 @@ export class ProjectComponent implements AfterViewInit{
   }
 
   addVideo() {
-    var dv= document.getElementById('video-block')!;
-    let v = document.createElement("video");
-    v.id = "video";
-    v.className = "mb-2vh video1"
-    v.controls = true;
+    if (typeof document !== 'undefined') {
+      var dv= document.getElementById('video-block')!;
+      let v = document.createElement("video");
+      v.id = "video";
+      v.className = "mb-2vh video1"
+      v.controls = true;
 
-    let s = document.createElement("source");
-    s.src = this.project.video;
-    s.id = 'source';
-    v.append(s);
-    dv.append(v);
+      let s = document.createElement("source");
+      s.src = this.project.video;
+      s.id = 'source';
+      v.append(s);
+      dv.append(v);
+    }
+
   }
 
   playVideo() {
-    // @ts-ignore
-    let v: HTMLVideoElement = document.getElementById("video")!;
-    let pp = document.getElementById("pp-button")!;
-    if(v.paused){
-      v.play();
-      pp.classList.add("none")
+    if (typeof document !== 'undefined') {
+      // @ts-ignore
+      let v: HTMLVideoElement = document.getElementById("video")!;
+      let pp = document.getElementById("pp-button")!;
+      if(v.paused){
+        v.play();
+        pp.classList.add("none")
+      }
+      else{
+        v.pause();
+      }
     }
-    else{
-      v.pause();
-    }
-    // @ts-ignore
-    // v.play();
   }
 
 
   toPrevProject() {
-    if (this.project != jsonData[0]) {
-      let prevProjectId = this.id! - 1;
-      this.router.navigate(['/project', prevProjectId]);
-      this.id = prevProjectId;
-      this.project = jsonData.filter(x => x.id === prevProjectId)[0];
-      let v = document.getElementById('video')!;
-      v.remove();
-      this.addVideo();
+    if (typeof document !== 'undefined') {
+      if (this.project != jsonData[0]) {
+        let prevProjectId = this.id! - 1;
+        this.router.navigate(['/project', prevProjectId]);
+        this.id = prevProjectId;
+        this.project = jsonData.filter(x => x.id === prevProjectId)[0];
+        let v = document.getElementById('video')!;
+        v.remove();
+        this.addVideo();
+      }
     }
   }
 
   toNextProject() {
-    if (this.id != jsonData.length) {
-      let nextProjectId = this.id! + 1;
-      this.router.navigate(['/project', nextProjectId]);
-      this.id = nextProjectId;
-      this.project = jsonData.filter(x => x.id === nextProjectId)[0];
-      let v = document.getElementById('video')!;
-      v.remove();
-      this.addVideo();
+    if (typeof document !== 'undefined') {
+      if (this.id != jsonData.length) {
+        let nextProjectId = this.id! + 1;
+        this.router.navigate(['/project', nextProjectId]);
+        this.id = nextProjectId;
+        this.project = jsonData.filter(x => x.id === nextProjectId)[0];
+        let v = document.getElementById('video')!;
+        v.remove();
+        this.addVideo();
+      }
     }
   }
 
@@ -104,6 +114,17 @@ export class ProjectComponent implements AfterViewInit{
     this.dialogService.open(ModelModalComponent, {
       data: {
         url: modelSrc,
+      },
+      modal: true,
+      showHeader: false,
+    });
+  }
+
+  openQrs(qrs : any) {
+    this.dialogService.open(QrsModalComponent, {
+      data: {
+        qrRus: qrs.qrRus,
+        qrEng: qrs.qrEng,
       },
       modal: true,
       showHeader: false,
