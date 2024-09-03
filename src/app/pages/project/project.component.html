@@ -27,18 +27,11 @@
           Show 3D model
         </div>
       }
-      @if (project.qrs) {
+      @if (project.qrs.qrRus != '' || project.qrs.qrEng != '') {
         <div (click)="openQrs(project.qrs)" class="mt-3vh model-button cxy">
           Get a digital booklet
         </div>
       }
-<!--      <div  class="mt-3vh model-button cxy">-->
-<!--        Get a digital booklet-->
-<!--      </div>-->
-
-<!--      <div>-->
-<!--        <qrcode qrdata="{{project.qrURL}}"></qrcode>-->
-<!--      </div>-->
     </div>
     <!--    3-->
     <div class="df">
