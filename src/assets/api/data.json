@@ -47,8 +47,8 @@
     "vesselSpeed": "15",
     "numberOfCrew": "96",
     "qrs": {
-      "qrRus": "https://nautic-rus.com/assets/booklets/booklet-ru_87.pdf",
-      "qrEng": "https://nautic-rus.com/assets/booklets/booklet-en_87.pdf"
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_87.pdf",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_87.pdf"
     },
     "qrURL": "https://dzen.ru/",
     "crabProcessingArea" : "-",
@@ -79,8 +79,8 @@
     "vesselSpeed": "15",
     "numberOfCrew": "80",
     "qrs": {
-      "qrRus": "https://nautic-rus.com/assets/booklets/booklet-ru_82.pdf",
-      "qrEng": "https://nautic-rus.com/assets/booklets/booklet-en_82.pdf"
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_82.pdf",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_82.pdf"
     },
     "qrURL": "",
     "crabProcessingArea" : "-",
@@ -111,8 +111,8 @@
     "vesselSpeed": "14",
     "numberOfCrew": "39",
     "qrs": {
-      "qrRus": "https://nautic-rus.com/assets/booklets/booklet-ru_63.pdf",
-      "qrEng": "https://nautic-rus.com/assets/booklets/booklet-en_63.pdf"
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_63.pdf",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_63.pdf"
     },
     "qrURL": "",
     "crabProcessingArea" : "-",
@@ -144,8 +144,8 @@
     "vesselSpeed": "14",
     "numberOfCrew": "32",
     "qrs": {
-      "qrRus": "https://nautic-rus.com/assets/booklets/booklet-ru_60.pdf",
-      "qrEng": "https://nautic-rus.com/assets/booklets/booklet-en_60.pdf"
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_60.pdf",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_60.pdf"
     },
     "qrURL": "",
     "crabProcessingArea" : "360",
@@ -209,8 +209,8 @@
     "vesselSpeed": "13",
     "numberOfCrew": "16",
     "qrs": {
-      "qrRus": "https://nautic-rus.com/assets/booklets/booklet-ru_48.pdf",
-      "qrEng": "https://nautic-rus.com/assets/booklets/booklet-en_48.pdf"
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_48.pdf",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_48.pdf"
     },
     "qrURL": "",
     "crabProcessingArea" : "-",
@@ -242,8 +242,8 @@
     "vesselSpeed": "10",
     "numberOfCrew": "14",
     "qrs": {
-      "qrRus": "https://nautic-rus.com/assets/booklets/booklet-ru_30.pdf",
-      "qrEng": "https://nautic-rus.com/assets/booklets/booklet-en_30.pdf"
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_30.pdf",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_30.pdf"
     },
     "qrURL": "",
     "crabProcessingArea" : "-",
@@ -274,8 +274,8 @@
     "vesselSpeed": "10",
     "numberOfCrew": "9",
     "qrs": {
-      "qrRus": "https://nautic-rus.com/assets/booklets/booklet-ru_24.pdf",
-      "qrEng": "https://nautic-rus.com/assets/booklets/booklet-en_24.pdf"
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_24.pdf",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_24.pdf"
     },
     "qrURL": "",
     "crabProcessingArea" : "-",
@@ -306,8 +306,8 @@
     "vesselSpeed": "10",
     "numberOfCrew": "10",
     "qrs": {
-      "qrRus": "https://nautic-rus.com/assets/booklets/booklet-ru_20.pdf",
-      "qrEng": "https://nautic-rus.com/assets/booklets/booklet-en_20.pdf"
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_20.pdf",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_20.pdf"
     },
     "qrURL": "",
     "crabProcessingArea" : "-",
@@ -338,8 +338,8 @@
     "vesselSpeed": "10",
     "numberOfCrew": "8",
     "qrs": {
-      "qrRus": "https://nautic-rus.com/assets/booklets/booklet-ru_15.pdf",
-      "qrEng": "https://nautic-rus.com/assets/booklets/booklet-en_15.pdf"
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_15.pdf",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_15.pdf"
     },
     "qrURL": "",
     "crabProcessingArea" : "-",
