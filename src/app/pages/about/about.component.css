@@ -1,7 +1,13 @@
 .interview {
-  width: 938px;
-  height: 514px;
+  width: 586px;
+  height: 319px;
 }
 .m-text{
-  font-size: 30px;
+  font-size: 26px;
+}
+.contacts{
+  height: 48%;
+}
+.about{
+  height: 40vh;
 }
