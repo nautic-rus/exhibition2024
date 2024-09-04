@@ -38,9 +38,7 @@ export class AsideComponent implements OnInit{
 
   ngOnInit() {}
   onLangChange(lang: string) {
-    console.log("Changing language to: " + lang);
     this.translocoService.setActiveLang(lang);
-    console.log(this.translocoService.getTranslation(lang));
     // this.translocoService.selectTranslate('about').subscribe((res) => {console.log(res)})
   }
 

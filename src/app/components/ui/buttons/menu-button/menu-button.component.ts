@@ -19,6 +19,6 @@ export class MenuButtonComponent {
 
 
   getActive(): boolean {
-    return this.router.isActive(this.url, true); // true для точного соответствия
+    return this.router.isActive(this.url, true) || (this.router.url.includes('/project') && this.title === 'projects');
   }
 }

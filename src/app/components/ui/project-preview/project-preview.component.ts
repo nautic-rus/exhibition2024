@@ -1,5 +1,5 @@
 import {Component, Input, OnInit, Output, EventEmitter} from '@angular/core';
-import {Router} from "@angular/router";
+import {Router, RouterLink, RouterOutlet} from "@angular/router";
 import {LanguageService} from "../../../services/language.service";
 
 @Component({
@@ -26,10 +26,9 @@ export class ProjectPreviewComponent implements OnInit {
   }
 
   showFullInfo(id: number) {
-    console.log("show full info " + id);
-    this.router.navigate(['/project', this.data.id]);
-    // this.newItemEvent.emit(id);
+    // this.router.navigate(['projects', 'project', this.data.id]);
     // this.router.navigate(['/project', this.data.id]);
+    this.router.navigate(['/project', this.data.id]);
   }
 
   t(str : string) {
