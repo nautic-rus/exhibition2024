@@ -144,7 +144,21 @@
     camera.position.set( -40, 20, -30 );
     camera.lookAt(-30, 10, 0);
 
-</script>
+    let resetButt = document.getElementById( 'reset' );
+    // var zoomOut = document.getElementById( 'zoom-out' );
+    //
+    resetButt.addEventListener( 'click', reset, false );
+    // zoomOut.addEventListener( 'click', onZoomOut, false );
+    //
+    function reset() {
+      controls.target.set(-30, 10, 0)
+      camera.position.set( -40, 20, -30 );
+      camera.lookAt(-30, 10, 0);
+    }
 
+</script>
+<div style="position: absolute; right: 40px; top: 110px; height: 3.5rem; width: 3.5rem;border-radius: 50%;border: 1px solid #f1f0f5; background-color: #ffffffab;display: flex;align-items: center;justify-content: center;">
+  <img style="height: 35px" src = "deepsea_Autorenew_Icon_1.png" id = "reset"/>
+</div>
 </body>
 </html>
