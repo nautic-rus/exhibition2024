@@ -14,6 +14,10 @@
     "draft": "8.00",
     "vesselSpeed": "14",
     "numberOfCrew": "99",
+    "productionCapacity": {
+      "processingCapacity": "200",
+      "freezingCapacity": "200"
+    },
     "qrs": {
       "qrRus": "",
       "qrEng": ""
@@ -21,8 +25,6 @@
     "qrURL": "http://192.168.1.38/",
     "crabProcessingArea" : "-",
     "fishProcessingArea": "-",
-    "processingCapacity": "200",
-    "freezingCapacity": "200",
     "video": "/assets/projects_video/video_full_115.mp4",
     "images": [
       {"src" : "/assets/images/projects/TRAWLER 115M/image-1.jpg"},
@@ -46,6 +48,10 @@
     "draft": "6.85",
     "vesselSpeed": "15",
     "numberOfCrew": "96",
+    "productionCapacity": {
+      "processingCapacity": "200",
+      "freezingCapacity": "200"
+    },
     "qrs": {
       "qrRus": "https://nautic-rus.com/booklets/booklet-ru_87.pdf",
       "qrEng": "https://nautic-rus.com/booklets/booklet-en_87.pdf"
@@ -53,8 +59,6 @@
     "qrURL": "https://dzen.ru/",
     "crabProcessingArea" : "-",
     "fishProcessingArea": "-",
-    "processingCapacity": "200",
-    "freezingCapacity": "200",
     "video": "/assets/projects_video/video_full_87.mp4",
     "images": [
       {"src" : "/assets/images/projects/TRAWLER 87M/image-1.jpg"},
@@ -85,8 +89,6 @@
     "qrURL": "",
     "crabProcessingArea" : "-",
     "fishProcessingArea": "-",
-    "processingCapacity": "150",
-    "freezingCapacity": "100",
     "video": "/assets/projects_video/video_full_82.mp4",
     "images": [
       {"src" : "/assets/images/projects/TRAWLER 82M/image-1.jpg"},
@@ -110,6 +112,10 @@
     "draft": "5.962",
     "vesselSpeed": "14",
     "numberOfCrew": "39",
+    "productionCapacity": {
+      "processingCapacity": "50",
+      "freezingCapacity": "50"
+    },
     "qrs": {
       "qrRus": "https://nautic-rus.com/booklets/booklet-ru_63.pdf",
       "qrEng": "https://nautic-rus.com/booklets/booklet-en_63.pdf"
@@ -117,8 +123,6 @@
     "qrURL": "",
     "crabProcessingArea" : "-",
     "fishProcessingArea": "-",
-    "processingCapacity": "50",
-    "freezingCapacity": "50",
     "video": "/assets/projects_video/video_full_63.mp4",
     "model": "http://localhost:8001/3d_nr002.html?rev=1",
     "images": [
@@ -143,6 +147,10 @@
     "draft": "6.50",
     "vesselSpeed": "14",
     "numberOfCrew": "32",
+    "productionCapacity": {
+      "processingCapacity": "-",
+      "freezingCapacity": "-"
+    },
     "qrs": {
       "qrRus": "https://nautic-rus.com/booklets/booklet-ru_60.pdf",
       "qrEng": "https://nautic-rus.com/booklets/booklet-en_60.pdf"
@@ -150,8 +158,6 @@
     "qrURL": "",
     "crabProcessingArea" : "360",
     "fishProcessingArea": "-",
-    "processingCapacity": "-",
-    "freezingCapacity": "-",
     "video": "/assets/projects_video/video_full_60.mp4",
     "images": [
       {"src" : "/assets/images/projects/CRAB HARVESTER 60M/image-1.jpg"},
@@ -175,6 +181,10 @@
     "draft": "6.50",
     "vesselSpeed": "14",
     "numberOfCrew": "32",
+    "productionCapacity": {
+      "processingCapacity": "-",
+      "freezingCapacity": "-"
+    },
     "qrs": {
       "qrRus": "",
       "qrEng": ""
@@ -182,8 +192,6 @@
     "qrURL": "",
     "crabProcessingArea" : "-",
     "fishProcessingArea": "-",
-    "processingCapacity": "-",
-    "freezingCapacity": "-",
     "video": "",
     "model": "http://localhost:8001/3d_57m.html",
     "images": [
@@ -208,6 +216,10 @@
     "draft": "5.75",
     "vesselSpeed": "13",
     "numberOfCrew": "16",
+    "productionCapacity": {
+      "processingCapacity": "-",
+      "freezingCapacity": "-"
+    },
     "qrs": {
       "qrRus": "https://nautic-rus.com/booklets/booklet-ru_48.pdf",
       "qrEng": "https://nautic-rus.com/booklets/booklet-en_48.pdf"
@@ -215,8 +227,6 @@
     "qrURL": "",
     "crabProcessingArea" : "-",
     "fishProcessingArea": "285",
-    "processingCapacity": "-",
-    "freezingCapacity": "-",
     "video": "/assets/projects_video/video_full_48.mp4",
     "model": "http://localhost:8001/3d_47m.html",
     "images": [
@@ -241,6 +251,10 @@
     "draft": "4.45",
     "vesselSpeed": "10",
     "numberOfCrew": "14",
+    "productionCapacity": {
+      "processingCapacity": "-",
+      "freezingCapacity": "-"
+    },
     "qrs": {
       "qrRus": "https://nautic-rus.com/booklets/booklet-ru_30.pdf",
       "qrEng": "https://nautic-rus.com/booklets/booklet-en_30.pdf"
@@ -248,8 +262,6 @@
     "qrURL": "",
     "crabProcessingArea" : "-",
     "fishProcessingArea": "137",
-    "processingCapacity": "-",
-    "freezingCapacity": "-",
     "video": "/assets/projects_video/video_full_30.mp4",
     "images": [
       {"src" : "/assets/images/projects/TRAWLER 30M/image-1.jpg"},
@@ -273,6 +285,10 @@
     "draft": "3.50",
     "vesselSpeed": "10",
     "numberOfCrew": "9",
+    "productionCapacity": {
+      "processingCapacity": "-",
+      "freezingCapacity": "-"
+    },
     "qrs": {
       "qrRus": "https://nautic-rus.com/booklets/booklet-ru_24.pdf",
       "qrEng": "https://nautic-rus.com/booklets/booklet-en_24.pdf"
@@ -280,8 +296,6 @@
     "qrURL": "",
     "crabProcessingArea" : "-",
     "fishProcessingArea": "45",
-    "processingCapacity": "-",
-    "freezingCapacity": "-",
     "video": "/assets/projects_video/video_full_24.mp4",
     "images": [
       {"src" : "/assets/images/projects/RAPTOR 24M/image-1.jpg"},
@@ -305,6 +319,10 @@
     "draft": "3.65",
     "vesselSpeed": "10",
     "numberOfCrew": "10",
+    "productionCapacity": {
+      "processingCapacity": "-",
+      "freezingCapacity": "-"
+    },
     "qrs": {
       "qrRus": "https://nautic-rus.com/booklets/booklet-ru_20.pdf",
       "qrEng": "https://nautic-rus.com/booklets/booklet-en_20.pdf"
@@ -312,8 +330,6 @@
     "qrURL": "",
     "crabProcessingArea" : "-",
     "fishProcessingArea": "-",
-    "processingCapacity": "-",
-    "freezingCapacity": "-",
     "video": "/assets/projects_video/video_full_20.mp4",
     "images": [
       {"src" : "/assets/images/projects/LONGLINER 20M/image-1.jpg"},
@@ -337,6 +353,10 @@
     "draft": "3.25",
     "vesselSpeed": "10",
     "numberOfCrew": "8",
+    "productionCapacity": {
+      "processingCapacity": "-",
+      "freezingCapacity": "-"
+    },
     "qrs": {
       "qrRus": "https://nautic-rus.com/booklets/booklet-ru_15.pdf",
       "qrEng": "https://nautic-rus.com/booklets/booklet-en_15.pdf"
@@ -344,8 +364,6 @@
     "qrURL": "",
     "crabProcessingArea" : "-",
     "fishProcessingArea": "-",
-    "processingCapacity": "-",
-    "freezingCapacity": "-",
     "video": "",
     "model": "http://localhost:8001/3d_15m.html",
     "images": [

@@ -26,8 +26,6 @@ export class ProjectPreviewComponent implements OnInit {
   }
 
   showFullInfo(id: number) {
-    // this.router.navigate(['projects', 'project', this.data.id]);
-    // this.router.navigate(['/project', this.data.id]);
     this.router.navigate(['/project', this.data.id]);
   }
 
