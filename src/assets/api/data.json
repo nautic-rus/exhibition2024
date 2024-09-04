@@ -5,18 +5,18 @@
     "previewImage" : "/assets/images/projects/TRAWLER 115M/image_thumb.jpg",
     "previewInfo": "Trawler 115m big freezing processing trawler with a possibility of fish catching with bottom and pelagic trawl, designed for maximum fishing efficiency.",
     "fullInfo": "TRAWLER big freezing processing trawler with a possibility of fish catching with bottom and pelagic trawl, designed for maximum fishing efficiency. The design based on the well-established and proven Enduro™ Bow concept for the best seaworthiness in rough seas. This bow shape also allows full use of size of the vessel for the benefit of the crew and the maximum capacity of the fish hold and the vessel as a whole.",
-    "fishSpecies": "cod, pollock, red fish, halibut, herring, mackerel, sardines, squid and other types of fish",
-    "methodsOfFishing": "",
-    "methodsTypesOfProcessing": "frozen blocks of fillets, mince, roe, milt, offal, fish meal and fish oil",
-    "holdsCapacity": "2005",
+    "fishSpecies": "- cod, pollock, red fish, halibut, herring, mackerel, sardines, squid and other types of fish",
+    "methodsOfFishing": "- trawling",
+    "methodsTypesOfProcessing": "- frozen blocks of fillets, mince, roe, milt, offal, fish meal and fish oil",
+    "holdsCapacity": "- total capacity of holds ~ 2005m³",
     "length": "115.00",
     "width": "22.00",
     "draft": "8.00",
     "vesselSpeed": "14",
     "numberOfCrew": "99",
     "productionCapacity": {
-      "processingCapacity": "200",
-      "freezingCapacity": "200"
+      "processingCapacity": "- total processing capacity on the ship - 200 t / day",
+      "freezingCapacity": "- freezing capacity - 200 t / day"
     },
     "qrs": {
       "qrRus": "",
