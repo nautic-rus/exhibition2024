@@ -147,19 +147,6 @@
     // console.log(rectLightB)
     // scene.add(rectLightB)
 
-    let resetButt = document.getElementById( 'reset' );
-    // var zoomOut = document.getElementById( 'zoom-out' );
-    //
-    resetButt.addEventListener( 'click', reset, false );
-    // zoomOut.addEventListener( 'click', onZoomOut, false );
-    //
-    function reset() {
-      camera.position.set( 25, 25, -45 );
-      controls.target.set(0, 10, -30)
-      camera.lookAt(0, 10, -30);
-        }
-
-
     function animate() {
         // lmodel.rotationX = 0.01
         renderer.render( scene, camera )
@@ -172,6 +159,19 @@
 
     camera.position.set( 25, 25, -45 );
     camera.lookAt(0, 10, -30);
+
+
+    let resetButt = document.getElementById( 'reset' );
+    // var zoomOut = document.getElementById( 'zoom-out' );
+    //
+    resetButt.addEventListener( 'click', reset, false );
+    // zoomOut.addEventListener( 'click', onZoomOut, false );
+    //
+    function reset() {
+      camera.position.set( 25, 25, -45 );
+      controls.target.set(0, 10, -30)
+      camera.lookAt(0, 10, -30);
+    }
 
 </script>
 <div style="position: absolute; right: 40px; top: 110px; height: 3.5rem; width: 3.5rem;border-radius: 50%;border: 1px solid #f1f0f5; background-color: #ffffffab;display: flex;align-items: center;justify-content: center;">
