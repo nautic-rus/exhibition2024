@@ -79,8 +79,8 @@
   color: white;
 }
 .description{
-  font-size: 25px;
-  height: 45vh;
+  font-size: 24px;
+  height: 41vh;
 }
 .icon-button{
   position: absolute;
@@ -152,7 +152,7 @@
 .name {
   font-family: Helvetica, serif;
   font-size: 60px;
-  margin-bottom: 4vh;
+  margin-bottom: 3vh;
   line-height: 3.8vh;
 }
 /*.thumb-img{*/

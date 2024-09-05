@@ -39,6 +39,9 @@
 .mt-10{
   margin-top: 10px;
 }
+.mt-1vh{
+  margin-top: 1vh;
+}
 .mt-2vh{
   margin-top: 2vh;
 }
@@ -47,6 +50,12 @@
 }
 .mt-9vh{
   margin-top: 9vh;
+}
+.mt-min2vh{
+  margin-top: -2vh;
+}
+.mt-min3vh{
+  margin-top: -3vh;
 }
 .mb-2vh{
   margin-bottom: 2vh;

@@ -20,7 +20,7 @@
         {{t(project.fullInfo)}}
       </div>
       @if (project.model) {
-        <div (click)="openModel(project.model)" class="showMore-button model-button cxy mb-2vh">
+        <div (click)="openModel(project.model)" class="showMore-button mt-min3vh model-button cxy mb-2vh">
           <div class="icon-button">
             <img src="assets/icons/3D_Icon_1.png">
           </div>
@@ -28,7 +28,7 @@
         </div>
       }
       @if (project.qrs.qrRus != '' || project.qrs.qrEng != '') {
-        <div (click)="openQrs(project.qrs)" class="showMore-button booklet-button cxy">
+        <div (click)="openQrs(project.qrs)" class="mt-1vh showMore-button booklet-button cxy">
           <div class="icon-button">
             <img src="assets/icons/share_Icon_1.png">
           </div>
