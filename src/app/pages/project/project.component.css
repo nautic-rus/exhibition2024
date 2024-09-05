@@ -77,8 +77,7 @@
   color: white;
 }
 .description{
-  font-size: 24px;
-  height: 41vh;
+  font-size: 22px;
 }
 .icon-button{
   position: absolute;
@@ -98,7 +97,12 @@
   font-size: 19px;
   font-weight: 600;
 }
-
+.descr-cont{
+  height: 57.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 /*.project {*/
 /*  display: grid;*/
 /*  grid-template-columns: 56% 44%;*/

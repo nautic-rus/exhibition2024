@@ -14,27 +14,31 @@
       </div>
     </div>
     <!--    2-->
-    <div class="pl-4vh">
-      <div class="name">{{t(project.title)}}</div>
-      <div class="description">
-        {{t(project.fullInfo)}}
+    <div class="pl-4vh descr-cont">
+      <div>
+        <div class="name">{{t(project.title)}}</div>
+        <div class="description">
+          {{t(project.fullInfo)}}
+        </div>
       </div>
-      @if (project.model) {
-        <div (click)="openModel(project.model)" class="showMore-button model-button cxy mb-2vh">
-          <div class="icon-button">
-            <img src="assets/icons/3D_Icon_1.png">
+      <div>
+        @if (project.model) {
+          <div (click)="openModel(project.model)" class="showMore-button model-button cxy mb-2vh">
+            <div class="icon-button">
+              <img src="assets/icons/3D_Icon_1.png">
+            </div>
+            {{t('Show 3D model')}}
           </div>
-          {{t('Show 3D model')}}
-        </div>
-      }
-      @if (project.qrs.qrRus != '' || project.qrs.qrEng != '') {
-        <div (click)="openQrs(project.qrs)" class="mt-1vh showMore-button booklet-button cxy">
-          <div class="icon-button">
-            <img src="assets/icons/share_Icon_1.png">
+        }
+        @if (project.qrs.qrRus != '' || project.qrs.qrEng != '') {
+          <div (click)="openQrs(project.qrs)" class="mt-1vh showMore-button booklet-button cxy">
+            <div class="icon-button">
+              <img src="assets/icons/share_Icon_1.png">
+            </div>
+            {{t('Get a digital booklet')}}
           </div>
-          {{t('Get a digital booklet')}}
-        </div>
-      }
+        }
+      </div>
     </div>
     <!--    3-->
     <div class="df pt-2vh">
