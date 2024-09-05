@@ -42,16 +42,22 @@ export class ProjectComponent implements AfterViewInit{
       var dv= document.getElementById('video-block')!;
       let v = document.createElement("video");
       v.id = "video";
-      v.className = "mb-2vh video1"
-      v.controls = true;
-
+      v.className = "mb-2vh video1";
+      v.autoplay = true;
+      // v.controls = true;
       let s = document.createElement("source");
       s.src = this.project.video;
       s.id = 'source';
       v.append(s);
       dv.append(v);
+      v.addEventListener('click', function (event) {
+        // console.log("click")
+        if(v.paused) {
+          v.play();
+        } else
+          v.pause();
+      });
     }
-
   }
 
   playVideo() {
