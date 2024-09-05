@@ -1,11 +1,11 @@
-<div class="all-page pr ml-2vh">
-  <div class="project pt-2vh">
+<div class="all-page pr">
+  <div class="project">
     <!--    1-->
     <div>
       <div class="video-block" id="video-block">
         <button id="pp-button" class="pp-button" (click)="playVideo()"></button>
       </div>
-      <div class="space-between df pt-4vh">
+      <div class="space-between df pt-6vh">
         @for (img of project.images; track img) {
           <div class="thumb-img">
             <img height="96px" src="{{img.src}}" (click)="openImg(img.src, $index)">
@@ -14,67 +14,72 @@
       </div>
     </div>
     <!--    2-->
-    <div>
+    <div class="pl-4vh">
       <div class="name">{{t(project.title)}}</div>
-      <div class="info description pb-1vh">
+      <div class="description">
         {{t(project.fullInfo)}}
       </div>
       @if (project.model) {
-        <div (click)="openModel(project.model)" class="mt-3vh showMore-button model-button cxy">
-          <img src="assets/icons/3D_Icon_1.png">
-          Show 3D model
+        <div (click)="openModel(project.model)" class="showMore-button model-button cxy mb-2vh">
+          <div class="icon-button">
+            <img src="assets/icons/3D_Icon_1.png">
+          </div>
+          {{t('Show 3D model')}}
         </div>
       }
       @if (project.qrs.qrRus != '' || project.qrs.qrEng != '') {
-        <div (click)="openQrs(project.qrs)" class="mt-3vh showMore-button booklet-button cxy">
-          <img src="assets/icons/share_Icon_1.png">
-          Get a digital booklet
+        <div (click)="openQrs(project.qrs)" class="showMore-button booklet-button cxy">
+          <div class="icon-button">
+            <img src="assets/icons/share_Icon_1.png">
+          </div>
+          {{t('Get a digital booklet')}}
         </div>
       }
     </div>
     <!--    3-->
-    <div class="df">
-      <div class="statistic">
-        <div class="df pb-1vh">
+    <div class="df pt-3vh">
+      <div class="w-50 pr-6vh">
+        <div class="head-info pb-2vh">{{t('Basic information')}}:</div>
+        <div class="df pb-1vh space-between">
           <span class="params">{{t('Length')}}</span>
           <span class="size">{{project.length}}{{t('m')}}</span>
         </div>
-        <div class="df pb-1vh">
+        <div class="df pb-1vh space-between">
           <span class="params">{{t('Width')}}</span>
           <span class="size">{{project.width}}{{t('m')}}</span>
         </div>
-        <div class="df pb-1vh">
+        <div class="df pb-1vh space-between">
           <span class="params">{{t('Draft')}}</span>
           <span class="size">{{project.draft}}{{t('m')}}</span>
         </div>
-        <div class="df pb-1vh">
+        <div class="df pb-1vh space-between">
           <span class="params">{{t('Vessel speed')}}</span>
           <span class="size">{{project.vesselSpeed}}{{t('kn')}}</span>
         </div>
-        <div class="df pb-1vh">
+        <div class="df space-between">
           <span class="params">{{t('Number of crew')}}</span>
           <span class="size">{{project.numberOfCrew}}{{t('ppl')}}</span>
         </div>
       </div>
-      <div class="df flex-col">
-        <span>{{t('Fish species')}} :</span>
+      <div class="df flex-col w-50">
+        <span class="head-info pb-2vh">{{t('Fish species')}}:</span>
         <span>{{t(project.fishSpecies)}}</span>
-        <span>{{t('Methods of fishing')}} :</span>
+        <span class="head-info py-2vh">{{t('Methods of fishing')}}:</span>
         <span>{{t(project.methodsOfFishing)}}</span>
-        <span>{{t('Production capacity')}} :</span>
-        <span>{{t(project.productionCapacity.processingCapacity)}}</span>
-        <span>{{t(project.productionCapacity.freezingCapacity)}}</span>
+<!--        <span>{{t('Production capacity')}} :</span>-->
+<!--        <span>{{t(project.productionCapacity.processingCapacity)}}</span>-->
+<!--        <span>{{t(project.productionCapacity.freezingCapacity)}}</span>-->
       </div>
     </div>
     <!--    4-->
-    <div class="df flex-col">
-      <span>{{t('Methods and types of processing')}} :</span>
+    <div class="df flex-col pt-3vh pl-4vh">
+      <span class="head-info pb-2vh">{{t('Methods and types of processing')}}:</span>
       <span>{{t(project.methodsTypesOfProcessing)}}</span>
-      <span>{{t('Hold capacity')}} :</span>
-      <span>{{t(project.holdsCapacity)}}</span>
+      <span class="head-info py-2vh">{{t('Hold capacity')}}:</span>
+      <span>{{(project.holdsCapacity)}}{{t('m³')}}</span>
     </div>
   </div>
-  <div class="navigation-buttons">
+  <div class="navigation-buttons pt-2vh">
     <div class="close-button cxy space-around" (click)="closeProject()">
       <img src="assets/icons/close_red.svg" height="24">
       <span class="mt-minis5">{{t('Close')}}</span>

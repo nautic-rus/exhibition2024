@@ -1,7 +1,6 @@
 .project {
   display: grid;
   grid-template-columns: 56% 44%;
-  grid-template-rows: 1fr 1fr;
 }
 
 .video-block{
@@ -11,7 +10,7 @@
 }
 .video1{
   width: 100%;
-  height: 460px;
+  height: 465px;
 }
 .none {
   display: none;
@@ -34,12 +33,11 @@
 }
 
 .showMore-button {
-  width: 658px;
+  position: relative;
   height: 60px;
   padding: 0px 10px 0px 10px;
   border-radius: 10px 10px 10px 10px;
-  font-family: "Helvetica";
-  font-weight: 400;
+  font-family: Helvetica, serif;
   font-size: 24px;
   text-align: center;
   color: #FFFFFF;
@@ -54,7 +52,7 @@
   color: #FFFFFF;
 }
 .close-button{
-  width: 154px;
+  width: 180px;
   height: 64px;
   padding: 14px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
@@ -80,6 +78,28 @@
   font-size: 24px;
   color: white;
 }
+.description{
+  font-size: 25px;
+  height: 45vh;
+}
+.icon-button{
+  position: absolute;
+  left: 10px;
+  top: 8px;
+}
+.head-info{
+  font-family: Helvetica, serif;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.params{
+  font-size: 19px;
+}
+.size{
+  font-size: 19px;
+  font-weight: 600;
+}
 
 /*.project {*/
 /*  display: grid;*/
@@ -91,24 +111,14 @@
 /*  margin-top: 2vh;*/
 /*  margin-bottom: 2vh;*/
 /*}*/
-/*.params{*/
-/*  text-transform: uppercase;*/
-/*  font-size: 2.35vh;*/
-/*  width: 20vw;*/
-/*}*/
-/*.size{*/
-/*  font-size: 30px;*/
-/*  font-weight: 500;*/
-/*}*/
+
+
 /*.video-block{*/
 /*  width: 100%;*/
 /*  height: 445px;*/
 /*  position: relative;*/
 /*}*/
-/*.video1{*/
-/*  width: 100%;*/
-/*  height: 460px;*/
-/*}*/
+
 /*.navigation-buttons {*/
 /*  width: 100%;*/
 /*  display: flex;*/
@@ -139,19 +149,17 @@
 /*  position: absolute;*/
 /*  bottom: 2vh;*/
 /*}*/
-/*.name {*/
-/*  font-family: Helvetica, serif;*/
-/*  font-size: 60px;*/
-/*  margin-bottom: 4vh;*/
-/*  line-height: 3.8vh;*/
-/*}*/
+.name {
+  font-family: Helvetica, serif;
+  font-size: 60px;
+  margin-bottom: 4vh;
+  line-height: 3.8vh;
+}
 /*.thumb-img{*/
 /*  padding: 1vh;*/
 /*  box-shadow: -1px 4px 8px 0px rgba(34, 60, 80, 0.2);*/
 /*}*/
-/*.description{*/
-/*  font-size: 2.25vh;*/
-/*}*/
+
 /*.close-button{*/
 /*  width: 154px;*/
 /*  height: 64px;*/
