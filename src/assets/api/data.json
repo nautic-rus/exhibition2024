@@ -5,9 +5,9 @@
     "previewImage" : "/assets/images/projects/TRAWLER 115M/image_thumb.jpg",
     "previewInfo": "Trawler 115m big freezing processing trawler with a possibility of fish catching with bottom and pelagic trawl, designed for maximum fishing efficiency.",
     "fullInfo": "TRAWLER big freezing processing trawler with a possibility of fish catching with bottom and pelagic trawl, designed for maximum fishing efficiency. The design based on the well-established and proven Enduro™ Bow concept for the best seaworthiness in rough seas. This bow shape also allows full use of size of the vessel for the benefit of the crew and the maximum capacity of the fish hold and the vessel as a whole.",
-    "fishSpecies": "- cod, pollock, red fish, halibut, herring, mackerel, sardines, squid and o.t.",
-    "methodsOfFishing": "- trawling",
-    "methodsTypesOfProcessing": "- frozen blocks of fillets, mince, roe, milt, offal, fish meal and fish oil.",
+    "fishSpecies": "cod, pollock, red fish, halibut, herring, mackerel, sardines, squid and o.t.",
+    "methodsOfFishing": "trawling",
+    "methodsTypesOfProcessing": "frozen blocks of fillets, mince, roe, milt, offal, fish meal and fish oil.",
     "holdsCapacity": "2005",
     "length": "115.00",
     "width": "22.00",
@@ -15,8 +15,8 @@
     "vesselSpeed": "14",
     "numberOfCrew": "99",
     "productionCapacity": {
-      "processingCapacity": "- total processing capacity on the ship - 200 t / day",
-      "freezingCapacity": "- freezing capacity - 200 t / day"
+      "processingCapacity": "- total processing capacity on the ship ~ 200 t/day",
+      "freezingCapacity": "- freezing capacity ~ 200 t/day"
     },
     "qrs": {
       "qrRus": "",
@@ -49,8 +49,8 @@
     "vesselSpeed": "15",
     "numberOfCrew": "96",
     "productionCapacity": {
-      "processingCapacity": "200",
-      "freezingCapacity": "200"
+      "processingCapacity": "- total processing capacity on the ship ~ 200 t/day",
+      "freezingCapacity": "- freezing capacity ~ 200 t/day"
     },
     "qrs": {
       "qrRus": "https://nautic-rus.com/booklets/booklet-ru_87.pdf",
@@ -82,6 +82,10 @@
     "draft": "6.30",
     "vesselSpeed": "15",
     "numberOfCrew": "80",
+	"productionCapacity": {
+      "processingCapacity": "- total processing capacity on the ship ~ 150 t/day",
+      "freezingCapacity": "- freezing capacity ~ 100 t/day"
+    },
     "qrs": {
       "qrRus": "https://nautic-rus.com/booklets/booklet-ru_82.pdf",
       "qrEng": "https://nautic-rus.com/booklets/booklet-en_82.pdf"
@@ -113,8 +117,8 @@
     "vesselSpeed": "14",
     "numberOfCrew": "39",
     "productionCapacity": {
-      "processingCapacity": "50",
-      "freezingCapacity": "50"
+      "processingCapacity": "- total processing capacity on the ship ~ 50 t/day",
+      "freezingCapacity": "- freezing capacity ~ 50 t/day"
     },
     "qrs": {
       "qrRus": "https://nautic-rus.com/booklets/booklet-ru_63.pdf",

@@ -15,10 +15,6 @@
 .none {
   display: none;
 }
-.navigation-buttons {
-  width: 100%;
-  display: flex;
-}
 .pp-button {
   height: 50px;
   width: 50px;
@@ -65,8 +61,10 @@
   margin-top: -5px;
 }
 .navigation-buttons {
-  width: 100%;
+  width: calc(100% - 6vh);
   display: flex;
+  position: absolute;
+  bottom: 3vh;
 }
 .navigation-button {
   width: 256px;

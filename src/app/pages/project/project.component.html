@@ -3,9 +3,9 @@
     <!--    1-->
     <div>
       <div class="video-block" id="video-block">
-        <button id="pp-button" class="pp-button" (click)="playVideo()"></button>
+<!--        <button id="pp-button" class="pp-button" (click)="playVideo()"></button>-->
       </div>
-      <div class="space-between df pt-6vh">
+      <div class="space-between df pt-5-vh">
         @for (img of project.images; track img) {
           <div class="thumb-img">
             <img height="96px" src="{{img.src}}" (click)="openImg(img.src, $index)">
@@ -20,7 +20,7 @@
         {{t(project.fullInfo)}}
       </div>
       @if (project.model) {
-        <div (click)="openModel(project.model)" class="showMore-button mt-min3vh model-button cxy mb-2vh">
+        <div (click)="openModel(project.model)" class="showMore-button model-button cxy mb-2vh">
           <div class="icon-button">
             <img src="assets/icons/3D_Icon_1.png">
           </div>
@@ -37,9 +37,9 @@
       }
     </div>
     <!--    3-->
-    <div class="df pt-3vh">
+    <div class="df pt-2vh">
       <div class="w-50 pr-6vh">
-        <div class="head-info pb-2vh">{{t('Basic information')}}:</div>
+        <div class="head-info pb-1vh">{{t('Basic information')}}:</div>
         <div class="df pb-1vh space-between">
           <span class="params">{{t('Length')}}</span>
           <span class="size">{{project.length}} {{t('m')}}</span>
@@ -62,21 +62,22 @@
         </div>
       </div>
       <div class="df flex-col w-50">
-        <span class="head-info pb-2vh">{{t('Fish species')}}:</span>
+        <span class="head-info pb-1vh">{{t('Fish species')}}:</span>
         <span>{{t(project.fishSpecies)}}</span>
-        <span class="head-info py-2vh">{{t('Methods of fishing')}}:</span>
+        <span class="head-info py-1vh">{{t('Methods of fishing')}}:</span>
         <span>{{t(project.methodsOfFishing)}}</span>
-        <span>{{t('Production capacity')}} :</span>
-        <span>{{t(project.productionCapacity.processingCapacity)}}</span>
-        <span>{{t(project.productionCapacity.freezingCapacity)}}</span>
+
       </div>
     </div>
     <!--    4-->
-    <div class="df flex-col pt-3vh pl-4vh">
-      <span class="head-info pb-2vh">{{t('Methods and types of processing')}}:</span>
+    <div class="df flex-col pt-2vh pl-4vh">
+      <span class="head-info pb-1vh">{{t('Methods and types of processing')}}:</span>
       <span>{{t(project.methodsTypesOfProcessing)}}</span>
-      <span class="head-info py-2vh">{{t('Hold capacity')}}:</span>
+      <span class="head-info py-1vh">{{t('Hold capacity')}}:</span>
       <span>{{(project.holdsCapacity)}}{{t('m³')}}</span>
+      <span class="head-info py-1vh">{{t('Production capacity')}}:</span>
+      <span>{{t(project.productionCapacity.processingCapacity)}}</span>
+      <span>{{t(project.productionCapacity.freezingCapacity)}}</span>
     </div>
   </div>
   <div class="navigation-buttons pt-2vh">
@@ -85,7 +86,7 @@
       <span class="mt-minis5">{{t('Close')}}</span>
     </div>
     <div class="p-ml-auto df">
-      <div class="mr-3vh navigation-button cxy space-around" (click)="toPrevProject()">
+      <div class="navigation-button cxy space-around mr-3vh" (click)="toPrevProject()">
         <img src="assets/icons/arrow-l-green.svg" height="35">
         <span class="mt-minis5">{{t('Previous project')}}</span>
       </div>
