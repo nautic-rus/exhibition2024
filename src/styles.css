@@ -7,7 +7,7 @@
   height: 100vh;
   max-height: 100vh;
   overflow-y: auto;
-  padding: 3vh;
+  padding: 4vh;
   margin: 0 auto;
   font-family: Helvetica, serif;
 }
@@ -60,12 +60,18 @@
 .mb-2vh{
   margin-bottom: 2vh;
 }
+.mb-3vh{
+  margin-bottom: 3vh;
+}
 .video1{
   width: 100%;
   height: 474px;
 }
 .ml-2vh{
   margin-left: 2vh;
+}
+.ml-4vh{
+  margin-left: 4vh;
 }
 .ml-7vh{
   margin-left: 7vh;

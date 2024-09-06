@@ -11,17 +11,15 @@
 <!--</ng-container>-->
 
 <ng-container *transloco="let t">
-  <p-accordion class="w-full" expandIcon="pi pi-plus" collapseIcon="pi pi-minus">
+  <p-accordion expandIcon="pi pi-plus" collapseIcon="pi pi-minus">
     <p-accordionTab (click)="expanded = !expanded">
       <ng-template pTemplate="header">
-        <span class="flex align-items-center gap-2 w-full">
-          <img class="arrow" [ngClass]="{'expanded': expanded}" src="/assets/images/arrow_icon.png" height="35" alt="show more information about {{title}}">
-          {{ t('service.title.'+title)}}
-        </span>
+        <div class="df mb-3vh">
+          <img class="arrow mt-10 ml-4vh" [ngClass]="{'expanded': expanded}" src="/assets/images/arrow_icon.png" height="35" alt="show more information about {{title}}">
+          <div class="subhead-text">{{t('service.title.'+title)}}</div>
+        </div>
       </ng-template>
-      <p class="m-0">
-        {{ t('service.content.'+ title)}}
-      </p>
+      <div class="m-text padding-m-text">{{t('service.content.'+ title)}}</div>
     </p-accordionTab>
   </p-accordion>
 </ng-container>

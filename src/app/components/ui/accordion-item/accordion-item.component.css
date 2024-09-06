@@ -1,3 +1,6 @@
+/deep/.p-accordion-header-link{
+  text-decoration: none!important;
+}
 .expanded {
   transform: rotate(90deg);
 }
@@ -9,6 +12,7 @@
 .subhead-text{
   font-size: 30px;
   font-weight: 600;
+  color: black;
 }
 .m-text{
   font-size: 30px;
@@ -23,4 +27,7 @@
 .exp-div {
   opacity: 0;
   animation: ani 2.5s forwards;
+}
+.padding-m-text{
+  padding: 0 2vh 3vh 5.5vh;
 }
