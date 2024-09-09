@@ -256,7 +256,7 @@
     "vesselSpeed": "10",
     "numberOfCrew": "14",
     "productionCapacity": {
-      "processingCapacity": "- fish processing area with an area of 137m2 for the primary processing of the catch.",
+      "processingCapacity": "- fish processing area with an area of 137 m2 for the primary processing of the catch.",
       "freezingCapacity": ""
     },
     "qrs": {
@@ -290,7 +290,7 @@
     "vesselSpeed": "10",
     "numberOfCrew": "9",
     "productionCapacity": {
-      "processingCapacity": "- fish processing area on an open deck with an area of 45m3 for the primary processing of the catch.",
+      "processingCapacity": "- fish processing area on an open deck with an area of 45 m3 for the primary processing of the catch.",
       "freezingCapacity": ""
     },
     "qrs": {
