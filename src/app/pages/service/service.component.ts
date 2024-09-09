@@ -17,9 +17,7 @@ export class ServiceComponent {
   }
 
   items = ['concept_design', 'class_drawings', 'workshop_design_documentation', '3d_modelling', 'nesting_documentation', 'operational_and_tests_trials_documentation',
-    'designer_supervision', 'ship_reclassification', 'ship_upgrading_reequipment']
-  // items = itemsData;
-
+    'designer_supervision', 'ship_reclassification', 'ship_upgrading_reequipment', 'inclining_test']
   t(str : string) {
     return this.languageService.t(str);
   }
