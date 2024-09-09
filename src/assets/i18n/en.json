@@ -20,7 +20,8 @@
       "operational_and_tests_trials_documentation": "Operational and tests/trials documentation",
       "designer_supervision": "Designer supervision",
       "ship_reclassification": "Ship reclassification",
-      "ship_upgrading_reequipment": "Ship upgrading and reequipment"
+      "ship_upgrading_reequipment": "Ship upgrading and reequipment",
+      "inclining_test": "Inclining test"
     },
     "content" :{
       "concept_design": "After receiving a technical requirements from a customer, a designer develops a concept design. The concept design includes a preliminary hull lines development, a general arrangement, a building specification, main equipment suggestions, a preliminary makers list, the estimated weight of the Vessel as well as other supporting documents.",
@@ -31,7 +32,8 @@
       "operational_and_tests_trials_documentation": "Workshop design documentation is intended for the ship structure study and its’ operational rules. Tests/trials documentation is the documentation including permittance documentation granting a right for construction and assembly works on the one hand, and as-built documentation, confirming the actual performance of the construction and assembly works in a scope set in the class drawing, on the other.",
       "designer_supervision": "Designer supervision is a planned control system of a design bureau. Designer supervision is an integral part of the design work. When building and repairing any ship, questions on the initial project amendments often arise. They can be related to some other equipment and materials appliance, construction improvements, and cost reduction. According to the customer’s wish, we can as well provide technical support of our engineers with a documentation update and its approval in the state bodies.",
       "ship_reclassification": "Ship reclassification or ship class change is a procedure of technical expertise and inspection aimed to change or issue old registry certificates for the new ones.",
-      "ship_upgrading_reequipment": "Upgrading is a measure aimed at ship construction or element changing. This measure is taken to improve technical characteristics, work and life conditions, and International conventions requirements fulfillment."
+      "ship_upgrading_reequipment": "Upgrading is a measure aimed at ship construction or element changing. This measure is taken to improve technical characteristics, work and life conditions, and International conventions requirements fulfillment.",
+      "inclining_test": "Experimental determinate to lightship weight vessel and its position of center of gravity in order to verify the calculations of the load and stability.\nThis is a required procedure for: new vessels, vessels after modernization and/or after laying solid ballast. Fishing and passenger vessels must be additionally inclined during operation at specified intervals.\nNAUTIC RUS has the necessary competencies to provide an inclining test of any vessel in accordance with all the requirements of classification societies."
     },
     "read_more" : "Read more"
   }
