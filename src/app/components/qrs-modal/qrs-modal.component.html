@@ -3,11 +3,11 @@
     <img src="assets/icons/close.svg" height="22">
   </div>
   <div>
-    <div class="text-center">Scan QR to get digital booklet</div>
+    <div class="text-center">{{t('Scan QR to get digital booklet')}}</div>
     <div class="df space-between mt-1vh">
       <div class="df flex-col">
         <qrcode class="qr" qrdata="{{qrRus}}" [width]="247"></qrcode>
-        <div class="text-lang">RUS</div>
+        <div class="text-lang">{{t('RUS')}}</div>
       </div>
       <div class="df flex-col">
         <qrcode class="qr" qrdata="{{qrEng}}" [width]="247"></qrcode>

@@ -6,8 +6,9 @@
   font-size: 26px;
 }
 .contacts{
-  height: 45%;
+  height: 35vh;
 }
 .about{
-  height: 40vh;
+  height: 45vh;
+  margin-top: -2vh;
 }

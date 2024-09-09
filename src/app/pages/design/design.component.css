@@ -1,10 +1,9 @@
 .images {
-  width: 1457px;
   height: 542px;
   display: flex;
 }
 .image_full {
-  width: 722px;
+  width: 679px;
   height: 542px;
 }
 /*.image {*/
