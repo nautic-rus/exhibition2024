@@ -172,7 +172,7 @@
   },
   {
     "id": 6,
-    "previewImage" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png",
+    "previewImage" : "/assets/images/projects/crab 57m/230501_57m_Crab_Vessel (4).jpg",
     "title": "CRAB VESSEL 57M",
     "previewInfo": "Crab Harvester 57m is a fishing vessel intended for harvesting all species of crab with the use of multiple conical traps fitted on a line.",
     "fullInfo": "The vessel Crab Harvester is a closed concept vessel, arranged for retrieving crab pots conventionally from side of the vessel through a large hydraulic operated side opening on SB side of the vessel. The hull is designed with the Enduro™ Bow, bulbous bow shape providing various behavioural benefits from the design, including increased comfort for a crew. The processing deck is a completely open space with no support pillars",
@@ -199,10 +199,10 @@
     "video": "",
     "model": "http://localhost:8001/3d_57m.html",
     "images": [
-      {"src" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png"},
-      {"src" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png"},
-      {"src" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png"},
-      {"src" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png"}
+      {"src" : "/assets/images/projects/crab 57m/230501_57m_Left.png"},
+      {"src" : "/assets/images/projects/crab 57m/230501_57m_Front.png"},
+      {"src" : "/assets/images/projects/crab 57m/230501_57m_Right.png"},
+      {"src" : "/assets/images/projects/crab 57m/230501_57m_Back.png"}
     ]
   },
   {
