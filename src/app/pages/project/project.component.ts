@@ -44,6 +44,7 @@ export class ProjectComponent implements AfterViewInit{
       v.id = "video";
       v.className = "mb-2vh video1";
       v.autoplay = true;
+      v.loop = true;
       // v.controls = true;
       let s = document.createElement("source");
       s.src = this.project.video;
@@ -51,7 +52,6 @@ export class ProjectComponent implements AfterViewInit{
       v.append(s);
       dv.append(v);
       v.addEventListener('click', function (event) {
-        // console.log("click")
         if(v.paused) {
           v.play();
         } else
