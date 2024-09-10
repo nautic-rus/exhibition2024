@@ -19,8 +19,8 @@
       "freezingCapacity": "- freezing capacity ~ 200 t/day"
     },
     "qrs": {
-      "qrRus": "",
-      "qrEng": ""
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_115.pdf?r=1",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_115.pdf?r=1"
     },
     "qrURL": "http://192.168.1.38/",
     "crabProcessingArea" : "-",
@@ -53,8 +53,8 @@
       "freezingCapacity": "- freezing capacity ~ 200 t/day"
     },
     "qrs": {
-      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_87.pdf",
-      "qrEng": "https://nautic-rus.com/booklets/booklet-en_87.pdf"
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_87.pdf?r=1",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_87.pdf?r=1"
     },
     "qrURL": "https://dzen.ru/",
     "crabProcessingArea" : "-",
@@ -87,8 +87,8 @@
       "freezingCapacity": "- freezing capacity ~ 100 t/day"
     },
     "qrs": {
-      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_82.pdf",
-      "qrEng": "https://nautic-rus.com/booklets/booklet-en_82.pdf"
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_82.pdf?r=1",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_82.pdf?r=1"
     },
     "qrURL": "",
     "crabProcessingArea" : "-",
@@ -121,8 +121,8 @@
       "freezingCapacity": "- freezing capacity ~ 50 t/day"
     },
     "qrs": {
-      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_63.pdf",
-      "qrEng": "https://nautic-rus.com/booklets/booklet-en_63.pdf"
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_63.pdf?r=1",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_63.pdf?r=1"
     },
     "qrURL": "",
     "crabProcessingArea" : "-",
@@ -156,8 +156,8 @@
       "freezingCapacity": ""
     },
     "qrs": {
-      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_60.pdf",
-      "qrEng": "https://nautic-rus.com/booklets/booklet-en_60.pdf"
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_60.pdf?r=1",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_60.pdf?r=1"
     },
     "qrURL": "",
     "crabProcessingArea" : "360",
@@ -175,11 +175,11 @@
     "previewImage" : "/assets/images/projects/crab 57m/230501_57m_Crab_Vessel (4).jpg",
     "title": "CRAB VESSEL 57M",
     "previewInfo": "Crab Harvester 57m is a fishing vessel intended for harvesting all species of crab with the use of multiple conical traps fitted on a line.",
-    "fullInfo": "The vessel Crab Harvester is a closed concept vessel, arranged for retrieving crab pots conventionally from side of the vessel through a large hydraulic operated side opening on SB side of the vessel. The hull is designed with the Enduro™ Bow, bulbous bow shape providing various behavioural benefits from the design, including increased comfort for a crew. The processing deck is a completely open space with no support pillars",
-    "fishSpecies": "-",
-    "methodsOfFishing": "",
-    "methodsTypesOfProcessing": "",
-    "holdsCapacity": "-",
+    "fullInfo": "The vessel Crab Harvester is a closed concept vessel, arranged for retrieving crab pots conventionally from side of the vessel through a large hydraulic operated side opening on SB side of the vessel. The hull is designed with the Enduro™ Bow, bulbous bow shape providing various behavioural benefits from the design, including increased comfort for a crew.",
+    "fishSpecies": "- different species of crab",
+    "methodsOfFishing": "- the vessel is outfitted for crab harvesting with conical traps",
+    "methodsTypesOfProcessing": "- processing of harvested crab by air freezing into cooked-frozen and raw-frozen products of various types, storage of all types of crab for further processing on shore",
+    "holdsCapacity": "- total capacity of holds ~ 450 m3",
     "length": "57",
     "width": "14.00",
     "draft": "6.50",
@@ -187,11 +187,11 @@
     "numberOfCrew": "32",
     "productionCapacity": {
       "processingCapacity": "-",
-      "freezingCapacity": "-"
+      "freezingCapacity": ""
     },
     "qrs": {
-      "qrRus": "",
-      "qrEng": ""
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_57.pdf?r=1",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_57.pdf?r=1"
     },
     "qrURL": "",
     "crabProcessingArea" : "-",
@@ -225,8 +225,8 @@
       "freezingCapacity": ""
     },
     "qrs": {
-      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_48.pdf",
-      "qrEng": "https://nautic-rus.com/booklets/booklet-en_48.pdf"
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_48.pdf?r=1",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_48.pdf?r=1"
     },
     "qrURL": "",
     "crabProcessingArea" : "-",
@@ -260,8 +260,8 @@
       "freezingCapacity": ""
     },
     "qrs": {
-      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_30.pdf",
-      "qrEng": "https://nautic-rus.com/booklets/booklet-en_30.pdf"
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_30.pdf?r=1",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_30.pdf?r=1"
     },
     "qrURL": "",
     "crabProcessingArea" : "-",
@@ -294,8 +294,8 @@
       "freezingCapacity": ""
     },
     "qrs": {
-      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_24.pdf",
-      "qrEng": "https://nautic-rus.com/booklets/booklet-en_24.pdf"
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_24.pdf?r=1",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_24.pdf?r=1"
     },
     "qrURL": "",
     "crabProcessingArea" : "-",
@@ -328,8 +328,8 @@
       "freezingCapacity": ""
     },
     "qrs": {
-      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_20.pdf",
-      "qrEng": "https://nautic-rus.com/booklets/booklet-en_20.pdf"
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_20.pdf?r=1",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_20.pdf?r=1"
     },
     "qrURL": "",
     "crabProcessingArea" : "-",
@@ -362,8 +362,8 @@
       "freezingCapacity": ""
     },
     "qrs": {
-      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_15.pdf",
-      "qrEng": "https://nautic-rus.com/booklets/booklet-en_15.pdf"
+      "qrRus": "https://nautic-rus.com/booklets/booklet-ru_15.pdf?r=1",
+      "qrEng": "https://nautic-rus.com/booklets/booklet-en_15.pdf?r=1"
     },
     "qrURL": "",
     "crabProcessingArea" : "-",
