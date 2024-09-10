@@ -37,4 +37,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
+.line-40{
+  line-height: 40px;
+}
