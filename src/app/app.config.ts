@@ -12,8 +12,7 @@ export const appConfig: ApplicationConfig = {
   providers: [provideRouter(routes), provideAnimations(), provideClientHydration(), provideHttpClient(), provideTransloco({
         config: {
           availableLangs: ['en', 'ru'],
-          defaultLang: 'en',
-          // Remove this option if your application doesn't support changing language in runtime.
+          defaultLang: 'ru',
           reRenderOnLangChange: true,
           prodMode: !isDevMode(),
         },

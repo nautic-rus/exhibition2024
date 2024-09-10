@@ -103,6 +103,13 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.dot {
+  display: inline-block;
+  width: 100px;
+  height: 1px;
+  background-color: black;
+}
 /*.project {*/
 /*  display: grid;*/
 /*  grid-template-columns: 56% 44%;*/
