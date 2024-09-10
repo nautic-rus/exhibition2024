@@ -1,15 +1,21 @@
 [
   {
-    "title": "assets/images/gallery/gallery_1.jpg", "src" : "assets/images/gallery/gallery_1.jpg"
+    "title": "assets/images/gallery/gallery_8.jpg", "src" : "assets/images/gallery/gallery_8.jpg"
   },
   {
-    "title": "assets/images/gallery/gallery_2.jpg", "src" : "assets/images/gallery/gallery_2.jpg"
+    "title": "assets/images/gallery/gallery_9.jpg", "src" : "assets/images/gallery/gallery_9.jpg"
+  },
+  {
+    "title": "assets/images/gallery/gallery_14.jpg", "src" : "assets/images/gallery/gallery_14.jpg"
+  },
+  {
+    "title": "assets/images/gallery/gallery_14.jpg", "src" : "assets/images/gallery/gallery_15.jpg"
+  },
+  {
+    "title": "assets/images/gallery/gallery_14.jpg", "src" : "assets/images/gallery/gallery_16.jpg"
   },
   {
     "title": "assets/images/gallery/gallery_3.jpg", "src" : "assets/images/gallery/gallery_3.jpg"
-  },
-  {
-    "title": "assets/images/gallery/gallery_4.jpg", "src" : "assets/images/gallery/gallery_4.jpg"
   },
   {
     "title": "assets/images/gallery/gallery_5.jpg", "src" : "assets/images/gallery/gallery_5.jpg"
@@ -19,12 +25,6 @@
   },
   {
     "title": "assets/images/gallery/gallery_7.jpg", "src" : "assets/images/gallery/gallery_7.jpg"
-  },
-  {
-    "title": "assets/images/gallery/gallery_8.jpg", "src" : "assets/images/gallery/gallery_8.jpg"
-  },
-  {
-    "title": "assets/images/gallery/gallery_9.jpg", "src" : "assets/images/gallery/gallery_9.jpg"
   },
   {
     "title": "assets/images/gallery/gallery_10.jpg", "src" : "assets/images/gallery/gallery_10.jpg"
@@ -39,12 +39,12 @@
     "title": "assets/images/gallery/gallery_13.jpg", "src" : "assets/images/gallery/gallery_13.jpg"
   },
   {
-    "title": "assets/images/gallery/gallery_14.jpg", "src" : "assets/images/gallery/gallery_14.jpg"
+    "title": "assets/images/gallery/gallery_1.jpg", "src" : "assets/images/gallery/gallery_1.jpg"
   },
   {
-    "title": "assets/images/gallery/gallery_14.jpg", "src" : "assets/images/gallery/gallery_15.jpg"
+    "title": "assets/images/gallery/gallery_2.jpg", "src" : "assets/images/gallery/gallery_2.jpg"
   },
   {
-    "title": "assets/images/gallery/gallery_14.jpg", "src" : "assets/images/gallery/gallery_16.jpg"
+    "title": "assets/images/gallery/gallery_4.jpg", "src" : "assets/images/gallery/gallery_4.jpg"
   }
 ]
