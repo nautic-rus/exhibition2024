@@ -10,7 +10,7 @@ import {GalleryComponent} from "./pages/gallery/gallery.component";
 export const routes: Routes = [
   {
     path: '',
-    component: AboutComponent
+    component: ProjectsComponent
   },
   {
     path: 'about',
