@@ -371,10 +371,10 @@
     "video": "",
     "model": "http://localhost:8001/3d_15m.html",
     "images": [
-      {"src" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png"},
-      {"src" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png"},
-      {"src" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png"},
-      {"src" : "/assets/images/projects/adb9ca&text=IMAGE+HOLDER&font=kelson.png"}
+      {"src" : "/assets/images/projects/long 15m/240202_15x8m_Ecoliner_left.png"},
+      {"src" : "/assets/images/projects/long 15m/240202_15x8m_Ecoliner_Front.png"},
+      {"src" : "/assets/images/projects/long 15m/240202_15x8m_Ecoliner_Right.png"},
+      {"src" : "/assets/images/projects/long 15m/240202_15x8m_Ecoliner_Back.png"}
     ]
   }
 ]
