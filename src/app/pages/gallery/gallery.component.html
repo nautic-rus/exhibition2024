@@ -2,7 +2,7 @@
   <div class="head-text pb-2vh">{{t('Gallery')}}</div>
   <div class="grid">
     @for (img of images; track img) {
-      <div (click)="showFullImage(img.src, $index)" class="pr">
+      <div (click)="showFullImage(img.src, $index)" class="pr mini-image">
         <img class="image {{$index}}" src="{{img.src}}">
         <div class="expand">
           <img src="assets/icons/expand.svg" height="30">

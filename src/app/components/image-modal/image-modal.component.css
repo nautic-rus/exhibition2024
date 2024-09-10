@@ -10,9 +10,6 @@
   margin: 10px;
   z-index: 1;
 }
-.img {
-  width: 1200px;
-}
 .close{
   position: absolute;
   right: 40px;
@@ -39,4 +36,9 @@
   align-items: center;
   justify-content: center;
   border: 1px solid #f1f0f5;
+}
+.image {
+  height: 734px;
+  width: 100%;
+  object-fit: cover;
 }

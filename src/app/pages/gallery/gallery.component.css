@@ -4,11 +4,15 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
-
-.image {
+.mini-image{
   width: 327px;
   height: 246px;
   position: relative;
+}
+.image {
+  height: 246px;
+  width: 100%;
+  object-fit: cover;
 }
 
 /*.gallery {*/
