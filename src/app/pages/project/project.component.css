@@ -93,11 +93,31 @@
 }
 .params{
   font-size: 16px;
+  padding-right: 10px;
 }
 .size{
   font-size: 16px;
   font-weight: 600;
+  padding-left: 10px;
 }
+
+.section {
+  display: flex;                     /* 1 */
+  align-items: baseline;             /* 2 */
+  margin-bottom: 10px;
+}
+
+.sp {
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom: 2px dotted #333;
+  flex: 1;
+}
+
+/*.size:before { content:'..........................................     ';*/
+/*  white-space: nowrap;*/
+/*  overflow: hidden;*/
+/*}*/
 .descr-cont{
   height: 57.5vh;
   display: flex;
@@ -105,10 +125,10 @@
   justify-content: space-between;
 }
 
-.params:after {  content:'   .......................................';
-  white-space: nowrap;
-  overflow: hidden;
-}
+/*.params:after {  content:'   ............................';*/
+/*  white-space: nowrap;*/
+/*  overflow: hidden;*/
+/*}*/
 
 .dot {
   display: inline-block;
