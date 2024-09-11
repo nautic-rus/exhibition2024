@@ -38,6 +38,7 @@ export class ProjectComponent implements AfterViewInit{
   }
 
   addVideo() {
+    console.log("add video");
     if (typeof document !== 'undefined') {
       var dv= document.getElementById('video-block')!;
       let v = document.createElement("video");

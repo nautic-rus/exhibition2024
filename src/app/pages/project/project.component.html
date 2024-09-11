@@ -2,9 +2,12 @@
   <div class="project">
     <!--    1-->
     <div>
-      <div class="video-block" id="video-block">
-<!--        <button id="pp-button" class="pp-button" (click)="playVideo()"></button>-->
-      </div>
+        <div class="video-block" id="video-block">
+          @if (project.id === 6 || project.id === 11) {
+            <img class="img" [src]="project.previewImage">
+          }
+<!--                  <button id="pp-button" class="pp-button" (click)="playVideo()"></button>-->
+        </div>
       <div class="space-between df pt-5-vh">
         @for (img of project.images; track img) {
           <div class="thumb-img">
