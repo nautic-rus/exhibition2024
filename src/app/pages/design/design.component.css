@@ -1,6 +1,7 @@
 .images {
   height: 542px;
   display: flex;
+  padding-bottom: 570px;
 }
 .image_full {
   width: 679px;
