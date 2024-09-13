@@ -4,8 +4,8 @@
     <img class="image_full" src="{{imageFullSrc}}">
     <div class="grid">
       @for (imgSrc of imagesSrc; track imgSrc) {
-        <div class="pr">
-          <img style="width: 140px" (click)="changeFullImage(imgSrc)" class="image {{$index}}" src="{{imgSrc}}">
+        <div class="pr" (click)="changeFullImage(imgSrc)">
+          <img style="width: 140px"  class="image {{$index}}" src="{{imgSrc}}">
           <div class="expand">
             <img src="assets/icons/expand.svg" height="25">
           </div>
